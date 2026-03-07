@@ -56,8 +56,8 @@ class GraduateStudent(Student):
         return (
             f"------------- Undergraduate Report --------------\n"
             f"Name:                               {self.name}\n"
-            f"Major:                              {self.major}\n"
-            f"GPA:                                {self.get_gpa()}\n"
+            f"Thesis topic:                       {self.thesis_topic}\n"
+            f"Weight GPA:                         {self.get_gpa()}\n"
             f"Subjects Enrolled:                  {len(self)}\n"
             f"Study time:                         {self.study_time}\n"
             f"Absences:                           {self.absences}\n"
