@@ -29,7 +29,7 @@ class FileHandler:
         except Exception as error:
             print(f"Unexpected Error: {error}")
         
-        return records
+        return []
     
 
     def export_report(self, content, filename):

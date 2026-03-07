@@ -1,0 +1,401 @@
+student_id,name,age,year_level,type,major,thesis_topic,study_time,absences,internet_usage,extra_classes,sleep_hours,parent_education,math_G1,math_G2,math_G3,science_G1,science_G2,science_G3,english_G1,english_G2,english_G3,programming_G1,programming_G2,programming_G3
+S001,Faith Taylor,17,3,undergraduate,Software Engineering,,2,4,6.2,0,8.0,0,67.4,64.9,64.0,61.8,67.6,76.9,56.5,62.3,53.6,54.2,78.4,66.5
+S002,Nina Peterson,22,3,undergraduate,Information Technology,,2,24,3.4,0,6.9,2,53.1,40,55.4,40,40,46.0,40,55.9,56.2,40,55.7,42.9
+S003,Otto White,17,2,undergraduate,Cybersecurity,,1,7,7.1,1,6.4,2,61.2,65.7,55.3,46.4,58.1,58.5,50.8,51.9,61.6,66.2,57.1,79.4
+S004,Max Powell,20,3,undergraduate,Computer Science,,2,1,6.6,1,6.3,1,78.9,66.7,73.0,64.6,55.4,74.1,67.3,68.6,82.5,80.2,59.2,70.8
+S005,Diana Hughes,23,3,undergraduate,Software Engineering,,2,16,4.5,0,9.3,1,45.4,47.1,56.8,56.7,40,77.4,40,53.4,60.1,54.4,55.1,47.4
+S006,Sara Jordan,21,3,undergraduate,Data Science,,3,13,2.1,0,9.8,2,83.8,70.1,70.7,70.3,61.6,63.6,65.1,72.2,71.1,73.8,89.8,69.2
+S007,Alice Washington,22,4,undergraduate,Computer Science,,1,11,7.2,1,6.2,1,64.0,40,62.0,54.8,64.3,59.7,50.5,47.9,44.1,51.6,50.5,70.2
+S008,Diana Nelson,25,2,undergraduate,Cybersecurity,,4,21,5.5,1,9.5,3,78.7,80.5,72.9,83.6,77.3,84.1,84.7,81.4,80.8,91.8,78.5,76.2
+S009,Elena Evans,27,4,undergraduate,Software Engineering,,2,23,7.5,1,6.2,3,51.2,46.5,60.4,54.3,43.4,57.5,47.8,40,57.0,49.0,45.4,57.6
+S010,Noah Turner,20,2,undergraduate,Database Systems,,2,13,2.3,1,6.2,0,43.2,65.7,59.7,57.3,75.4,62.1,76.1,56.6,64.9,54.2,54.6,62.6
+S011,Aaron Clark,19,4,undergraduate,Computer Science,,4,8,7.5,1,6.4,4,79.8,78.8,90.7,89.8,98.8,93.3,91.1,89.2,97.3,87.5,95.2,83.9
+S012,Henry Barnes,18,2,undergraduate,Data Science,,1,21,7.0,1,5.6,4,46.4,58.9,44.0,40.4,40,45.2,51.1,46.0,48.9,40.3,40,57.4
+S013,Mia Watson,22,1,undergraduate,Computer Science,,4,19,8.0,0,5.4,1,53.8,59.9,60.3,60.5,60.3,68.6,48.8,63.9,54.6,79.8,63.5,52.9
+S014,Jade Perry,21,1,undergraduate,Information Technology,,3,3,7.2,0,6.4,4,79.4,86.7,75.6,63.1,73.5,81.4,79.7,78.2,71.6,66.3,86.5,83.6
+S015,Quinn Bryant,21,2,undergraduate,Database Systems,,4,17,1.1,0,9.7,1,56.9,69.2,71.5,69.2,78.2,80.4,82.9,65.0,86.4,58.3,74.9,81.3
+S016,Noah Murphy,29,4,undergraduate,Information Technology,,2,5,7.8,0,9.4,0,67.9,78.5,65.7,52.0,55.8,52.7,60.1,66.8,61.7,52.6,70.8,66.3
+S017,Zack Watson,22,3,undergraduate,Software Engineering,,2,0,5.6,1,6.6,0,76.9,71.2,69.4,64.2,82.4,73.3,74.2,71.0,79.5,69.6,78.6,73.1
+S018,Noah Washington,23,3,undergraduate,Artificial Intelligence,,4,19,7.9,0,6.9,4,68.4,71.8,62.6,71.3,73.8,60.1,79.7,64.7,74.3,75.6,86.6,65.8
+S019,Dana Rogers,27,1,undergraduate,Cybersecurity,,3,21,3.9,1,8.5,4,75.9,78.1,85.3,65.7,81.2,67.8,66.9,81.7,80.7,70.1,62.6,78.6
+S020,Holly Reed,24,4,undergraduate,Database Systems,,2,16,4.3,0,8.3,2,45.6,57.8,53.4,69.6,59.0,49.0,57.8,64.2,66.8,57.8,43.5,63.3
+S021,Jack Watson,23,2,undergraduate,Network Engineering,,4,12,2.7,0,9.5,0,75.2,70.7,82.3,62.6,66.2,80.5,77.7,74.2,84.2,80.8,66.2,76.2
+S022,Ona Jordan,24,4,undergraduate,Database Systems,,2,23,7.0,1,6.3,1,48.7,41.8,50.9,40,47.8,57.9,43.9,41.6,40.6,59.8,51.3,51.5
+S023,Yvonne Ford,19,2,undergraduate,Data Science,,4,13,3.3,1,7.1,1,81.7,72.8,84.1,58.5,96.1,83.7,69.6,75.5,88.0,75.3,66.7,92.5
+S024,Carlos Coleman,28,2,undergraduate,Database Systems,,2,8,4.1,0,6.9,3,64.4,53.7,90.5,55.9,51.8,67.1,56.9,62.4,78.1,71.1,72.2,67.1
+S025,Harry Cooper,22,2,undergraduate,Database Systems,,3,10,6.3,1,6.4,3,73.7,79.0,87.6,74.9,83.2,77.7,65.5,64.4,70.0,62.8,80.8,76.1
+S026,Clara Foster,19,2,undergraduate,Information Technology,,4,21,1.8,0,7.3,2,67.2,63.8,60.3,58.4,79.8,80.4,70.4,67.8,77.5,67.8,59.8,52.6
+S027,Zara Sullivan,20,1,undergraduate,Software Engineering,,1,22,6.4,0,9.0,4,46.5,40,42.1,48.3,40,48.7,53.7,40,65.0,57.5,40,40
+S028,Otto Allen,23,2,undergraduate,Cybersecurity,,4,14,4.0,1,6.6,1,77.7,75.0,84.4,72.0,67.3,82.4,74.6,79.4,83.0,71.9,81.4,93.9
+S029,Sean Evans,26,3,undergraduate,Computer Science,,2,2,2.7,1,7.4,1,70.0,65.4,64.0,75.0,80.9,81.3,71.7,69.8,70.3,69.7,67.9,76.6
+S030,Thea Perry,22,3,undergraduate,Database Systems,,3,9,2.8,0,8.6,2,80.7,82.2,77.8,68.3,77.3,86.4,69.9,53.8,71.0,72.4,79.7,80.5
+S031,Derek Bailey,19,3,undergraduate,Computer Science,,2,8,1.3,0,7.8,1,54.4,54.9,68.1,63.8,63.1,76.0,51.9,82.5,66.8,79.0,67.3,69.0
+S032,Laura Harris,26,1,undergraduate,Information Technology,,2,25,4.9,1,5.4,1,55.1,56.3,40,40,48.6,58.7,40,49.8,64.6,40,43.3,59.6
+S033,Cal Cole,18,2,undergraduate,Software Engineering,,3,21,1.6,0,5.9,0,56.5,60.8,52.6,43.6,60.4,57.3,48.7,69.5,61.2,54.5,52.7,70.1
+S034,Zoe Griffin,29,2,undergraduate,Network Engineering,,1,17,2.6,0,9.5,1,51.5,51.3,46.5,59.6,43.2,48.4,55.9,57.8,45.3,40,40,51.2
+S035,Karen Washington,17,4,undergraduate,Artificial Intelligence,,3,0,1.6,0,10.0,2,73.0,80.7,93.4,93.6,81.0,91.3,93.6,86.8,97.3,65.6,78.9,90.5
+S036,Paul Diaz,18,2,undergraduate,Artificial Intelligence,,4,22,4.5,1,9.1,4,80.3,79.8,80.9,80.9,81.2,65.1,77.1,78.6,87.0,70.5,88.1,84.2
+S037,Dana Jordan,24,4,undergraduate,Computer Science,,2,8,4.8,1,7.2,3,86.7,88.0,70.6,67.4,78.7,83.6,67.8,72.0,92.8,70.3,69.3,76.1
+S038,Tina Bennett,28,3,undergraduate,Cybersecurity,,4,15,7.9,0,7.3,1,51.5,79.0,52.5,64.1,71.1,64.1,67.0,58.9,77.6,61.1,69.7,63.0
+S039,Mia Flores,26,4,undergraduate,Information Technology,,4,17,4.4,1,7.8,4,67.7,96.0,100,64.6,83.6,92.9,86.1,76.6,81.3,89.3,89.8,81.0
+S040,Igor Russell,19,4,undergraduate,Computer Science,,2,16,7.8,1,9.3,3,74.6,72.7,68.8,60.8,76.9,49.0,72.8,68.7,63.3,71.5,59.7,66.3
+S041,Rosa Hayes,30,4,undergraduate,Artificial Intelligence,,4,17,1.3,0,6.2,2,83.0,71.5,70.4,71.2,60.9,61.6,58.2,76.0,75.8,68.3,73.6,67.4
+S042,Will Gray,19,2,undergraduate,Network Engineering,,2,5,2.2,1,8.1,1,61.1,73.9,77.0,83.1,62.2,78.7,78.9,68.4,73.4,81.5,91.0,84.4
+S043,Zoe Stewart,27,4,undergraduate,Cybersecurity,,4,9,2.4,1,9.3,0,83.1,94.6,63.9,70.9,78.1,100,78.8,78.9,75.1,77.4,84.2,83.7
+S044,Betty West,24,3,undergraduate,Software Engineering,,3,7,5.5,1,8.4,1,63.7,65.2,75.5,70.2,67.8,83.5,75.2,74.2,75.9,88.4,79.5,83.4
+S045,Tom Bailey,25,3,undergraduate,Information Technology,,3,15,7.8,1,8.7,2,69.2,59.8,82.2,72.3,70.1,82.1,62.6,61.1,76.0,57.8,75.0,74.5
+S046,Harry Coleman,18,4,undergraduate,Artificial Intelligence,,3,18,3.7,1,5.5,1,51.4,66.3,73.0,59.8,55.4,58.9,56.4,57.6,62.8,51.3,66.1,67.9
+S047,Emma Stewart,24,1,undergraduate,Data Science,,2,17,1.9,1,6.9,4,53.1,73.0,73.3,71.4,74.1,74.0,48.1,77.3,76.1,66.2,48.2,75.4
+S048,Vera Garcia,27,3,undergraduate,Artificial Intelligence,,1,12,2.9,0,9.7,3,62.6,62.9,48.3,41.6,66.8,64.2,72.0,59.0,66.1,72.4,49.9,58.4
+S049,Derek Cook,29,2,undergraduate,Computer Science,,3,4,7.9,1,9.0,0,72.6,74.0,91.6,74.9,76.1,84.6,74.8,77.9,77.0,63.8,75.3,68.5
+S050,Xiu Bailey,25,1,undergraduate,Database Systems,,2,19,1.3,1,7.3,0,61.3,58.3,46.9,59.9,40,57.9,55.8,56.3,54.6,51.0,53.1,68.0
+S051,Uma Sullivan,22,4,undergraduate,Cybersecurity,,4,16,5.2,0,9.0,0,74.4,60.1,72.9,54.7,71.3,80.0,68.4,76.6,63.5,69.8,76.4,76.1
+S052,Jade Phillips,22,2,undergraduate,Database Systems,,1,2,6.8,0,7.2,2,63.1,51.8,54.4,53.9,59.3,66.8,52.1,70.7,63.3,43.1,57.4,42.6
+S053,Abdul Morris,22,1,undergraduate,Software Engineering,,2,21,4.4,0,6.8,4,45.3,66.5,45.5,47.9,68.7,40.5,59.1,46.4,57.3,53.0,70.0,52.0
+S054,Isla Tan,19,3,undergraduate,Cybersecurity,,3,11,1.0,0,7.8,3,84.7,80.3,80.2,72.1,67.1,75.3,68.3,76.1,74.1,79.3,84.8,72.9
+S055,Grace Allen,19,1,undergraduate,Data Science,,3,14,5.6,1,8.0,3,70.4,87.6,82.7,77.9,71.8,88.1,60.5,75.3,84.0,74.6,73.5,75.7
+S056,Mia Nelson,29,2,undergraduate,Cybersecurity,,3,10,1.8,1,8.7,1,81.7,84.1,80.2,85.1,73.3,72.4,64.4,84.9,70.8,78.4,83.1,82.2
+S057,Diana Patterson,23,4,undergraduate,Cybersecurity,,1,12,1.1,1,5.9,4,49.0,65.9,59.3,67.4,69.6,70.2,58.3,64.8,74.0,51.3,65.4,78.6
+S058,Jack Barnes,27,1,undergraduate,Software Engineering,,3,11,6.1,0,6.2,1,62.5,69.6,74.4,73.8,82.2,75.7,56.5,58.3,57.0,58.6,57.8,51.7
+S059,Glen Bryant,26,3,undergraduate,Artificial Intelligence,,2,14,1.5,1,8.2,2,58.2,62.4,76.4,68.4,73.9,70.2,61.8,77.6,71.9,63.9,59.9,64.0
+S060,Yusuf Perry,29,1,undergraduate,Database Systems,,2,10,5.2,0,9.8,3,80.1,78.8,63.4,77.0,63.5,70.3,66.6,77.0,61.4,70.1,72.7,77.0
+S061,Kim Richardson,23,3,undergraduate,Computer Science,,3,2,3.3,1,6.4,4,93.5,85.3,88.6,86.3,78.2,100,85.9,82.9,76.9,77.9,87.6,99.7
+S062,Rosa Jackson,27,1,undergraduate,Network Engineering,,3,0,3.5,0,9.8,2,93.5,83.8,89.4,89.1,100,96.0,95.8,94.9,97.2,70.5,93.8,90.5
+S063,Wayne Foster,19,4,undergraduate,Information Technology,,2,5,6.8,0,8.6,0,50.4,69.0,65.3,69.3,59.7,77.6,51.2,65.7,59.3,74.2,47.7,67.6
+S064,Will Hayes,26,4,undergraduate,Database Systems,,3,24,3.7,1,9.8,1,62.2,58.7,64.9,72.3,70.0,57.6,73.2,72.2,68.8,55.6,63.4,58.5
+S065,Oscar Walker,30,4,undergraduate,Data Science,,2,14,7.2,0,7.1,3,50.0,57.7,67.6,55.6,76.0,63.1,62.0,48.0,60.9,51.6,54.4,74.5
+S066,Nina Moore,29,4,undergraduate,Database Systems,,1,2,1.1,0,9.2,4,81.0,68.8,62.6,77.3,73.2,78.9,71.7,84.2,72.8,68.8,77.7,66.8
+S067,Sara Lee,27,2,undergraduate,Information Technology,,3,13,1.0,1,6.2,3,78.2,86.6,70.2,72.5,85.2,74.7,75.8,66.4,93.8,75.7,83.3,79.8
+S068,Will Phillips,28,1,undergraduate,Artificial Intelligence,,1,11,2.7,0,8.9,2,60.6,63.1,53.5,65.3,63.5,48.9,64.6,56.5,61.4,59.5,53.5,40.8
+S069,Emma Collins,20,1,undergraduate,Software Engineering,,1,10,7.5,1,9.9,4,60.5,65.0,62.7,57.4,66.3,64.7,59.1,59.3,69.2,54.5,57.7,71.7
+S070,Yvonne Morgan,19,4,undergraduate,Database Systems,,3,25,4.6,0,8.6,0,40,62.9,56.7,56.0,57.6,58.2,47.5,60.3,52.9,45.2,43.7,56.9
+S071,Rita Murphy,26,4,undergraduate,Cybersecurity,,1,2,5.7,1,6.8,1,67.2,63.6,56.0,54.2,67.8,67.6,64.3,57.4,59.2,69.9,55.4,59.5
+S072,Will Rivera,24,1,undergraduate,Information Technology,,3,12,3.2,1,6.2,0,72.3,70.1,53.6,65.3,79.4,80.6,65.7,63.9,61.8,59.3,74.6,71.2
+S073,Rachel Harris,24,2,undergraduate,Database Systems,,1,25,5.8,1,8.3,0,40,40,40,41.2,40,40,40.2,45.5,44.5,59.7,40.3,40
+S074,Mike Tan,22,3,undergraduate,Database Systems,,2,19,7.2,0,6.5,3,40,49.4,55.0,46.8,62.9,51.6,40,55.3,44.4,63.2,53.8,42.4
+S075,Xander Reynolds,19,4,undergraduate,Computer Science,,1,16,2.1,0,5.8,1,40,61.5,60.1,40,45.8,59.2,40,44.6,44.6,53.2,41.0,47.8
+S076,Yusuf Allen,19,3,undergraduate,Computer Science,,1,2,1.3,1,8.3,4,64.9,82.5,67.5,74.9,71.8,98.2,60.4,78.3,76.1,68.6,79.3,80.0
+S077,Fiona Torres,24,4,undergraduate,Software Engineering,,3,19,2.0,1,8.7,2,71.7,68.9,64.5,75.0,65.8,79.7,66.9,75.5,77.0,71.3,61.3,78.9
+S078,Felix Young,30,3,undergraduate,Artificial Intelligence,,2,24,2.1,1,7.5,2,49.1,54.7,49.7,58.1,55.2,67.2,58.8,56.6,44.0,43.7,51.5,50.8
+S079,Bob Anderson,23,2,undergraduate,Cybersecurity,,3,24,3.8,0,7.0,4,53.0,59.1,62.1,67.7,52.4,67.1,65.1,52.1,60.8,57.3,68.3,68.4
+S080,Sean Powell,22,2,undergraduate,Software Engineering,,4,16,1.3,0,5.7,2,73.5,63.1,84.3,83.9,84.1,88.5,66.9,79.5,62.8,60.0,64.3,69.0
+S081,Oscar Coleman,24,3,undergraduate,Database Systems,,1,11,3.3,0,9.9,4,55.7,79.8,73.6,53.7,58.6,62.2,49.8,46.0,60.7,59.1,72.5,68.7
+S082,Raj Gonzales,28,4,undergraduate,Information Technology,,2,1,5.0,0,6.0,3,70.3,78.3,73.1,64.4,76.9,58.3,81.2,64.7,80.1,73.8,76.0,82.9
+S083,Igor Sanders,25,4,undergraduate,Artificial Intelligence,,2,14,7.4,1,7.7,2,54.7,57.4,63.0,69.0,64.1,84.0,56.8,67.1,66.1,70.8,57.7,69.5
+S084,Quentin Evans,21,1,undergraduate,Network Engineering,,4,11,7.7,0,6.5,2,74.3,72.3,85.5,65.8,73.1,69.6,74.1,67.5,69.3,68.7,83.3,83.5
+S085,Elena Turner,17,2,undergraduate,Software Engineering,,1,3,3.9,1,5.5,1,72.9,65.1,74.2,59.3,79.9,60.3,57.5,65.6,73.7,61.2,54.2,52.9
+S086,Leo Russell,26,2,undergraduate,Computer Science,,2,13,7.2,0,9.7,0,60.6,54.4,40,53.1,72.3,52.2,53.3,53.8,53.1,51.0,61.0,55.8
+S087,Glen Jenkins,25,4,undergraduate,Information Technology,,4,8,2.3,0,6.7,3,75.1,74.5,94.0,83.4,81.4,98.2,86.6,95.0,81.5,76.5,78.3,89.9
+S088,Aaron Diaz,18,2,undergraduate,Information Technology,,4,10,7.6,0,6.3,1,63.7,73.7,68.6,78.9,66.1,70.9,65.9,76.2,69.2,61.9,78.2,83.9
+S089,Otto Reynolds,21,1,undergraduate,Cybersecurity,,3,19,2.5,0,7.4,3,63.3,54.6,58.8,68.6,55.7,69.3,60.6,60.7,67.7,76.9,67.8,65.1
+S090,George Henderson,28,3,undergraduate,Data Science,,1,1,6.8,0,7.9,1,66.7,74.2,51.4,63.0,58.8,53.6,65.7,55.5,66.7,60.1,51.8,67.9
+S091,Val Brooks,27,3,undergraduate,Computer Science,,4,8,6.7,0,7.9,0,61.6,80.4,73.9,71.9,93.1,62.2,66.1,75.8,78.5,76.5,66.5,66.6
+S092,Carlos Rivera,23,4,undergraduate,Network Engineering,,4,2,5.8,0,8.3,2,100,100,86.8,88.7,100,88.0,86.9,65.9,77.7,89.0,81.1,93.6
+S093,Derek Turner,24,3,undergraduate,Information Technology,,3,6,7.6,0,5.2,3,55.7,59.3,78.3,65.9,81.5,78.1,58.5,75.7,77.9,65.4,80.0,76.1
+S094,Tom Nelson,29,1,undergraduate,Information Technology,,3,7,6.7,1,7.9,2,77.1,94.0,89.4,74.9,72.2,83.0,65.7,74.0,79.3,70.8,73.3,70.5
+S095,Grace Bell,27,4,undergraduate,Artificial Intelligence,,4,13,2.0,1,5.9,4,68.4,88.4,83.8,95.7,91.9,71.1,64.4,77.8,83.8,82.3,86.0,93.2
+S096,Glen Martin,24,3,undergraduate,Data Science,,2,1,2.9,0,9.4,1,76.3,64.7,74.0,67.8,79.1,93.5,66.9,91.2,77.9,77.7,74.0,63.4
+S097,Ulric Sanders,20,2,undergraduate,Network Engineering,,2,17,3.3,1,6.9,4,60.5,61.1,58.0,77.4,52.5,71.6,62.2,53.2,66.3,69.5,65.6,70.8
+S098,Chloe Cole,19,1,undergraduate,Cybersecurity,,4,9,2.1,1,6.2,4,93.2,82.4,85.7,78.5,89.9,100,99.7,88.1,87.7,88.8,91.9,87.9
+S099,Quentin Jenkins,24,2,undergraduate,Computer Science,,1,2,7.6,0,8.8,3,69.8,73.0,70.6,64.4,66.2,75.1,73.0,68.7,82.6,55.3,63.7,65.3
+S100,Sara Perry,23,1,undergraduate,Computer Science,,3,17,7.8,0,7.5,3,66.2,45.6,66.9,62.3,65.2,68.3,45.6,59.7,63.2,68.1,56.4,69.9
+S101,Walt Turner,28,2,undergraduate,Cybersecurity,,1,20,7.9,0,5.5,3,40,46.6,40,40,53.7,49.9,40,40,63.6,40,54.4,40
+S102,Derek Nelson,30,4,undergraduate,Cybersecurity,,1,2,5.8,1,9.5,4,70.8,71.3,78.3,72.4,76.7,81.8,79.9,62.1,83.6,70.6,66.0,73.5
+S103,Yvonne Hayes,25,3,undergraduate,Network Engineering,,2,25,7.9,0,7.5,2,48.7,45.5,48.5,40,45.0,40,40,51.0,50.9,41.8,51.9,44.2
+S104,Uri Perry,23,4,undergraduate,Information Technology,,4,2,6.4,1,9.0,0,90.0,90.3,87.3,75.0,87.5,83.0,86.6,88.5,87.3,93.1,87.5,94.2
+S105,Xander Gray,24,4,undergraduate,Data Science,,1,2,3.5,0,8.0,2,65.2,65.4,56.5,71.6,64.8,58.3,70.4,66.1,56.3,62.8,69.5,73.9
+S106,Isla Bennett,19,1,undergraduate,Information Technology,,4,8,3.9,1,8.9,2,87.8,95.9,84.3,80.3,91.2,95.5,81.3,100,86.4,97.6,92.3,85.1
+S107,Rosa Gray,30,2,undergraduate,Cybersecurity,,3,19,7.6,0,7.4,1,73.6,50.4,53.9,65.0,44.6,57.7,53.4,62.8,60.3,45.8,62.9,63.8
+S108,Zoe Jenkins,19,1,undergraduate,Database Systems,,2,14,6.6,0,9.1,3,57.1,57.2,61.1,64.9,65.9,70.0,52.9,67.2,54.5,53.0,43.4,59.2
+S109,Max Torres,25,1,undergraduate,Artificial Intelligence,,1,3,6.4,1,5.8,4,89.1,75.4,67.5,59.8,69.4,50.3,66.0,69.6,70.5,76.6,58.6,69.8
+S110,Xiao Carter,24,3,undergraduate,Network Engineering,,4,24,5.8,0,6.7,0,48.3,57.7,61.9,53.3,63.3,47.6,50.7,62.9,61.0,45.5,54.8,61.9
+S111,Quentin Hamilton,24,3,undergraduate,Data Science,,3,1,6.7,0,5.1,2,66.8,66.3,89.8,93.7,76.2,82.9,79.5,84.6,83.6,72.5,71.7,80.8
+S112,Faith Griffin,23,4,undergraduate,Computer Science,,2,14,5.1,1,5.0,1,60.1,71.3,61.5,53.8,71.5,70.1,59.2,65.0,54.4,58.1,64.8,53.0
+S113,Faith Rogers,26,4,undergraduate,Network Engineering,,1,11,3.5,1,8.1,2,68.9,56.4,60.4,53.5,61.9,67.6,56.5,64.8,55.4,66.6,54.1,59.8
+S114,Laura Bryant,25,2,undergraduate,Information Technology,,4,9,2.0,1,9.2,4,99.3,96.6,100,92.4,100,77.2,82.8,93.8,92.8,84.5,99.1,88.3
+S115,Karen Long,17,2,undergraduate,Cybersecurity,,1,8,2.6,1,5.8,3,50.0,59.1,57.1,62.9,59.0,63.9,40,58.1,53.7,59.1,65.2,58.0
+S116,Brian Peterson,18,2,undergraduate,Cybersecurity,,1,14,2.8,0,7.2,0,46.2,41.4,53.2,40,40,59.4,42.0,43.7,52.7,49.4,48.0,51.9
+S117,Tara Coleman,21,2,undergraduate,Artificial Intelligence,,3,9,5.0,0,5.7,3,92.8,60.7,77.7,67.8,77.0,70.4,67.3,58.4,75.8,59.0,62.5,75.6
+S118,Isla Gonzales,23,4,undergraduate,Database Systems,,1,20,6.6,0,7.0,2,40,40,40,42.1,40,40,41.5,40,54.7,40,40,40
+S119,Sara Cruz,20,4,undergraduate,Software Engineering,,4,8,3.3,1,6.7,4,100,100,98.3,73.8,92.4,91.8,79.6,81.4,100,92.1,97.1,100
+S120,Diana Baker,28,2,undergraduate,Cybersecurity,,2,8,1.7,1,6.3,2,62.8,60.8,83.4,72.3,68.7,59.5,65.6,72.3,77.3,71.9,80.2,77.8
+S121,Pam Myers,24,1,undergraduate,Computer Science,,3,3,7.9,1,8.5,3,88.6,86.9,85.1,77.9,77.2,100,90.5,94.0,85.6,77.3,88.0,85.4
+S122,Raj Long,17,2,undergraduate,Database Systems,,3,23,2.5,0,9.6,4,58.1,51.6,71.4,66.1,66.4,57.5,48.9,79.9,66.5,68.3,65.7,71.5
+S123,Uma Washington,26,3,undergraduate,Computer Science,,3,6,4.6,0,8.7,2,67.4,66.8,81.5,70.2,73.5,83.8,74.0,75.6,80.9,75.1,73.5,85.3
+S124,Yvonne Long,23,3,undergraduate,Information Technology,,4,24,1.5,0,5.1,1,61.0,60.9,64.5,49.0,53.7,55.4,47.5,66.5,70.8,63.1,55.4,57.9
+S125,Nathan Martin,25,2,undergraduate,Information Technology,,3,12,5.1,0,6.6,3,66.6,55.2,75.7,69.8,62.5,76.1,63.2,66.2,71.9,55.4,79.7,81.1
+S126,Nina Martinez,19,4,undergraduate,Artificial Intelligence,,3,5,3.6,1,8.7,0,78.2,78.0,84.2,72.0,91.6,86.9,75.1,78.5,74.7,80.0,69.6,82.0
+S127,Will Young,21,1,undergraduate,Data Science,,2,23,4.6,0,9.3,0,45.3,56.0,45.6,48.0,61.3,42.3,40,41.2,48.5,40,43.3,56.4
+S128,Quentin Rogers,21,1,undergraduate,Artificial Intelligence,,1,16,5.7,0,5.9,4,68.7,48.6,61.1,52.7,47.8,68.1,44.2,59.9,58.3,49.2,44.7,50.3
+S129,Dana Turner,24,3,undergraduate,Database Systems,,2,23,7.3,0,5.8,3,54.1,47.7,40.1,40,53.4,48.6,44.6,40,47.7,40,52.6,70.2
+S130,Carlos Price,17,2,undergraduate,Cybersecurity,,1,1,7.4,1,8.5,2,53.2,71.4,61.7,61.4,62.8,63.9,63.6,66.4,67.8,62.4,64.0,85.1
+S131,Zara Hamilton,30,3,undergraduate,Artificial Intelligence,,4,8,2.6,0,5.7,4,87.0,88.4,81.4,86.2,91.5,93.2,85.2,77.3,72.8,87.6,98.3,95.9
+S132,Mia Graham,28,1,undergraduate,Software Engineering,,3,4,1.6,0,9.8,3,70.9,83.8,85.3,100,92.8,88.4,70.2,88.8,86.9,91.8,86.3,82.7
+S133,Bob Clark,30,2,undergraduate,Information Technology,,2,12,3.6,0,7.9,2,64.0,61.7,70.6,61.2,54.4,53.7,74.3,71.8,66.8,57.5,65.7,64.4
+S134,Xiao Gray,30,4,undergraduate,Database Systems,,1,12,5.8,0,6.8,1,45.4,57.3,57.3,55.6,40.2,43.0,40,48.9,47.4,47.2,42.6,56.4
+S135,Glen Henderson,20,1,undergraduate,Network Engineering,,3,15,4.8,1,6.7,4,65.4,75.2,80.3,79.7,78.6,94.0,73.8,72.6,87.1,72.8,78.7,45.8
+S136,Uma Garcia,20,2,undergraduate,Cybersecurity,,1,24,8.0,0,7.9,3,40,50.7,43.4,40,40,40,40,40,52.8,40,48.3,40
+S137,Walt Green,30,4,undergraduate,Cybersecurity,,2,15,1.3,0,6.2,1,62.5,56.6,52.0,63.1,58.0,50.6,59.8,68.4,59.3,51.4,62.9,67.4
+S138,Sam Fisher,18,3,undergraduate,Data Science,,3,22,7.6,1,7.9,2,56.5,64.0,72.6,74.2,65.2,42.2,55.0,55.9,73.9,55.5,72.6,55.8
+S139,Chloe Diaz,26,2,undergraduate,Network Engineering,,3,23,5.8,0,5.9,0,65.6,42.9,40,63.3,51.1,50.6,40,40,56.6,45.9,40,43.6
+S140,Sam Cook,28,1,undergraduate,Software Engineering,,3,10,2.2,0,9.1,2,67.0,77.0,76.9,75.9,74.8,80.7,80.8,75.0,74.6,51.9,81.9,70.7
+S141,Xena Bell,25,4,undergraduate,Data Science,,4,25,7.0,0,5.8,0,51.6,51.0,61.1,51.7,58.7,59.4,54.6,49.9,72.0,59.6,60.2,54.0
+S142,Cal Sanders,28,1,undergraduate,Network Engineering,,2,19,7.2,0,5.3,2,47.1,52.7,45.5,40,46.9,43.4,44.5,53.4,59.6,48.9,50.1,45.8
+S143,Vera Johnson,23,1,undergraduate,Cybersecurity,,4,6,1.7,0,5.9,2,90.4,82.2,96.0,90.8,66.8,88.6,80.4,94.9,79.6,86.5,79.7,89.0
+S144,Frank Campbell,24,4,undergraduate,Cybersecurity,,2,8,4.9,0,8.8,0,66.7,66.2,43.9,54.9,53.8,59.0,68.4,50.0,55.8,65.3,68.5,57.7
+S145,Elena Kelly,21,1,undergraduate,Network Engineering,,1,16,5.0,0,5.6,3,57.9,69.5,65.4,44.6,55.0,57.1,55.7,48.5,62.4,46.9,52.2,45.8
+S146,Rita White,18,4,undergraduate,Network Engineering,,3,8,4.6,0,8.9,4,67.1,73.7,86.4,81.9,71.3,78.7,82.6,80.2,93.9,87.6,84.6,67.3
+S147,Tara Ward,21,4,undergraduate,Database Systems,,4,1,2.2,1,5.7,4,93.3,91.4,87.7,100,97.8,98.4,90.5,99.7,95.7,100,100,94.1
+S148,Laura Hamilton,27,1,undergraduate,Software Engineering,,2,9,7.8,1,8.9,2,64.1,75.3,65.9,61.0,70.7,83.6,64.3,53.6,79.0,54.1,62.4,68.6
+S149,Nathan Graham,25,4,undergraduate,Information Technology,,1,5,2.3,0,9.2,1,62.6,62.6,60.6,64.1,56.0,70.6,45.6,73.0,61.5,54.6,53.4,64.7
+S150,Julia Flores,25,3,undergraduate,Artificial Intelligence,,2,8,6.2,0,6.4,3,78.0,69.9,68.1,57.6,66.1,72.7,66.2,76.3,51.1,61.7,76.9,64.6
+S151,Julia Jackson,27,2,undergraduate,Computer Science,,2,8,5.3,1,8.6,2,62.7,75.2,70.0,74.5,59.8,76.1,73.2,64.4,81.2,75.3,63.5,60.4
+S152,Will Powell,27,3,undergraduate,Cybersecurity,,1,15,1.4,1,8.2,2,54.5,69.9,64.6,51.1,65.4,70.4,67.0,48.8,62.8,45.1,50.9,49.1
+S153,Quentin Tan,27,4,undergraduate,Cybersecurity,,3,13,3.8,0,7.9,4,76.1,68.5,74.4,61.3,69.3,70.2,80.2,72.4,75.7,77.8,69.6,68.6
+S154,Liam Garcia,24,2,undergraduate,Cybersecurity,,2,21,7.3,0,6.1,1,41.5,40,47.5,40,43.3,52.4,47.1,40,52.8,40,46.7,44.7
+S155,Yara Wood,18,4,undergraduate,Cybersecurity,,4,1,7.1,0,5.7,1,66.6,100,100,64.9,91.5,96.1,81.0,84.6,71.9,100.0,80.5,86.1
+S156,George Evans,20,2,undergraduate,Information Technology,,4,25,6.3,0,5.6,3,53.8,55.2,71.0,57.6,66.5,64.5,58.3,62.2,56.6,72.9,65.7,74.5
+S157,Eli Woods,20,2,undergraduate,Artificial Intelligence,,3,4,1.7,1,5.8,0,73.6,83.9,78.1,64.9,68.8,93.8,82.9,77.4,85.7,71.2,84.9,97.6
+S158,Aaron Lee,20,2,undergraduate,Information Technology,,2,23,1.2,0,5.6,0,40,51.5,46.9,40,41.3,44.0,53.3,53.0,49.2,42.6,40,46.8
+S159,Gina Kelly,28,2,undergraduate,Software Engineering,,1,9,3.9,0,8.3,2,48.2,50.4,46.1,65.4,48.0,60.3,54.2,72.8,50.1,57.2,61.7,46.2
+S160,Zack Murphy,28,4,undergraduate,Cybersecurity,,2,1,4.8,0,8.4,3,75.0,77.8,71.0,59.9,83.4,69.0,77.3,80.1,66.5,74.3,82.2,82.9
+S161,Derek Watson,21,3,undergraduate,Database Systems,,1,3,6.7,0,9.3,2,63.0,56.2,64.6,57.2,62.9,62.4,67.9,53.3,68.4,67.4,52.5,69.1
+S162,Rita Thompson,22,3,undergraduate,Information Technology,,1,12,3.8,1,6.4,3,55.6,52.5,48.3,66.9,63.1,66.7,55.6,40,65.1,55.9,68.8,58.1
+S163,Walt Hayes,24,2,undergraduate,Network Engineering,,3,19,1.2,0,7.4,3,69.7,70.8,73.5,65.3,60.6,79.0,57.5,53.2,58.3,58.7,77.3,65.8
+S164,Sean Ross,25,1,undergraduate,Network Engineering,,2,15,3.4,1,5.7,4,73.9,60.4,88.0,66.7,58.3,69.0,60.5,67.5,69.4,58.3,64.2,75.0
+S165,Nancy Carter,25,4,undergraduate,Network Engineering,,2,2,4.2,1,5.4,3,72.7,79.8,68.8,76.7,85.1,85.4,76.3,78.4,89.6,82.4,73.5,75.8
+S166,Oscar Powell,20,4,undergraduate,Artificial Intelligence,,3,1,6.7,1,6.7,4,75.6,80.4,84.2,92.5,97.5,96.6,93.4,88.0,80.3,75.2,80.5,87.6
+S167,Noah Brown,19,4,undergraduate,Information Technology,,4,3,2.8,0,5.9,3,90.5,100,93.9,94.0,89.4,88.8,79.3,80.4,100,99.1,79.0,94.1
+S168,Nancy Moore,24,1,undergraduate,Computer Science,,4,18,4.4,0,8.5,1,67.8,66.1,64.1,75.3,77.3,65.9,51.6,85.1,84.0,61.5,67.3,92.7
+S169,Liam James,29,2,undergraduate,Information Technology,,4,19,5.9,1,9.2,4,86.4,70.6,92.7,73.8,83.7,93.0,76.4,87.4,71.7,58.3,68.4,66.0
+S170,Nancy Jenkins,28,3,undergraduate,Data Science,,3,17,4.4,1,8.4,4,70.3,90.9,81.3,64.7,80.2,78.5,71.2,71.1,77.8,69.0,74.4,83.7
+S171,Henry Ford,29,3,undergraduate,Software Engineering,,1,11,6.7,0,8.1,4,64.3,47.7,54.1,53.4,60.6,45.6,52.8,69.1,66.7,52.0,78.6,53.7
+S172,Ona Perry,17,1,undergraduate,Cybersecurity,,2,19,7.1,1,9.1,2,55.7,47.3,48.3,47.0,63.9,57.9,60.7,68.3,61.3,59.9,49.6,58.7
+S173,Diana Evans,25,3,undergraduate,Information Technology,,2,18,6.9,0,6.7,1,64.2,53.0,40,40,40,40,41.9,61.8,47.4,45.4,45.8,41.0
+S174,Xander Ross,18,2,undergraduate,Network Engineering,,4,2,3.4,0,8.3,2,85.2,95.1,92.9,78.9,100,92.4,89.8,90.6,88.5,81.2,99.9,86.5
+S175,Frank Myers,22,4,undergraduate,Data Science,,4,8,4.8,1,5.1,4,90.5,82.1,94.0,78.9,100,95.8,90.5,98.1,95.7,85.6,98.7,88.4
+S176,Alice Gonzales,18,2,undergraduate,Software Engineering,,4,3,2.4,1,8.2,0,87.4,84.9,84.6,89.4,91.8,92.9,90.3,79.7,86.4,84.9,89.1,99.5
+S177,Eli Howard,23,3,undergraduate,Computer Science,,4,21,1.8,0,8.2,4,85.0,79.9,91.6,77.1,68.8,84.1,69.7,86.5,71.6,68.7,81.8,73.3
+S178,Igor Tan,24,2,undergraduate,Software Engineering,,2,23,3.7,1,9.8,1,49.0,71.9,73.7,50.5,43.9,41.9,70.2,57.1,59.4,55.8,48.8,54.4
+S179,Uma Martin,21,2,undergraduate,Artificial Intelligence,,2,13,7.3,0,5.8,1,45.7,48.1,63.2,58.1,49.8,53.1,50.4,40,43.2,46.7,62.9,59.5
+S180,Gina Garcia,20,4,undergraduate,Artificial Intelligence,,3,4,5.7,0,5.5,4,82.4,81.9,74.5,78.3,73.0,71.3,83.6,88.1,88.8,58.8,83.0,87.7
+S181,Chloe Sullivan,28,4,undergraduate,Cybersecurity,,3,4,5.8,1,9.4,3,71.7,91.3,84.9,85.0,84.7,86.1,81.8,100,92.8,81.3,85.5,77.5
+S182,Rita Harris,17,1,undergraduate,Network Engineering,,2,1,4.9,1,8.3,1,71.2,81.3,80.8,62.1,74.7,87.7,67.0,76.5,67.2,74.8,85.4,67.2
+S183,Cal Myers,19,2,undergraduate,Database Systems,,2,5,5.0,0,8.7,3,73.1,72.1,75.4,65.1,72.4,80.8,66.2,64.5,77.0,63.3,87.3,66.8
+S184,Frank Russell,22,1,undergraduate,Cybersecurity,,3,18,4.8,0,6.9,3,55.1,73.5,71.7,54.5,52.3,79.0,55.4,64.0,73.0,56.0,54.0,68.0
+S185,Fiona King,20,1,undergraduate,Cybersecurity,,2,4,2.3,1,8.0,0,65.8,65.2,72.3,73.6,68.1,66.1,60.5,66.0,69.1,73.4,79.6,81.9
+S186,Rachel Gonzales,25,1,undergraduate,Information Technology,,1,5,2.8,0,7.6,3,54.8,59.1,79.8,64.6,61.7,61.6,70.6,69.6,83.2,62.4,72.3,80.4
+S187,Abdul Walker,29,2,undergraduate,Cybersecurity,,2,23,5.8,1,8.0,0,47.6,56.4,54.8,50.0,54.6,43.3,42.6,50.8,58.1,51.8,46.9,49.1
+S188,Sara Wood,29,1,undergraduate,Data Science,,4,21,1.9,0,9.5,3,64.2,72.7,85.3,74.4,75.7,90.1,73.7,66.2,64.6,64.8,74.7,63.5
+S189,Maya Peterson,19,3,undergraduate,Database Systems,,2,2,3.0,1,6.3,0,66.8,58.7,70.8,68.5,84.0,74.9,67.7,65.9,71.4,73.9,68.8,69.4
+S190,Sara Peterson,26,3,undergraduate,Cybersecurity,,4,24,2.4,1,5.9,4,65.9,71.6,73.1,78.6,70.1,63.1,78.9,64.4,75.6,63.0,72.2,71.2
+S191,Brian Barnes,23,3,undergraduate,Computer Science,,2,12,7.8,0,9.0,1,43.7,58.3,63.7,57.7,48.9,66.4,51.5,40,48.9,61.2,51.7,78.4
+S192,Henry Fisher,30,2,undergraduate,Database Systems,,4,0,2.4,1,6.0,4,85.8,99.4,93.2,90.3,92.8,100,100,99.7,100,100,96.3,95.1
+S193,Zack Ross,17,1,undergraduate,Data Science,,3,23,6.8,1,6.7,2,59.6,78.9,52.7,58.8,63.5,60.7,46.3,58.1,53.2,56.4,65.7,67.0
+S194,Gina Coleman,30,3,undergraduate,Database Systems,,4,18,4.4,0,8.8,3,66.6,60.2,83.6,66.7,75.3,85.5,75.0,70.2,73.3,60.0,69.3,81.6
+S195,Sara Martinez,28,3,undergraduate,Software Engineering,,3,2,3.8,1,5.4,1,72.4,82.9,88.8,75.9,93.2,79.8,87.7,76.7,87.8,92.2,85.6,79.9
+S196,Zack Turner,30,3,undergraduate,Information Technology,,1,3,7.4,1,8.1,4,83.3,66.3,67.5,73.4,83.6,62.5,62.6,67.4,77.9,80.7,62.3,71.8
+S197,Ulric Patterson,19,1,undergraduate,Network Engineering,,4,17,1.2,1,7.0,1,69.3,76.3,70.3,72.4,87.2,77.8,70.5,77.7,66.9,85.4,77.6,83.0
+S198,Isla Kelly,26,3,undergraduate,Artificial Intelligence,,2,15,4.0,1,8.5,2,58.3,71.8,57.8,66.9,77.8,66.1,68.7,53.9,71.1,54.1,69.0,63.6
+S199,Sven Allen,24,1,undergraduate,Information Technology,,4,15,1.9,1,8.9,2,80.1,98.0,87.7,81.3,85.1,88.9,79.8,97.5,95.1,87.7,81.7,91.7
+S200,Val Phillips,22,1,undergraduate,Network Engineering,,1,11,7.1,0,7.9,4,61.1,69.1,51.4,64.2,43.7,59.8,60.8,51.7,56.2,65.7,59.7,62.6
+S201,Sean Torres,27,4,undergraduate,Data Science,,1,5,3.4,1,6.6,2,61.7,55.8,55.2,74.6,70.1,49.9,64.3,56.7,63.8,65.9,68.9,65.1
+S202,Elena Griffin,21,1,undergraduate,Software Engineering,,2,12,1.7,0,9.7,3,64.2,67.4,59.1,74.1,73.3,73.1,72.5,77.6,75.1,61.4,68.0,76.5
+S203,Eli Jackson,19,2,undergraduate,Computer Science,,1,21,3.5,1,9.3,3,62.4,53.0,55.3,61.2,66.7,54.2,57.3,64.2,48.8,44.2,45.6,52.7
+S204,Faith Coleman,21,3,undergraduate,Database Systems,,2,25,1.6,1,6.8,2,51.3,53.6,41.3,48.7,57.0,59.6,40,50.0,41.3,51.3,48.5,67.6
+S205,Liam Washington,20,1,undergraduate,Artificial Intelligence,,2,13,7.2,1,7.0,1,54.3,47.5,63.5,51.8,68.6,66.2,42.5,57.3,51.5,48.8,57.2,72.3
+S206,Sara Parker,23,2,undergraduate,Data Science,,2,4,3.0,1,8.1,2,72.5,68.5,77.3,79.5,79.0,79.0,81.7,76.2,85.4,81.4,80.8,79.5
+S207,Bob Bennett,20,3,undergraduate,Network Engineering,,3,25,6.6,1,7.3,0,42.9,65.9,57.0,49.5,52.9,51.3,45.2,53.3,62.4,40,54.3,50.8
+S208,Wayne Sullivan,20,4,undergraduate,Database Systems,,2,23,8.0,0,7.3,0,40,40,40,40,40,48.0,40,40,50.4,40,40,52.9
+S209,Zack Bailey,17,2,undergraduate,Data Science,,2,20,4.0,0,5.8,2,43.0,47.9,54.9,71.0,41.3,48.0,48.2,47.7,54.7,44.0,40,54.0
+S210,Sean Owens,27,1,undergraduate,Computer Science,,3,20,2.1,0,5.6,1,51.1,66.6,54.7,49.4,67.3,51.0,62.9,58.3,58.2,49.2,69.4,62.3
+S211,Val Collins,25,4,undergraduate,Software Engineering,,2,17,3.4,1,6.4,4,72.7,60.8,72.2,65.9,64.2,74.0,63.8,66.2,62.9,58.0,66.6,69.4
+S212,Vera Fisher,26,2,undergraduate,Artificial Intelligence,,1,21,7.8,1,5.9,3,43.2,40.2,45.1,50.8,43.2,50.0,41.5,42.8,51.4,40.9,48.5,47.5
+S213,Yara Garcia,17,4,undergraduate,Database Systems,,3,1,3.6,0,5.1,1,65.3,62.3,84.0,67.7,72.7,73.7,74.8,60.7,85.7,62.7,87.9,83.5
+S214,Raj Brown,28,1,undergraduate,Cybersecurity,,1,6,7.7,0,5.5,1,43.9,49.9,47.0,48.0,47.4,49.4,48.9,42.7,61.9,56.0,45.4,59.9
+S215,Jade Peterson,18,2,undergraduate,Information Technology,,4,16,3.4,0,7.7,4,70.7,82.3,71.8,100,76.2,88.5,78.4,71.2,80.0,66.8,74.5,79.5
+S216,Wayne Perry,28,3,undergraduate,Artificial Intelligence,,4,14,7.7,0,8.6,2,62.4,66.9,81.1,70.1,70.6,79.8,71.4,71.1,79.7,59.4,70.7,84.4
+S217,Val Patterson,26,2,undergraduate,Data Science,,1,14,3.5,0,6.3,4,54.2,62.3,54.9,64.0,51.1,55.8,60.4,59.5,49.0,55.2,66.2,50.8
+S218,Maya Washington,27,3,undergraduate,Computer Science,,4,2,6.5,1,6.7,3,76.7,100,98.5,86.4,86.4,85.7,100,93.6,89.5,95.2,100,97.1
+S219,Tina Reed,25,2,undergraduate,Information Technology,,1,21,6.1,1,9.9,4,49.5,53.0,43.8,58.5,59.0,62.4,40,56.6,50.7,50.8,47.8,61.7
+S220,Nina Jackson,29,2,undergraduate,Database Systems,,2,15,3.8,0,7.8,4,62.9,67.9,68.0,55.9,67.9,65.3,58.9,57.5,62.8,68.6,63.4,65.9
+S221,Nathan King,22,4,undergraduate,Information Technology,,4,1,7.5,0,6.0,2,89.0,94.6,97.1,88.6,84.3,97.0,90.9,96.0,84.1,89.0,86.1,79.4
+S222,Julia Lee,22,2,undergraduate,Software Engineering,,2,17,4.7,1,7.7,4,63.9,62.1,68.0,63.0,56.3,62.6,69.2,67.8,65.5,78.3,64.5,66.7
+S223,Holly Martinez,18,4,undergraduate,Cybersecurity,,3,3,1.1,1,6.2,3,72.1,86.0,96.2,79.4,83.8,86.7,91.2,100,76.9,79.9,100,93.1
+S224,Nathan Cook,24,4,undergraduate,Information Technology,,1,11,5.8,1,8.1,1,76.6,55.9,58.0,57.2,56.0,66.3,78.8,56.4,76.8,47.7,57.5,65.7
+S225,Zara Griffin,19,1,undergraduate,Network Engineering,,2,13,2.7,0,7.1,2,65.3,57.4,58.0,57.8,67.7,70.9,64.2,46.1,58.7,70.9,57.0,62.6
+S226,Wayne Walker,27,2,undergraduate,Artificial Intelligence,,1,17,4.7,0,5.9,1,40,40,51.9,40,40,50.4,57.3,40,51.7,40,44.5,42.1
+S227,Xander Tan,29,3,undergraduate,Software Engineering,,2,7,5.8,1,5.4,3,78.9,82.1,61.2,70.8,73.8,79.8,63.9,71.4,73.8,76.7,88.5,69.0
+S228,Bella Carter,28,2,undergraduate,Software Engineering,,1,5,7.5,1,9.3,3,58.8,52.1,75.3,59.4,68.7,58.1,70.7,55.5,54.0,76.6,58.0,64.6
+S229,Glen Graham,29,1,undergraduate,Data Science,,4,14,6.8,0,9.4,1,62.2,71.2,73.2,60.0,60.9,73.0,76.5,74.2,68.7,74.3,76.4,66.3
+S230,Diana Collins,26,1,undergraduate,Information Technology,,4,20,4.2,0,5.9,4,82.2,68.1,80.2,77.0,68.0,76.3,60.1,66.0,77.4,79.2,72.8,87.1
+S231,Petra Young,28,1,undergraduate,Data Science,,1,22,4.1,1,5.4,3,43.5,40,47.0,43.6,46.4,49.9,50.1,55.0,61.6,40,51.0,54.4
+S232,Grace Torres,21,3,undergraduate,Database Systems,,3,20,2.3,0,9.8,0,53.4,55.5,46.6,61.8,58.9,61.5,62.1,55.8,54.0,52.9,57.0,63.5
+S233,Abdul Johnson,20,3,undergraduate,Software Engineering,,1,5,2.0,1,5.2,0,50.1,46.5,56.3,74.9,67.7,64.3,62.9,70.5,52.3,49.9,48.1,53.8
+S234,Wendy Watson,28,3,undergraduate,Computer Science,,1,24,3.1,1,9.5,0,42.8,40,54.3,45.6,55.4,57.0,40,51.3,47.4,47.3,53.7,49.7
+S235,Eli Henderson,18,4,undergraduate,Cybersecurity,,4,19,6.9,1,7.6,4,72.3,80.2,69.9,71.2,70.6,72.0,79.5,86.8,73.1,53.3,78.6,78.9
+S236,Eli Thomas,28,2,undergraduate,Network Engineering,,4,1,3.3,0,5.1,1,81.3,79.8,93.7,86.3,72.5,83.3,89.0,90.2,79.3,89.8,100,83.8
+S237,Yara Cook,30,3,undergraduate,Database Systems,,4,25,1.2,0,7.4,3,72.6,60.7,61.7,76.9,55.6,75.7,68.3,61.1,67.8,58.0,61.6,67.7
+S238,Lynn Cook,29,3,undergraduate,Data Science,,2,8,6.9,1,9.9,4,79.4,67.0,69.5,80.6,84.5,67.7,71.8,69.1,85.8,75.4,69.8,77.8
+S239,George Stewart,20,3,undergraduate,Information Technology,,1,11,6.5,0,9.6,3,40.8,56.6,63.0,52.6,52.2,66.9,60.0,52.3,52.8,67.3,75.7,72.3
+S240,Pam Hayes,19,2,undergraduate,Computer Science,,4,12,6.0,0,5.0,0,61.7,57.9,77.5,70.5,77.1,72.6,62.1,62.0,63.7,62.6,73.3,65.4
+S241,Yara Edwards,21,3,undergraduate,Database Systems,,1,8,2.0,1,5.6,4,61.5,65.6,59.2,62.3,64.4,87.9,68.4,57.1,72.2,71.0,74.7,62.7
+S242,Grace Jackson,17,4,undergraduate,Computer Science,,1,12,1.4,1,7.0,4,70.9,57.1,63.0,54.1,59.8,71.9,66.5,77.0,67.4,59.2,76.2,59.9
+S243,Walt Jackson,18,4,undergraduate,Data Science,,4,9,5.8,1,7.4,1,90.3,95.1,83.4,87.4,89.0,100,72.1,95.7,79.6,88.0,85.4,85.3
+S244,Kevin Brooks,30,2,undergraduate,Cybersecurity,,3,19,5.0,0,7.0,0,48.7,66.3,60.6,44.5,49.3,62.8,46.7,49.1,65.8,52.7,48.1,70.4
+S245,Zoe Gray,29,4,undergraduate,Artificial Intelligence,,2,5,5.6,0,8.7,4,74.6,71.2,70.7,68.5,81.6,81.5,69.6,82.2,66.6,65.5,62.4,68.1
+S246,Paul Bennett,27,1,undergraduate,Data Science,,2,4,7.2,0,8.8,1,57.5,67.8,61.3,58.1,70.4,83.6,59.5,79.4,60.2,47.7,77.6,62.9
+S247,Tara Thompson,26,1,undergraduate,Network Engineering,,2,9,1.4,0,5.0,4,69.3,61.3,80.4,53.8,69.3,82.5,60.6,72.4,64.3,71.4,56.8,66.8
+S248,Julia Moore,20,4,undergraduate,Artificial Intelligence,,4,4,3.0,0,5.7,0,75.8,76.9,91.2,70.7,84.7,81.8,87.9,91.4,93.2,65.4,74.2,65.1
+S249,Dana Scott,24,4,undergraduate,Database Systems,,4,11,2.6,1,8.0,4,75.5,90.7,91.0,82.3,99.9,87.8,90.7,91.0,84.9,89.3,72.6,82.6
+S250,Karen Walker,28,3,undergraduate,Database Systems,,1,16,7.2,0,6.2,0,40,40,40,40,47.2,40,45.8,40,49.7,40,40,47.5
+S251,Liam Collins,19,1,undergraduate,Cybersecurity,,3,1,5.4,0,7.9,2,83.3,70.8,82.5,82.5,65.7,82.7,78.5,85.5,80.2,94.8,85.2,83.6
+S252,Wendy Flores,28,2,undergraduate,Database Systems,,3,25,2.2,0,7.4,4,64.1,55.8,67.2,61.6,65.6,61.5,40,62.0,64.1,53.5,50.8,67.6
+S253,Aria Patterson,28,3,undergraduate,Computer Science,,3,24,6.7,0,5.8,3,43.0,55.4,73.2,46.2,55.3,68.1,47.2,58.0,47.6,50.4,50.6,69.9
+S254,Xena Hayes,22,1,undergraduate,Data Science,,3,13,5.3,1,6.7,2,71.8,66.0,66.1,65.3,69.1,68.5,63.3,59.7,61.8,68.3,78.7,73.5
+S255,Bob Hayes,17,1,undergraduate,Computer Science,,4,3,4.7,1,6.8,2,89.8,93.9,91.8,87.9,77.7,84.4,92.0,100,100,100,100,99.4
+S256,Xena Griffin,29,2,undergraduate,Data Science,,2,8,3.1,0,8.2,2,67.5,55.8,63.2,54.1,67.4,84.0,65.6,70.9,49.7,83.2,67.3,84.7
+S257,Wendy Ramirez,18,4,undergraduate,Software Engineering,,4,5,5.5,0,5.7,3,84.9,95.9,97.4,76.0,87.1,88.5,77.1,82.0,70.5,88.3,91.4,95.8
+S258,Emma Diaz,23,3,undergraduate,Information Technology,,3,12,5.0,1,7.4,3,82.4,65.1,80.9,65.0,96.5,79.1,78.5,68.3,61.6,67.0,69.0,88.1
+S259,Eli Alexander,18,3,undergraduate,Artificial Intelligence,,1,14,6.3,1,8.2,1,40,45.5,50.9,44.8,49.6,56.9,47.0,43.9,60.9,44.8,53.3,56.5
+S260,David Wallace,26,2,undergraduate,Database Systems,,4,2,6.5,1,7.5,3,93.0,93.2,91.7,97.7,92.1,87.5,94.3,100,76.8,88.8,100,88.3
+S261,Sven Hughes,20,1,undergraduate,Computer Science,,2,15,5.6,1,9.5,4,79.4,73.0,74.9,71.1,76.0,73.6,69.9,61.0,76.6,76.9,71.1,68.0
+S262,Mike Washington,29,2,undergraduate,Data Science,,2,13,3.4,1,6.6,4,61.9,68.6,78.0,67.4,75.4,74.0,74.5,73.1,72.9,63.8,67.3,76.1
+S263,Felix Hughes,17,2,undergraduate,Data Science,,4,24,2.1,1,5.4,0,62.6,66.2,55.4,47.5,50.5,72.4,62.8,50.9,68.2,72.1,54.9,63.9
+S264,Wendy Simmons,28,1,undergraduate,Information Technology,,4,19,7.7,1,6.7,0,57.7,62.7,88.5,60.7,52.9,55.8,72.1,63.8,55.6,65.1,65.3,69.1
+S265,Olivia Allen,27,4,undergraduate,Database Systems,,2,5,5.7,0,5.3,2,61.4,73.6,60.0,75.8,65.4,64.9,62.2,47.1,73.6,75.9,61.4,67.7
+S266,Elena Wallace,24,3,undergraduate,Network Engineering,,2,23,5.7,1,6.2,0,42.9,49.8,47.3,40,42.6,52.6,40,48.3,52.0,41.7,54.5,44.7
+S267,Yvonne Rivera,19,4,undergraduate,Software Engineering,,3,8,2.4,0,5.2,4,79.5,79.0,84.7,68.3,80.9,85.9,83.7,70.3,82.2,64.4,73.7,76.3
+S268,Uma Mitchell,18,4,undergraduate,Database Systems,,2,18,4.3,1,6.4,3,59.4,55.9,59.0,69.2,70.3,57.2,66.1,70.3,86.3,60.6,70.7,66.2
+S269,Wayne Wood,17,4,undergraduate,Network Engineering,,4,25,6.6,0,7.3,1,67.5,64.5,57.0,48.2,59.4,67.2,57.9,87.4,71.7,57.0,62.5,67.4
+S270,Xiao West,26,1,undergraduate,Database Systems,,4,24,2.0,1,5.9,2,58.0,59.8,81.9,66.8,59.5,78.8,60.1,67.4,70.9,54.3,60.7,63.9
+S271,Aria Myers,18,3,undergraduate,Computer Science,,3,1,1.8,1,7.3,0,77.4,86.4,81.9,79.6,81.3,79.4,86.5,82.0,91.6,86.6,92.4,80.7
+S272,Nina Adams,29,2,undergraduate,Artificial Intelligence,,3,8,4.5,1,6.4,0,65.0,79.4,60.1,71.0,63.4,77.0,79.0,57.9,67.8,73.4,67.4,64.2
+S273,Iris Green,24,1,undergraduate,Data Science,,4,5,3.0,0,5.5,2,85.6,87.0,89.3,86.5,85.7,85.6,71.6,90.2,94.3,78.3,72.6,92.4
+S274,Clara Collins,20,1,undergraduate,Computer Science,,2,16,5.5,1,7.9,2,47.8,62.7,53.7,57.7,51.6,66.3,65.1,57.5,65.0,54.1,57.1,68.4
+S275,Grace Walker,22,3,undergraduate,Database Systems,,2,19,7.5,1,5.9,1,55.0,40.0,50.1,44.4,50.6,54.7,46.7,54.2,52.1,53.5,48.5,51.6
+S276,Ona Bell,19,3,undergraduate,Database Systems,,2,17,3.1,0,7.0,3,59.5,40,65.4,55.2,69.1,59.3,45.7,58.7,56.4,73.5,72.4,58.7
+S277,Xiao Diaz,19,4,undergraduate,Artificial Intelligence,,1,23,4.4,0,5.7,4,44.3,46.1,42.8,40,40.5,52.5,40,41.6,40,40.6,45.5,41.7
+S278,Karen Coleman,30,4,undergraduate,Data Science,,4,6,4.4,0,9.5,2,75.0,94.8,82.1,88.7,94.5,89.8,82.1,95.3,84.0,83.1,97.2,80.7
+S279,Carlos Ramirez,21,2,undergraduate,Network Engineering,,4,4,6.8,0,5.7,2,63.4,83.8,86.2,79.0,94.3,79.9,86.2,85.6,90.3,75.0,69.4,78.9
+S280,Ulric Moore,20,2,undergraduate,Network Engineering,,3,17,4.4,1,9.2,2,56.6,72.2,76.0,83.7,75.6,79.3,62.5,62.9,82.2,78.1,70.6,78.6
+S281,Max Alexander,20,1,undergraduate,Data Science,,3,15,8.0,0,8.0,2,51.1,57.1,71.7,51.8,49.9,65.9,67.1,68.6,50.3,53.1,63.5,66.5
+S282,Ona Brooks,28,2,undergraduate,Artificial Intelligence,,2,1,2.9,1,8.2,2,85.1,82.7,80.7,76.3,84.6,93.3,79.7,70.0,86.3,84.9,74.5,96.9
+S283,Mia Parker,27,3,undergraduate,Data Science,,3,4,1.1,1,6.9,3,69.0,95.8,91.3,89.2,71.3,88.1,87.2,76.6,81.1,66.0,93.6,78.0
+S284,Nina Jordan,29,1,undergraduate,Network Engineering,,4,2,1.8,0,9.6,3,85.7,100,100,99.4,100,96.1,97.7,93.9,92.4,100,97.9,99.7
+S285,Max Walker,28,2,undergraduate,Cybersecurity,,2,6,1.9,0,7.1,0,74.1,70.4,66.0,59.6,75.0,74.8,59.1,63.7,70.4,66.1,74.8,70.7
+S286,Ulric Garcia,29,1,undergraduate,Software Engineering,,2,5,5.7,0,5.5,2,70.6,63.2,72.6,71.5,64.8,61.7,60.2,64.0,66.4,62.9,66.6,72.7
+S287,Kim King,29,1,undergraduate,Data Science,,2,16,7.0,1,6.8,4,65.8,74.0,76.9,70.5,71.4,64.1,52.9,62.3,65.6,54.1,53.6,67.1
+S288,Mike Owens,22,3,undergraduate,Computer Science,,1,10,4.5,1,6.4,4,61.9,52.8,70.0,58.1,45.6,79.7,48.7,71.8,78.3,54.1,72.0,64.1
+S289,Laura Hayes,18,4,undergraduate,Database Systems,,1,3,2.0,1,8.5,0,63.0,49.0,71.6,70.5,67.6,73.0,68.4,59.1,68.8,72.3,52.3,68.0
+S290,Wayne Hughes,26,3,undergraduate,Network Engineering,,3,15,5.7,1,9.9,4,73.4,91.3,84.6,79.6,66.6,80.0,78.3,80.6,82.7,76.8,68.5,60.6
+S291,Xena Butler,27,3,undergraduate,Information Technology,,3,19,5.4,0,8.3,4,66.5,52.9,72.5,76.2,60.7,69.3,56.2,80.1,50.0,59.3,75.3,70.6
+S292,Peter Richardson,24,3,undergraduate,Network Engineering,,4,14,1.3,0,7.8,2,78.5,73.8,72.7,77.9,66.5,87.7,66.5,73.1,69.6,71.7,66.9,80.9
+S293,Uma Wood,17,4,undergraduate,Cybersecurity,,4,18,7.8,1,8.8,2,70.2,74.8,89.7,75.3,65.4,85.8,87.7,75.9,73.1,74.1,68.8,81.3
+S294,Tara Clark,27,2,undergraduate,Software Engineering,,2,20,3.2,0,9.6,0,52.2,48.6,58.3,58.2,62.9,56.2,41.0,56.0,52.1,50.3,49.9,53.8
+S295,Ona Cooper,26,4,undergraduate,Artificial Intelligence,,1,25,4.4,0,6.7,4,46.4,40,49.3,47.8,49.2,44.9,40,40,59.8,49.0,45.3,52.1
+S296,Mia Patterson,23,2,undergraduate,Data Science,,1,18,3.4,0,7.8,4,46.1,54.4,58.8,40.4,48.9,69.2,42.5,57.6,58.1,59.3,47.3,49.3
+S297,Vina Perry,19,1,undergraduate,Information Technology,,4,6,5.6,1,6.3,4,95.2,77.0,100,79.2,91.1,90.8,92.3,100,94.4,100,93.1,78.2
+S298,Bella Rogers,30,1,undergraduate,Software Engineering,,4,8,6.8,0,6.3,4,81.1,88.4,85.7,82.1,84.6,78.0,56.0,84.8,69.2,88.7,84.5,90.7
+S299,David Campbell,29,3,undergraduate,Information Technology,,1,23,4.4,0,5.3,0,40,40.7,54.8,40.2,44.0,40,40,40,44.7,40,40,46.8
+S300,Nancy Thomas,25,3,undergraduate,Database Systems,,1,7,5.2,1,6.6,4,64.3,53.0,68.7,46.7,68.2,73.1,66.9,73.7,56.0,74.1,76.7,72.8
+S301,Nina Taylor,22,4,undergraduate,Database Systems,,2,8,7.2,0,6.8,2,60.3,60.1,74.2,57.3,68.0,53.7,71.0,57.1,65.0,53.8,55.1,61.3
+S302,Nina Bailey,29,1,undergraduate,Software Engineering,,4,12,1.1,1,9.6,2,78.4,100,88.6,77.6,89.3,84.7,77.8,88.9,92.7,73.7,87.9,82.1
+S303,Karen Fisher,24,4,undergraduate,Network Engineering,,3,22,4.0,0,9.1,2,52.3,61.4,52.0,50.9,61.0,55.0,62.3,62.2,56.6,51.0,62.8,59.5
+S304,Aaron Baker,27,3,undergraduate,Artificial Intelligence,,1,3,2.1,0,9.2,3,69.1,62.5,58.3,69.0,68.4,83.4,73.9,56.5,73.9,75.1,76.0,86.1
+S305,Clara Lee,25,2,undergraduate,Data Science,,4,6,2.8,0,5.2,4,80.0,90.3,96.1,89.7,91.4,88.3,84.0,79.3,97.3,81.4,85.8,86.1
+S306,Petra Adams,20,3,undergraduate,Cybersecurity,,4,12,1.9,0,8.0,2,76.6,74.3,87.4,90.3,100,85.3,78.2,88.1,81.5,88.0,77.4,78.7
+S307,Paul Ford,23,2,undergraduate,Network Engineering,,4,23,5.2,0,5.5,0,73.0,63.5,52.1,56.9,48.1,52.1,59.6,45.6,59.8,54.7,49.7,59.3
+S308,Zara Diaz,22,2,undergraduate,Computer Science,,2,8,2.2,1,9.7,3,80.1,82.5,75.0,74.5,79.1,81.0,86.6,89.0,86.1,63.9,83.2,76.4
+S309,Harry Simmons,30,3,undergraduate,Artificial Intelligence,,4,5,3.2,1,8.8,1,71.5,84.4,86.9,82.0,91.6,95.0,92.2,98.8,97.2,96.2,100,100
+S310,Mike Brown,24,3,undergraduate,Database Systems,,4,15,1.8,0,5.6,0,68.1,74.5,77.0,54.8,72.8,61.0,63.4,63.5,70.9,66.2,68.8,65.2
+S311,Jack Turner,29,4,undergraduate,Data Science,,3,0,3.0,0,7.0,4,89.8,86.8,89.5,88.1,76.2,93.5,75.2,89.8,89.0,98.0,87.3,92.5
+S312,Dana James,22,2,undergraduate,Software Engineering,,1,25,5.5,1,9.0,0,40,40,47.2,41.4,40.9,55.8,40,41.0,44.1,45.7,40,48.7
+S313,Holly Allen,18,3,undergraduate,Database Systems,,4,23,6.6,1,9.5,4,81.2,83.9,81.9,64.9,58.6,78.3,63.0,76.7,65.3,79.4,79.3,67.0
+S314,Ethan Gonzales,23,1,undergraduate,Computer Science,,3,14,5.7,0,9.7,4,65.0,66.6,73.5,80.0,81.3,70.7,74.2,77.1,88.3,62.9,67.1,74.7
+S315,Grace Perry,18,1,undergraduate,Data Science,,4,13,1.7,1,6.8,4,93.1,91.5,97.7,92.6,89.0,93.4,82.3,88.9,93.7,80.2,79.3,84.3
+S316,Jade James,26,3,undergraduate,Artificial Intelligence,,2,6,2.3,1,9.4,0,68.3,72.3,72.6,70.5,66.7,66.3,60.0,78.3,73.2,56.8,66.9,87.5
+S317,Cal Bailey,28,4,undergraduate,Cybersecurity,,1,4,1.9,0,5.6,0,52.6,51.4,67.4,55.9,60.0,63.0,63.0,43.1,55.0,53.5,56.9,53.8
+S318,Diana Lee,18,2,undergraduate,Information Technology,,4,15,4.3,1,7.9,1,71.8,92.5,74.4,80.6,90.4,89.4,68.5,81.5,69.5,76.3,74.5,50.4
+S319,Emma Price,23,4,undergraduate,Database Systems,,2,22,1.4,0,7.1,2,43.4,49.2,43.3,40,59.6,60.8,44.0,44.4,49.0,51.2,50.0,44.4
+S320,Fiona Mitchell,25,2,undergraduate,Artificial Intelligence,,4,4,7.2,1,9.8,2,92.6,76.8,98.8,79.3,87.9,100,86.5,86.9,96.0,98.9,97.2,97.5
+S321,Mike Stewart,20,2,undergraduate,Computer Science,,1,11,7.2,1,8.4,1,60.7,40,59.5,53.3,44.6,61.4,56.8,58.6,56.3,60.0,53.2,58.6
+S322,Val Parker,19,1,undergraduate,Computer Science,,4,25,4.2,0,9.9,4,57.9,62.0,82.3,76.2,67.2,73.9,74.1,75.7,65.7,79.9,68.6,61.0
+S323,Mike Woods,30,1,undergraduate,Information Technology,,3,10,6.7,0,9.2,3,84.9,70.9,90.7,72.1,67.0,76.6,74.5,79.0,73.7,63.4,69.4,71.1
+S324,Ulric Jordan,25,4,undergraduate,Software Engineering,,2,25,4.0,1,9.5,4,61.0,53.6,67.3,59.7,75.4,63.8,62.1,59.7,53.9,79.7,62.4,65.3
+S325,Vina Wilson,27,2,undergraduate,Computer Science,,3,13,3.8,1,8.6,2,74.9,75.5,76.2,83.6,86.9,72.1,68.9,77.8,64.5,70.1,68.9,67.9
+S326,Holly Howard,29,2,undergraduate,Cybersecurity,,1,1,4.8,1,8.6,1,57.6,68.2,73.7,76.9,66.7,78.3,66.4,68.2,79.2,61.2,68.7,86.6
+S327,Mia Wallace,23,1,undergraduate,Computer Science,,3,8,5.4,1,5.6,0,58.9,74.1,80.1,69.1,72.0,86.0,57.8,64.6,83.8,64.3,74.1,68.0
+S328,Mia Edwards,27,2,undergraduate,Network Engineering,,2,3,3.3,0,9.1,2,68.3,75.9,69.3,76.3,81.7,81.2,76.4,78.7,87.2,78.3,66.2,82.5
+S329,Xiu Cruz,30,3,undergraduate,Database Systems,,4,14,5.8,1,8.7,3,82.8,78.8,93.6,89.9,91.4,93.9,83.5,79.8,86.9,89.7,82.4,65.6
+S330,Will Thomas,26,4,undergraduate,Data Science,,1,11,5.0,0,7.6,0,40,67.3,48.5,56.2,50.7,47.2,45.4,48.2,64.7,40,52.7,66.0
+S331,Laura Johnson,18,3,undergraduate,Data Science,,1,13,4.4,1,7.8,2,58.2,49.6,58.4,45.7,59.2,51.0,48.0,60.6,45.2,61.5,51.9,73.2
+S332,Jade Foster,23,4,undergraduate,Software Engineering,,4,10,4.8,1,8.7,0,87.6,71.9,70.4,73.0,78.5,73.3,86.5,88.4,87.2,89.6,78.9,82.0
+S333,Walt Ross,20,4,undergraduate,Computer Science,,1,21,7.6,0,9.8,2,41.6,40,40,40,40,49.2,40,40,59.5,44.7,50.7,45.5
+S334,Carlos Tan,30,3,undergraduate,Network Engineering,,3,2,1.8,0,7.7,2,83.8,86.9,89.8,83.7,78.0,86.7,74.7,77.4,86.8,80.5,76.6,88.5
+S335,Bella Reed,21,4,undergraduate,Data Science,,1,6,2.7,0,7.5,4,61.4,69.0,76.7,67.7,58.7,73.5,59.5,69.6,73.2,60.2,78.1,65.7
+S336,Felix Owens,25,2,undergraduate,Cybersecurity,,4,14,1.6,0,8.9,1,57.5,92.4,79.8,64.0,60.1,85.9,73.4,75.9,63.1,77.1,70.6,98.5
+S337,Alice Clark,24,3,undergraduate,Cybersecurity,,4,11,6.9,0,7.9,4,78.1,85.7,80.1,78.4,91.5,89.6,85.3,69.8,99.4,78.9,83.3,92.2
+S338,Ona Myers,22,3,undergraduate,Database Systems,,3,7,5.6,1,6.7,3,85.3,78.6,86.1,76.2,90.1,77.3,79.5,80.5,87.2,87.5,77.4,73.7
+S339,Zara Coleman,18,1,undergraduate,Computer Science,,4,21,1.9,1,9.1,2,62.2,85.8,86.5,52.6,81.3,83.3,74.2,76.8,77.2,60.3,70.5,66.4
+S340,Yara Thompson,30,3,undergraduate,Software Engineering,,2,15,7.8,0,6.4,4,56.8,62.6,63.0,48.2,64.6,51.9,45.4,57.9,53.9,46.8,53.2,50.1
+S341,Iris Flores,19,1,undergraduate,Information Technology,,3,18,7.0,1,6.0,0,68.2,57.3,53.9,54.6,49.7,56.7,66.5,53.5,62.3,55.0,65.8,56.7
+S342,Bella Evans,18,4,undergraduate,Database Systems,,3,16,6.3,0,5.2,3,53.9,61.3,59.1,65.2,73.3,54.8,66.4,62.3,57.2,42.0,67.3,62.1
+S343,Rosa Morris,18,1,undergraduate,Computer Science,,4,13,6.7,1,9.2,1,80.8,81.9,78.7,78.4,71.1,92.5,89.2,73.4,70.3,66.9,70.8,72.7
+S344,Karen Clark,17,4,undergraduate,Artificial Intelligence,,1,25,1.9,1,5.3,4,43.8,45.8,45.4,40,45.7,57.4,56.9,55.4,51.0,56.6,47.2,48.9
+S345,Yvonne Brooks,29,4,undergraduate,Data Science,,3,20,7.6,0,7.3,2,51.1,54.4,71.0,55.3,43.6,49.9,57.8,54.0,50.9,53.9,45.3,59.7
+S346,Xander Turner,19,1,undergraduate,Computer Science,,2,9,5.1,1,6.6,4,72.1,68.9,72.7,78.2,72.7,76.1,61.1,67.1,84.3,74.7,81.4,61.8
+S347,Diana Bell,20,2,undergraduate,Software Engineering,,1,10,2.3,1,8.5,3,57.9,61.5,49.6,54.0,59.5,62.1,68.3,73.2,68.3,61.4,65.8,68.4
+S348,Chloe Ford,20,4,undergraduate,Software Engineering,,2,15,6.1,1,9.0,3,65.1,70.6,75.2,63.2,67.4,68.5,68.6,70.0,71.3,73.6,65.9,65.3
+S349,David Baker,20,3,undergraduate,Information Technology,,2,8,6.0,1,9.2,1,67.5,70.2,80.4,52.1,80.7,72.3,56.5,78.4,85.1,78.8,66.7,76.3
+S350,Will Griffin,19,4,undergraduate,Data Science,,1,4,7.2,0,9.0,1,44.0,55.6,56.6,63.8,46.3,46.5,57.0,47.5,64.2,50.8,61.7,64.9
+S351,Eli Evans,30,2,graduate,,AR/VR Interfaces,4,6,6.1,1,9.0,4,100,97.8,96.1,80.5,84.7,95.5,85.2,95.6,87.4,100,92.0,86.9
+S352,Isla Hughes,23,1,graduate,,Blockchain Security,2,6,4.2,0,7.0,2,59.6,72.0,79.0,79.3,68.4,73.9,66.6,61.8,64.8,65.8,77.8,73.0
+S353,Sean Peterson,24,4,graduate,,NLP for Education,4,11,6.6,1,6.4,0,75.2,80.0,72.1,66.7,88.0,84.3,61.2,73.8,80.8,54.9,77.2,78.5
+S354,Emma Jenkins,20,3,graduate,,Blockchain Security,3,8,3.1,1,6.0,4,100,83.0,85.6,68.3,84.3,84.9,76.9,97.6,87.1,73.4,74.7,91.3
+S355,Julia Russell,25,2,graduate,,AR/VR Interfaces,4,7,2.6,0,7.4,4,78.5,83.9,76.8,90.0,87.4,94.0,92.0,82.2,99.0,84.2,74.7,97.1
+S356,David Rivera,19,2,graduate,,Cloud Optimization,1,15,6.7,1,6.7,3,40.0,60.0,57.0,40,50.7,66.1,50.1,53.1,70.1,68.9,64.4,55.6
+S357,Betty Butler,26,4,graduate,,NLP for Education,2,12,1.4,1,5.9,0,49.2,78.9,58.5,53.7,66.6,73.4,65.5,74.3,61.4,57.8,66.4,79.6
+S358,Yvonne Edwards,20,2,graduate,,Cloud Optimization,1,14,1.4,0,5.9,3,40,68.5,60.9,57.2,52.8,47.2,55.7,50.1,59.9,46.2,58.1,44.4
+S359,Uma Butler,26,3,graduate,,IoT Smart Systems,2,16,6.0,1,6.4,0,60.8,53.6,61.0,42.4,54.2,63.2,43.6,50.2,53.9,52.6,63.8,62.3
+S360,Hannah Bell,28,3,graduate,,NLP for Education,2,13,2.7,1,7.3,1,60.8,60.6,65.2,59.7,67.5,62.9,69.3,57.3,64.5,59.4,61.4,48.9
+S361,Mike Ward,29,1,graduate,,Cloud Optimization,1,24,1.7,1,7.1,1,41.5,53.1,42.6,42.4,40,40,40,52.6,50.6,40,47.6,45.9
+S362,Rachel Reed,27,4,graduate,,NLP for Education,4,2,1.6,0,8.6,3,100,100,98.3,87.5,97.3,96.0,88.9,100,93.1,93.7,94.6,83.6
+S363,Tina Ramirez,22,2,graduate,,Blockchain Security,1,21,4.7,1,8.5,4,45.0,45.2,63.4,48.2,54.1,59.5,66.8,55.5,59.0,40,50.9,61.2
+S364,Leo Lee,23,1,graduate,,Deep Learning in Healthcare,3,6,5.8,0,6.1,0,70.4,53.6,72.4,70.2,64.7,71.9,61.2,77.1,72.0,71.1,49.7,65.1
+S365,Peter Mitchell,20,1,graduate,,Cloud Optimization,3,5,1.1,1,5.1,1,73.3,78.9,84.7,65.5,76.1,82.3,77.5,84.8,61.5,62.8,86.1,86.0
+S366,Walt King,21,1,graduate,,IoT Smart Systems,3,20,5.9,0,6.7,2,67.9,56.6,61.6,56.8,65.6,55.6,43.1,57.3,47.7,55.9,59.8,60.3
+S367,Vina Thomas,21,2,graduate,,Federated Learning,4,24,2.7,0,5.3,2,55.6,63.0,56.8,69.0,63.9,77.8,69.6,62.3,68.0,58.0,57.2,77.8
+S368,Frank Ross,29,4,graduate,,Federated Learning,3,24,1.2,1,6.7,1,40.2,54.9,58.1,51.9,54.2,49.4,51.0,54.2,57.4,64.9,75.3,61.8
+S369,Grace Bryant,19,2,graduate,,Blockchain Security,1,5,5.1,0,6.2,0,44.3,58.3,59.0,56.8,44.6,61.3,48.9,64.2,61.5,51.2,60.2,49.3
+S370,Vera Cruz,23,2,graduate,,NLP for Education,4,13,4.5,1,8.8,3,91.8,87.0,96.2,73.3,95.5,82.9,91.4,96.6,87.6,92.9,78.6,90.2
+S371,Betty Sanders,18,3,graduate,,Blockchain Security,4,6,2.1,0,5.0,4,84.4,79.7,82.6,90.1,77.0,97.5,80.3,92.0,92.5,85.2,100,72.9
+S372,Walt Young,20,4,graduate,,Cloud Optimization,3,16,6.0,1,8.5,3,81.8,66.3,74.2,72.2,76.5,63.7,64.6,61.0,70.3,65.2,60.5,77.4
+S373,Gina Turner,26,2,graduate,,Deep Learning in Healthcare,1,24,1.6,1,7.0,4,52.2,50.5,66.8,40.2,55.3,60.3,45.6,42.2,40,45.5,40,46.3
+S374,Ulric Woods,30,1,graduate,,Deep Learning in Healthcare,3,4,2.9,0,9.7,3,82.5,83.9,91.3,90.9,96.1,94.6,75.5,88.8,84.7,91.0,87.0,91.3
+S375,Rachel Baker,24,2,graduate,,IoT Smart Systems,1,14,5.0,0,5.9,0,42.2,40,54.3,63.5,50.1,40,45.5,42.2,44.0,40,47.7,48.3
+S376,Iris Morgan,17,2,graduate,,NLP for Education,4,21,6.3,0,5.3,0,48.6,45.6,65.1,57.2,59.8,52.3,40,55.2,58.9,65.0,58.3,48.9
+S377,Sean Rivera,27,3,graduate,,Cloud Optimization,2,11,5.7,1,8.1,2,75.2,56.7,85.2,65.4,54.7,77.9,66.7,66.2,76.1,71.9,79.8,65.0
+S378,Felix Rivera,24,4,graduate,,IoT Smart Systems,4,21,2.3,1,5.1,2,83.8,55.9,71.9,57.0,72.0,82.2,68.1,56.8,62.1,84.4,79.5,69.7
+S379,Igor Hamilton,18,4,graduate,,Cloud Optimization,2,22,2.0,0,5.6,0,40,55.9,40,40,48.8,54.1,51.3,52.4,46.8,48.0,44.8,40
+S380,Leo Anderson,23,1,graduate,,Blockchain Security,3,12,6.4,0,8.6,3,80.4,67.4,63.9,53.4,64.8,66.1,71.1,64.1,74.7,79.4,73.6,71.7
+S381,Sean Cooper,28,4,graduate,,Federated Learning,4,25,2.6,1,5.6,0,65.8,66.9,59.9,57.4,72.0,60.5,65.1,67.2,54.7,69.2,58.2,74.1
+S382,Yara Richardson,23,3,graduate,,AR/VR Interfaces,3,25,5.8,0,7.6,4,53.7,56.9,76.5,57.8,53.0,74.4,55.3,64.3,59.0,52.8,56.2,73.9
+S383,Nina Wilson,26,3,graduate,,Cloud Optimization,1,8,8.0,1,8.2,1,42.1,56.9,42.4,70.3,49.1,71.5,57.7,69.1,63.1,43.0,71.7,63.7
+S384,Wendy Price,28,4,graduate,,Cloud Optimization,2,0,4.8,1,7.1,3,93.3,81.0,76.2,86.0,79.3,95.9,85.1,96.6,80.5,82.4,82.0,73.3
+S385,Grace Graham,21,4,graduate,,Federated Learning,2,18,2.0,1,6.5,1,59.1,71.5,63.4,66.4,47.3,71.5,66.8,65.9,64.4,49.5,69.5,58.2
+S386,Victor Clark,18,3,graduate,,NLP for Education,2,1,1.8,1,8.0,1,70.3,72.2,85.8,77.3,65.8,80.9,87.2,74.7,71.3,84.7,81.3,68.7
+S387,Xiu Brooks,30,4,graduate,,Cloud Optimization,4,11,1.1,0,5.4,3,66.8,66.3,83.5,88.4,89.0,81.2,76.6,76.5,75.3,73.5,92.3,81.9
+S388,Quinn Garcia,22,1,graduate,,Federated Learning,2,12,6.7,0,7.0,4,63.2,53.5,79.2,67.1,48.8,61.6,53.4,52.2,68.2,72.5,74.9,75.9
+S389,Max Scott,17,4,graduate,,AR/VR Interfaces,3,3,1.3,0,8.3,0,60.2,70.7,100,79.5,69.1,78.4,66.6,74.3,78.8,74.6,70.6,97.0
+S390,Pam Collins,27,4,graduate,,Blockchain Security,4,22,3.2,1,8.0,4,77.3,81.9,82.9,71.1,81.0,86.6,86.4,60.9,75.9,73.1,75.7,83.6
+S391,Dana Peterson,18,3,graduate,,Cloud Optimization,4,20,7.3,1,7.3,2,59.4,52.8,75.2,72.0,65.5,67.2,60.1,61.3,69.5,57.8,64.1,64.1
+S392,Uma Torres,30,2,graduate,,Cloud Optimization,4,12,1.2,0,5.4,0,57.4,68.9,67.3,73.2,86.1,82.6,70.1,66.8,75.2,63.2,89.5,86.2
+S393,Chloe Cooper,18,1,graduate,,Blockchain Security,3,18,6.7,1,5.5,2,55.8,47.5,54.4,57.3,66.6,61.8,68.3,60.1,57.3,71.6,72.4,62.8
+S394,Abdul Howard,24,2,graduate,,Cloud Optimization,1,21,4.6,0,8.3,1,40,51.5,56.6,44.7,54.8,42.5,40.5,53.4,43.1,40,56.7,43.2
+S395,Nancy Edwards,21,4,graduate,,IoT Smart Systems,2,9,5.4,0,9.7,3,69.1,53.8,69.0,64.7,69.4,74.7,64.1,67.6,67.0,85.1,69.6,70.0
+S396,Diana Hayes,25,2,graduate,,NLP for Education,4,16,5.8,0,7.0,4,79.6,90.1,86.5,74.5,68.9,76.5,85.9,75.7,100,59.7,87.5,74.0
+S397,Frank Butler,24,2,graduate,,Federated Learning,2,5,1.5,0,7.6,0,56.7,69.3,64.9,66.4,70.8,64.5,50.4,62.3,72.6,68.2,64.1,73.0
+S398,Sven Gonzales,26,4,graduate,,Blockchain Security,3,20,4.6,0,9.7,4,68.3,66.5,79.6,67.1,67.6,74.4,59.2,79.1,69.9,67.4,63.9,73.0
+S399,Raj Barnes,19,4,graduate,,Deep Learning in Healthcare,4,0,2.1,1,6.1,3,90.5,100,100,89.6,94.9,100,91.0,90.7,100,100,100,100
+S400,Otto Baker,18,2,graduate,,Cloud Optimization,1,4,3.8,1,9.5,1,56.7,51.7,92.6,60.8,75.3,76.8,54.4,68.8,79.8,76.1,70.0,62.6

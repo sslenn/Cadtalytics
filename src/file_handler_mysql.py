@@ -29,7 +29,7 @@ class FileHandlerMySQL:
         
         try:
             if self.connection is None:
-                raise ConnectionError("Noo active database connection.")
+                raise ConnectionError("No active database connection.")
             cursor = self.connection.cursor(dictionary = True)
             cursor.execute("SELECT * FROM students")
             records = cursor.fetchall()
@@ -64,4 +64,4 @@ class FileHandlerMySQL:
     def disconnect(self):
         if self.connection:
             self.connection.close()
-            print("Disconnect from MySQL.")
+            print("Disconnected from MySQL.")
