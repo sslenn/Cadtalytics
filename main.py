@@ -1,74 +1,95 @@
 import customtkinter as ctk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
-from src import * # This imports your visualizer functions and team classes
 
 class StudentAnalyticsApp(ctk.CTk):
     def __init__(self):
         super().__init__()
-
-        # Window Config
-        self.title("Student Grade Analytics System")
+        
+        # 1. Base Configuration 
+        self.title("Student Grade Analytics System | CADT")
         self.geometry("1200x720")
         ctk.set_appearance_mode("dark")
-
-        # Layout Setup
+        
+        # 2. Grid Layout (Sidebar vs Content) 
         self.grid_columnconfigure(1, weight=1)
         self.grid_rowconfigure(0, weight=1)
-
-        # Sidebar Navigation
-        self.sidebar = ctk.CTkFrame(self, width=220, corner_radius=0)
-        self.sidebar.grid(row=0, column=0, sticky="nsew")
         
-        # Display Area
-        self.display_frame = ctk.CTkFrame(self, fg_color="#1a1a1a")
-        self.display_frame.grid(row=0, column=1, sticky="nsew", padx=20, pady=20)
-
         self._build_sidebar()
+        
+        # Main Content Area
+        self.content_frame = ctk.CTkFrame(self, corner_radius=0, fg_color="#1a1c23")
+        self.content_frame.grid(row=0, column=1, sticky="nsew", padx=20, pady=20)
+        
+        # Show initial dashboard 
+        self.view_dashboard()
 
     def _build_sidebar(self):
-        """Creates the 16-button navigation menu"""
-        ctk.CTkLabel(self.sidebar, text="ANALYTICS", font=("Arial", 16, "bold")).pack(pady=20)
+        """Builds the 220px sidebar seen in your reference image """
+        self.sidebar = ctk.CTkScrollableFrame(self, width=220, corner_radius=0, fg_color="#11131a")
+        self.sidebar.grid(row=0, column=0, sticky="nsew")
         
-        # Testing your Visualizer functions
-        ctk.CTkButton(self.sidebar, text="📊 Grade Distribution", 
-                      command=self.view_grade_dist).pack(pady=10, padx=20)
+        # Logo Area
+        self.logo = ctk.CTkLabel(self.sidebar, text="📊 Grade Analytics", font=("Arial", 18, "bold"))
+        self.logo.pack(pady=30)
         
-        ctk.CTkButton(self.sidebar, text="🏆 Top Students", 
-                      command=self.view_top_students).pack(pady=10, padx=20)
+        # Section: Analytics 
+        ctk.CTkLabel(self.sidebar, text="ANALYTICS", text_color="gray", font=("Arial", 11, "bold")).pack(anchor="w", padx=20)
+        self._add_sidebar_btn("👥 All Students", self.view_all_students)
+        self._add_sidebar_btn("🏆 Top 5", self.view_top_students)
+        # ... (Add remaining 7 Analytics buttons)
+        
+        # Section: Prediction 
+        ctk.CTkLabel(self.sidebar, text="PREDICTION (ML)", text_color="gray", font=("Arial", 11, "bold")).pack(anchor="w", padx=20, pady=(20, 0))
+        self._add_sidebar_btn("🔮 Manual G4", self.view_predict_manual)
+        # ... (Add remaining 6 Prediction buttons)
 
-    def _render_chart(self, plot_func, *args):
-        """Helper to clear the screen and embed a Matplotlib chart"""
-        for widget in self.display_frame.winfo_children():
+    def view_dashboard(self):
+        """Renders the 4-card layout from your image """
+        self._clear_content()
+        
+        # Setup 2x2 Grid for Cards
+        self.content_frame.grid_columnconfigure((0, 1), weight=1)
+        self.content_frame.grid_rowconfigure((0, 1), weight=1)
+        
+        # Top Left: Analytics Card (Blue)
+        self._create_card(0, 0, "Analytics Section", "9 views: student tables, 4 chart types...", "#3b82f6")
+        
+        # Top Right: Prediction Card (Yellow)
+        self._create_card(0, 1, "Prediction Section", "7 views: manual input, trend chart...", "#eab308")
+        
+        # Bottom Left: Embedded Charts (Green)
+        self._create_card(1, 0, "Embedded Charts", "All Matplotlib charts render inside...", "#22c55e")
+        
+        # Bottom Right: Dark Theme (Purple)
+        self._create_card(1, 1, "Dark Theme GUI", "CustomTkinter dark mode with sidebar...", "#8b5cf6")
+
+    def _create_card(self, r, c, title, desc, accent_color):
+        """Helper to build the card style from your image """
+        card = ctk.CTkFrame(self.content_frame, fg_color="#23262f", corner_radius=10)
+        card.grid(row=r, column=c, padx=15, pady=15, sticky="nsew")
+        
+        # Accent Border/Line
+        accent = ctk.CTkFrame(card, width=5, fg_color=accent_color)
+        accent.pack(side="left", fill="y", padx=(0, 15))
+        
+        # Content
+        ctk.CTkLabel(card, text=title, font=("Arial", 18, "bold"), text_color=accent_color).pack(anchor="w", pady=(20, 5))
+        ctk.CTkLabel(card, text=desc, font=("Arial", 13), wraplength=300, justify="left").pack(anchor="w")
+
+    def _clear_content(self):
+        """Standard Sousdey-role helper to switch views """
+        for widget in self.content_frame.winfo_children():
             widget.destroy()
 
-        # Create the figure and axis
-        fig, ax = plt.subplots(figsize=(8, 5), dpi=100)
-        
-        # Call the specific function from your visualizer.py
-        plot_func(ax, *args)
-        
-        # Embed the chart into CustomTkinter
-        canvas = FigureCanvasTkAgg(fig, master=self.display_frame)
-        canvas.draw()
-        canvas.get_tk_widget().pack(fill="both", expand=True)
+    def _add_sidebar_btn(self, txt, cmd):
+        btn = ctk.CTkButton(self.sidebar, text=txt, command=cmd, fg_color="transparent", anchor="w", hover_color="#2d2f39")
+        btn.pack(fill="x", padx=10, pady=2)
 
-    # --- View Methods (Connecting to Visualizer) ---
-
-    def view_grade_dist(self):
-        # Mock data for distribution
-        data = {'A': 5, 'B': 10, 'C': 15, 'D': 5, 'F': 2}
-        self._render_chart(plot_grade_distribution_embedded, data)
-
-    def view_top_students(self):
-        # Mocking student objects for testing
-        class MockStudent:
-            def __init__(self, name, gpa):
-                self.name, self.gpa = name, gpa
-            def get_gpa(self): return self.gpa
-
-        students = [MockStudent("Yin", 95), MockStudent("Sreylenn", 88), MockStudent("Sambath", 92)]
-        self._render_chart(plot_top_students_embedded, students)
+    # Placeholder view methods for your 16 total views
+    def view_all_students(self): self._clear_content()
+    def view_top_students(self): self._clear_content()
+    def view_predict_manual(self): self._clear_content()
 
 if __name__ == "__main__":
     app = StudentAnalyticsApp()

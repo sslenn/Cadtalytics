@@ -1,126 +1,114 @@
-# prevent the GUI from crashing when rendering charts
-
+# mandatory backend & Styling : "CustomtkinterGUI"
 import matplotlib
-matplotlib.use('TkAgg') 
+matplotlib.use('TkAgg')  # Mandatory for Tkinter integration 
 import matplotlib.pyplot as plt
+import numpy as np
 
-import seaborn as sn
-import os 
+# Set a dark theme to match your main.py CustomTkinter UI 
+plt.style.use('dark_background')
 
-# Top Students Chart 
-# Conditional Coloring 
+def _setup_ax(ax, title):
+    """Helper to maintain consistent styling across all charts."""
+    ax.clear()
+    ax.set_title(title, fontsize=12, pad=15)
+    ax.set_facecolor('#2b2b2b')  # Dark grey to match GUI panels 
+    for spine in ax.spines.values():
+        spine.set_color('#444444')
+
+# Embedded Methods
+
+def plot_grade_distribution_embedded(ax, distribution): #imported
+    """Visualizes counts of A, B, C, D, and F grades."""
+    _setup_ax(ax, "Class Grade Distribution")
+    grades = list(distribution.keys())
+    counts = list(distribution.values())
+    
+    bars = ax.bar(grades, counts, color='#5dade2')
+    ax.bar_label(bars, padding=3)
+    
+    plt.savefig("data/reports/grade_distribution.png") # Required save 
+
+
+# Student GPA Trend 
+
+def plot_student_trend_embedded(ax, student, trend):
+    """Line chart with fill_between shading for a specific student."""
+    _setup_ax(ax, f"GPA Trend: {student.name}") # Uses Sreylenn's Student object
+    periods = [f"P{i+1}" for i in range(len(trend))]
+    
+    ax.plot(periods, trend, marker='o', linewidth=2, color='#f39c12')
+    ax.fill_between(periods, trend, alpha=0.2, color='#f39c12')
+    ax.set_ylim(0, 100)
+    
+    plt.savefig(f"data/reports/trend_{student.id}.png") 
+
+
+# Harizonal Bar 
+# and The Features
+
+def plot_feature_importance_embedded(ax, feature_names, importances):
+    """Shows which factors most influenced Sambath's ML model."""
+    _setup_ax(ax, "Prediction Model: Feature Importance")
+    
+    # Sort features by importance for a cleaner look 
+    indices = np.argsort(importances)
+    
+    ax.barh(range(len(indices)), [importances[i] for i in indices], color='#2ecc71')
+    ax.set_yticks(range(len(indices)))
+    ax.set_yticklabels([feature_names[i] for i in indices])
+    
+    plt.savefig("data/reports/feature_importance.png")
+
+# Top Student Performance 
 
 def plot_top_students_embedded(ax, top_students):
     """
-    Draws horizontal bars for top students on the provided axis.
-    Saves the result to data/reports/top_students.png.
+    Horizontal bars for top 5 students.
+    - top_students: List of Student objects sorted by GPA.
     """
-    # 1. Clear the axis for a fresh draw
-    ax.clear()
+    _setup_ax(ax, "Top 5 Student Performers")
     
-    # 2. Extract data (Assuming top_students is a list of objects or dicts)
     names = [s.name for s in top_students]
-    gpas = [s.get_gpa() for s in top_students]
+    gpas = [s.get_gpa() for s in top_students] # I'm calling Sreylenn's method
     
-    # 3. Apply conditional logic: Green if GPA >= 90, else Blue 
-    colors = ['#2ecc71' if gpa >= 90 else '#3498db' for gpa in gpas]
+    # Conditional Coloring: 
+    # Green if GPA >= 90, otherwise Blue (Sreylenn based)
+    colors = ['#27ae60' if gpa >= 90 else '#2980b9' for gpa in gpas]
     
-    # 4. Create Horizontal Bar Chart
     bars = ax.barh(names, gpas, color=colors)
-    ax.set_title("Top 5 Students by GPA", color='white', fontsize=12)
-    ax.set_xlabel("GPA (%)", color='white')
-    ax.invert_yaxis()  # Put the top student at the top
+    ax.invert_yaxis()  # Highest GPA at the top
+    ax.set_xlim(0, 100)
     
-    # 5. Styling for Dark Theme 
-    ax.tick_params(colors='white')
-    ax.set_facecolor('#2b2b2b') # Matches CustomTkinter dark theme
+    # Add GPA labels on the bars for clarity
+    ax.bar_label(bars, fmt='%.1f%%', padding=5, color='white')
     
-    # 6. Save to report directory 
-    if not os.path.exists('data/reports'):
-        os.makedirs('data/reports')
-    plt.savefig('data/reports/top_students.png', facecolor='#1a1a1a')
+    plt.savefig("data/reports/top_students.png") # Required Save
 
-
-
-# Four more remaining embedded methods required for layers  
-
-
-
-# Grade Distribution (uniform color palette) 
-
-def plot_grade_distribution_embedded(ax, distribution):
-    """Bar chart of A/B/C/D/F counts with dark styling[cite: 22]."""
-    ax.clear()
-    grades = list(distribution.keys())
-    counts = list(distribution.values())
-    ax.bar(grades, counts, color='#9b59b6') # Consistent purple theme
-    ax.set_title("Grade Distribution", color='white')
-    plt.savefig('data/reports/grade_distribution.png', facecolor='#1a1a1a')
-
-
-
-# Student Trend 
-
-def plot_student_trend_embedded(ax, student, trend):
-    """Line chart with fill_between shading for GPA progress[cite: 22]."""
-    ax.clear()
-    periods = [f"P{i+1}" for i in range(len(trend))]
-    ax.plot(periods, trend, marker='o', color='#f1c40f', linewidth=2)
-    ax.fill_between(periods, trend, alpha=0.2, color='#f1c40f')
-    ax.set_title(f"GPA Trend: {student.name}", color='white')
-    ax.set_ylim(0, 100)
-    plt.savefig(f'data/reports/trend_{student.id}.png', facecolor='#1a1a1a')
-
-
-
-# Class Averages 
+# Subject Average (Embedded Method)
 
 def plot_class_average_by_subject_embedded(ax, averages_by_period):
-    """Grouped bars with 3 colors per period[cite: 22]."""
-    ax.clear()
+    """
+    Draws grouped bars for subjects across 3 periods.
+    - averages_by_period: { 'Math': [80, 85, 90], 'Science': [70, 75, 72] ... }
+    """
+    _setup_ax(ax, "Class Average by Subject & Period")
+    
     subjects = list(averages_by_period.keys())
-    # Assuming data structure: {Subject: [Avg1, Avg2, Avg3]}
-    x = range(len(subjects))
-    width = 0.2
+    x = np.arange(len(subjects))  # Label locations
+    width = 0.25  # Width of the bars
     
-    colors = ['#e74c3c', '#3498db', '#2ecc71'] # Period 1, 2, 3
-    for i in range(3):
-        vals = [averages_by_period[s][i] for s in subjects]
-        ax.bar([p + width*i for p in x], vals, width, label=f'Period {i+1}', color=colors[i])
-    
-    ax.set_xticks([p + width for p in x])
-    ax.set_xticklabels(subjects, color='white')
+    # Extract period data (Assuming 3 periods)
+    p1 = [averages_by_period[s][0] for s in subjects]
+    p2 = [averages_by_period[s][1] for s in subjects]
+    p3 = [averages_by_period[s][2] for s in subjects]
+
+    # Plotting with 3 distinct colors 
+    ax.bar(x - width, p1, width, label='Period 1', color='#3498db')
+    ax.bar(x, p2, width, label='Period 2', color='#9b59b6')
+    ax.bar(x + width, p3, width, label='Period 3', color='#2ecc71')
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(subjects, rotation=15)
     ax.legend()
-    plt.savefig('data/reports/subject_averages.png', facecolor='#1a1a1a')
-
-
-
-# & Feature Importance
-
-def plot_feature_importance_embedded(ax, feature_names, importances):
-    """Horizontal bars sorted ascending with % labels[cite: 22]."""
-    ax.clear()
-    # Sort data for better visualization
-    data = sorted(zip(feature_names, importances), key=lambda x: x[1])
-    names, values = zip(*data)
     
-    bars = ax.barh(names, values, color=plt.cm.viridis(values))
-    ax.bar_label(bars, fmt='%.1f%%', padding=3, color='white')
-    ax.set_title("Model Feature Importance", color='white')
-    plt.savefig('data/reports/feature_importance.png', facecolor='#1a1a1a')
-
-
-# Test My Script
-
-if __name__ == "__main__":
-    # Create a temporary figure and axis for testing
-    fig, ax = plt.subplots()
-    
-    # Mock data for testing (since analytics.py might not be ready)
-    mock_dist = {'A': 5, 'B': 10, 'C': 8, 'D': 2, 'F': 1}
-    
-    # Run your method
-    plot_grade_distribution_embedded(ax, mock_dist)
-    
-    # Show the result
-    plt.show()
+    plt.savefig("data/reports/subject_averages.png") # Required Save
