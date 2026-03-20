@@ -1,0 +1,1001 @@
+student_id,age,gender,major,study_hours_per_day,social_media_hours,netflix_hours,part_time_job,attendance_percentage,sleep_hours,diet_quality,exercise_frequency,parental_education_level,internet_quality,mental_health_rating,extracurricular_participation,previous_gpa,semester,stress_level,dropout_risk,social_activity,screen_time,study_environment,access_to_tutoring,family_income_range,parental_support_level,motivation_level,exam_anxiety_score,learning_style,time_management_score,exam_score
+114592,22,Other,Biology,2.0,2.4,0.7,No,66.8,7.1,Poor,0,Bachelor,Low,6.6,Yes,3.93,2,6.8,No,0,6.8,Library,Yes,Medium,10,9,6,Reading,3.6,91
+103278,28,Male,Engineering,0.9,0.1,3.8,Yes,56.6,7.7,Good,2,Bachelor,High,6.8,Yes,4.0,3,7.1,No,1,5.7,Library,Yes,Medium,2,6,9,Visual,4.5,100
+136048,21,Other,Computer Science,4.410359715726578,2.0,0.7,No,55.5,9.5,Good,0,High School,Medium,6.2,Yes,3.5,8,5.0,No,3,8.6,Quiet Room,Yes,Low,10,10,5,Reading,6.8,83
+132098,16,Other,Psychology,3.4,3.2,3.9,No,71.9,5.6,Good,0,Master,Low,7.6,Yes,3.4,6,2.3,No,4,11.7,Library,Yes,Medium,4,5,10,Kinesthetic,4.8,88
+129256,26,Female,Biology,8.6,2.0,3.3,Yes,70.0,7.6,Poor,3,Master,Medium,4.3,Yes,4.0,5,2.6,No,4,14.7,Library,No,High,7,10,5,Auditory,8.9,100
+118289,25,Other,Biology,6.5,3.0,0.3,Yes,55.8,7.7,Good,0,Bachelor,High,8.3,No,4.0,3,4.6,No,2,11.4,Library,Yes,High,7,4,10,Kinesthetic,6.6,92
+113434,24,Male,Psychology,0.1,1.9,0.5,No,42.9,5.9,Good,2,High School,Low,6.5,No,2.32,7,6.0,No,5,4.0,Quiet Room,No,High,5,6,9,Visual,6.1,49
+171482,17,Male,Psychology,9.5,1.8,2.8,No,74.6,9.0,Poor,0,High School,High,2.6,Yes,4.0,8,4.9,No,4,14.2,Quiet Room,Yes,Medium,8,10,5,Reading,6.0,100
+111395,21,Other,Engineering,4.6,3.1,2.7,No,74.9,8.7,Good,7,Bachelor,High,10,No,2.85,1,4.4,No,1,12.1,Cafe,No,High,4,3,10,Kinesthetic,3.1,73
+177397,16,Female,Computer Science,9.311605748463005,4.8,2.2,Yes,57.2,5.3,Good,3,PhD,Medium,5.8,Yes,4.0,4,7.1,No,4,17.8,Cafe,No,High,10,5,10,Auditory,5.6,100
+155302,25,Male,Biology,5.3,0.7,0.8,Yes,73.1,10.4,Fair,3,Bachelor,Low,9.9,Yes,4.0,6,2.3,No,0,7.4,Cafe,No,Low,7,7,8,Reading,4.2,91
+104165,17,Female,Psychology,3.0,3.4,2.3,No,98.6,6.6,Fair,5,PhD,Medium,8.2,No,3.9,6,4.6,No,2,10.3,Cafe,Yes,Medium,7,6,9,Reading,6.7,94
+103905,22,Other,Arts,2.9,2.9,3.3,No,69.8,7.2,Good,5,High School,High,7.1,Yes,4.0,1,8.0,No,5,9.2,Quiet Room,No,Medium,3,3,10,Auditory,3.4,100
+112280,17,Other,Arts,4.9,3.0,2.5,Yes,42.3,9.1,Good,0,High School,High,8.9,No,3.94,6,5.3,No,2,10.6,Dorm,No,High,10,9,6,Visual,3.8,100
+128657,19,Male,Business,5.0,4.1,3.4,Yes,68.6,8.5,Fair,4,Master,High,6.1,Yes,4.0,3,3.5,No,1,12.7,Cafe,No,High,7,8,7,Kinesthetic,5.0,100
+130495,23,Male,Psychology,5.1,1.0,2.6,No,48.5,9.0,Fair,5,Master,High,10,No,3.57,1,5.5,No,1,9.5,Library,No,Low,7,4,10,Visual,7.2,92
+166237,25,Male,Arts,1.4,1.7,0.9,No,44.3,6.4,Good,6,Bachelor,High,6.7,Yes,4.0,2,1.7,No,4,4.3,Quiet Room,Yes,Low,6,8,7,Visual,9.6,100
+178907,22,Female,Arts,1.9,4.9,1.1,No,76.1,5.4,Fair,1,Master,Low,5.9,Yes,3.1,7,5.9,No,3,9.4,Co-Learning Group,Yes,Medium,7,10,5,Reading,6.2,66
+103478,25,Female,Engineering,3.9,2.0,1.9,No,92.4,10.4,Good,7,Master,Low,8.4,Yes,4.0,2,3.3,No,0,8.2,Library,No,Low,2,9,6,Visual,3.9,100
+173563,28,Male,Engineering,1.6,4.4,1.3,Yes,84.4,7.6,Fair,2,Some College,High,9.7,Yes,2.62,3,4.2,No,3,8.7,Dorm,No,High,10,1,10,Visual,7.3,70
+126062,28,Female,Computer Science,6.995709615509524,4.9,0.8,Yes,73.3,8.9,Good,6,PhD,Low,8.2,No,3.17,6,8.5,Yes,0,14.4,Library,Yes,High,5,2,10,Auditory,2.2,81
+171426,20,Male,Biology,3.1,4.0,0.9,No,76.7,4.6,Poor,3,Master,Low,8.7,Yes,2.43,7,5.6,No,1,9.3,Library,No,Low,1,4,10,Reading,7.9,60
+154987,27,Other,Engineering,1.3,2.9,0.6,Yes,46.8,7.3,Fair,2,High School,High,4.6,Yes,3.4,6,6.0,No,2,6.1,Cafe,No,Medium,10,4,10,Kinesthetic,9.4,85
+128893,28,Other,Psychology,6.2,2.0,2.9,Yes,82.6,7.6,Fair,0,Bachelor,Low,8.6,Yes,4.0,5,5.1,No,0,11.6,Quiet Room,Yes,Medium,1,5,10,Visual,1.3,100
+158878,27,Male,Arts,6.7,0.2,2.4,Yes,96.1,8.0,Good,6,Some College,Medium,5.9,Yes,3.9,4,7.9,No,2,10.3,Cafe,Yes,High,5,8,7,Auditory,4.2,100
+177236,28,Female,Psychology,4.4,2.3,2.9,No,47.6,7.9,Good,4,Bachelor,High,5.5,Yes,3.0,5,7.1,No,5,11.4,Library,No,High,6,4,10,Visual,5.7,75
+136463,16,Female,Computer Science,3.49045044126943,1.4,0.9,Yes,98.0,4,Good,2,Some College,Low,8.4,Yes,3.59,8,3.0,No,3,6.7,Dorm,Yes,High,8,5,10,Reading,9.7,87
+100851,21,Other,Arts,4.2,0.0,1.3,Yes,45.4,8.4,Good,6,Bachelor,Low,8.1,Yes,2.99,7,6.1,No,3,6.1,Cafe,No,Medium,4,2,10,Kinesthetic,6.9,73
+120926,22,Male,Biology,0.8,4.3,2.6,No,42.5,8.1,Fair,2,High School,Low,4.0,Yes,3.94,1,4.8,No,0,7.9,Co-Learning Group,Yes,Low,6,7,8,Auditory,2.0,100
+155392,22,Female,Biology,2.8,4.1,2.8,Yes,63.8,6.8,Fair,2,Some College,High,6.3,Yes,3.25,4,5.2,No,4,9.8,Cafe,No,Medium,8,3,10,Visual,7.2,82
+144597,20,Other,Engineering,3.3,3.0,1.1,No,58.2,7.5,Good,0,Bachelor,Medium,9.0,Yes,3.09,5,1,No,2,8.3,Library,Yes,Low,6,2,10,Visual,7.2,72
+136421,20,Male,Arts,6.4,4.7,2.7,No,62.8,6.9,Good,7,Bachelor,Low,6.3,No,4.0,8,6.6,No,3,15.5,Cafe,No,Medium,3,10,5,Kinesthetic,4.1,100
+120379,18,Female,Business,4.6,2.5,0.1,Yes,85.8,4.2,Fair,5,Some College,Low,9.2,Yes,3.53,8,6.1,No,5,8.4,Library,Yes,High,2,5,10,Kinesthetic,1.4,86
+128221,20,Other,Business,3.2,3.9,0.1,No,66.5,6.5,Good,6,High School,Medium,3.9,Yes,4.0,2,4.7,No,5,8.8,Quiet Room,Yes,Low,3,1,10,Auditory,7.4,99
+144118,16,Female,Psychology,7.4,3.2,0.4,No,91.0,6.6,Fair,1,Bachelor,Low,4.4,No,4.0,5,7.1,No,3,12.2,Co-Learning Group,No,Medium,7,5,10,Reading,3.4,100
+113396,24,Other,Engineering,4.7,1.3,1.6,No,49.6,8.5,Good,6,Some College,High,6.7,No,3.53,7,4.1,No,1,8.2,Dorm,Yes,Medium,1,3,10,Visual,5.9,90
+112156,19,Male,Business,8.0,0.0,3.3,Yes,78.4,8.1,Poor,6,Bachelor,Low,4.5,Yes,4.0,3,3.9,No,3,11.5,Co-Learning Group,Yes,High,4,10,5,Kinesthetic,2.9,100
+149797,21,Female,Arts,1.5,0.1,0.5,No,99.9,4.2,Fair,6,High School,Medium,4.9,Yes,4.0,8,4.2,No,1,2.3,Co-Learning Group,No,Low,5,8,7,Auditory,1.8,100
+112676,26,Male,Engineering,5.6,4.4,2.4,No,49.2,6.3,Good,6,Bachelor,High,5.4,Yes,4.0,1,2.4,No,5,14.3,Cafe,Yes,High,2,1,10,Reading,6.0,100
+147052,25,Other,Computer Science,7.8237881571329035,1.6,1.4,No,80.7,6.2,Good,6,Master,Medium,9.1,No,3.92,3,2.3,No,0,11.8,Cafe,No,Low,10,1,10,Auditory,5.2,100
+145082,23,Other,Psychology,2.3,1.6,2.6,Yes,84.2,5.5,Fair,5,Some College,High,6.6,Yes,2.83,3,4.2,No,5,7.5,Library,No,High,2,3,10,Reading,7.2,67
+179131,26,Male,Biology,3.4,4.0,2.6,No,96.4,8.3,Poor,1,High School,High,7.9,No,4.0,8,4.7,No,2,10.7,Library,No,Low,10,7,8,Visual,5.9,100
+134671,27,Other,Computer Science,5.361262434789972,2.2,2.4,Yes,56.0,6.3,Fair,7,Bachelor,High,8.0,No,4.0,2,3.7,No,3,10.5,Co-Learning Group,No,Medium,7,4,10,Auditory,3.4,99
+105695,27,Other,Computer Science,5.722474414472796,4.4,0.3,Yes,99.2,4.9,Good,3,Master,Low,4.2,No,4.0,5,4.7,No,3,11.7,Dorm,Yes,Low,2,5,10,Kinesthetic,8.0,100
+160217,22,Female,Business,3.0,2.4,1.8,Yes,47.1,6.4,Good,2,Some College,Medium,6.3,Yes,3.54,5,4.1,No,4,8.5,Library,Yes,High,1,4,10,Reading,3.8,95
+170284,18,Male,Arts,2.0,1.2,1.8,Yes,54.7,7.1,Good,0,High School,Medium,7.5,Yes,3.59,4,5.5,No,2,5.9,Library,No,High,4,9,6,Kinesthetic,6.1,86
+116361,18,Other,Arts,2.1,2.7,1.9,Yes,85.3,7.5,Good,4,Some College,Low,8.5,No,4.0,4,1.8,No,2,7.8,Dorm,Yes,Low,5,4,10,Reading,3.8,100
+149615,23,Other,Biology,4.9,3.8,3.0,No,90.6,6.8,Poor,0,PhD,Low,4.8,Yes,3.89,6,4.8,No,2,11.9,Dorm,No,Medium,1,1,10,Auditory,8.3,95
+110328,27,Female,Arts,4.4,0.6,2.8,Yes,92.9,6.1,Good,2,Some College,Low,8.2,No,3.67,4,9.9,Yes,2,8.1,Dorm,No,High,6,1,10,Auditory,1.5,90
+172357,18,Male,Biology,2.7,1.5,2.6,Yes,47.2,5.9,Good,3,Master,High,5.9,No,3.13,6,6.6,No,3,7.7,Quiet Room,Yes,Medium,6,1,10,Visual,3.0,83
+138427,23,Female,Arts,6.6,4.6,0.8,No,51.6,8.5,Fair,1,Master,Medium,6.0,Yes,3.63,4,6.8,No,1,13.1,Dorm,No,Medium,6,9,6,Visual,5.6,91
+147400,17,Male,Computer Science,2.0617950714192563,2.3,0.6,No,48.8,4.8,Good,4,Bachelor,Low,6.3,No,4.0,2,3.2,No,1,5.5,Cafe,Yes,High,6,4,10,Kinesthetic,3.3,98
+175674,24,Female,Computer Science,6.2309928312921645,2.2,2.0,No,78.6,10.4,Good,1,Master,Low,7.4,Yes,3.41,1,2.7,No,4,10.9,Library,No,Low,9,4,10,Reading,2.2,89
+125203,28,Female,Computer Science,3.87692850951021,1.2,3.2,Yes,71.7,6.2,Good,6,Bachelor,High,6.3,Yes,4.0,3,4.3,No,1,9.1,Quiet Room,No,Medium,8,2,10,Visual,9.0,94
+109116,17,Other,Engineering,4.7,3.5,0.7,Yes,44.3,10.7,Fair,1,PhD,Medium,10,Yes,4.0,2,7.5,No,3,10.3,Co-Learning Group,Yes,Medium,3,10,5,Auditory,4.2,96
+106006,17,Female,Business,6.9,1.2,1.2,No,63.0,7.2,Good,1,High School,Medium,7.6,Yes,4.0,7,6.7,No,5,11.3,Co-Learning Group,Yes,Medium,9,7,8,Kinesthetic,9.3,100
+129871,21,Male,Psychology,2.5,1.8,2.1,No,66.5,4.6,Fair,7,Master,Medium,3.9000000000000004,Yes,3.14,3,7.1,No,2,6.9,Quiet Room,No,High,4,2,10,Auditory,9.2,81
+137930,26,Male,Business,4.1,4.4,0.8,Yes,78.5,9.1,Poor,0,Master,High,6.9,Yes,3.01,5,8.1,Yes,3,10.7,Library,No,High,1,1,10,Visual,1.0,74
+110458,27,Other,Arts,3.4,0.3,2.6,Yes,69.0,7.9,Poor,6,PhD,Low,5.4,No,3.51,7,5.4,No,4,6.7,Library,No,High,4,3,10,Reading,6.8,81
+130512,20,Male,Biology,4.5,0.1,0.3,No,48.8,4.2,Good,0,PhD,Low,2.9,No,4.0,4,6.2,No,5,6.5,Quiet Room,No,High,6,3,10,Reading,2.6,89
+113238,17,Female,Engineering,5.3,1.3,2.6,No,60.7,8.7,Good,0,Master,Low,3.8,Yes,3.22,7,4.2,No,4,9.7,Cafe,No,Medium,5,9,6,Kinesthetic,2.2,81
+149823,22,Female,Biology,1.2,0.2,0.0,Yes,43.0,7.4,Good,0,PhD,Medium,6.4,No,3.97,4,2.7,No,1,2.4,Library,No,Low,2,1,10,Visual,2.0,95
+136434,24,Other,Psychology,4.1,0.1,2.8,Yes,67.9,6.0,Fair,3,PhD,High,5.5,Yes,3.3,2,2.4,No,4,7.3,Library,Yes,High,5,2,10,Kinesthetic,5.8,79
+159429,18,Female,Business,1.8,2.6,3.5,Yes,75.6,7.7,Fair,5,High School,High,10,No,4.0,4,5.1,No,0,9.5,Co-Learning Group,Yes,Low,5,9,6,Reading,9.3,100
+147819,18,Female,Engineering,4.8,2.2,3.9,Yes,50.8,9.6,Fair,5,Some College,Low,10,Yes,4.0,4,4.4,No,1,11.9,Cafe,No,High,8,7,8,Kinesthetic,1.2,100
+121319,25,Other,Computer Science,5.28240736600521,4.7,3.7,Yes,42.7,5.2,Fair,3,Master,Low,6.1,No,3.47,5,4.7,No,4,14.7,Quiet Room,Yes,Low,2,10,5,Visual,2.1,87
+148520,28,Other,Arts,2.0,2.4,3.0,Yes,67.7,6.6,Good,1,Master,Low,6.6,No,4.0,3,4.4,No,2,8.3,Library,No,High,8,10,5,Reading,7.2,100
+146566,24,Male,Computer Science,8.219292783648473,1.7,1.3,No,63.2,6.6,Good,5,PhD,Low,6.3,Yes,3.82,2,4.4,No,5,11.3,Co-Learning Group,Yes,High,10,10,5,Kinesthetic,4.4,96
+127460,16,Other,Engineering,5.3,1.3,1.0,No,88.0,6.9,Fair,3,Bachelor,High,7.3,No,3.51,4,5.6,No,0,8.3,Quiet Room,No,Medium,7,4,10,Auditory,6.1,89
+134993,17,Male,Business,4.8,3.8,2.3,No,95.6,5.9,Poor,0,PhD,Low,5.2,No,2.94,4,4.3,No,4,12.1,Library,No,High,7,3,10,Reading,9.3,84
+109358,27,Male,Engineering,4.2,4.0,3.8,No,90.7,8.1,Fair,3,Master,High,7.2,Yes,3.19,2,4.7,No,1,13.4,Dorm,No,Medium,1,7,8,Reading,5.4,87
+179840,22,Other,Psychology,2.5,3.8,3.6,Yes,60.6,6.7,Good,3,PhD,Medium,4.5,Yes,3.61,6,8.1,No,4,11.8,Quiet Room,Yes,Low,9,7,8,Auditory,8.4,96
+122431,24,Other,Psychology,1.1,1.7,2.2,No,70.2,7.1,Fair,2,PhD,High,6.1,No,3.04,1,3.4,No,4,5.7,Dorm,No,Medium,1,3,10,Visual,9.6,77
+170010,20,Female,Computer Science,3.6062398246883185,3.6,3.6,Yes,61.5,10.3,Good,5,Master,Medium,7.9,No,3.39,6,7.6,No,1,11.0,Cafe,No,Low,9,3,10,Visual,5.9,82
+132087,22,Male,Business,8.0,2.4,2.4,Yes,80.4,6.5,Poor,2,High School,Low,7.0,No,3.62,4,5.2,No,5,13.5,Dorm,Yes,High,5,10,5,Auditory,6.6,89
+121417,22,Female,Psychology,4.5,2.1,3.4,No,53.0,4.8,Fair,4,Some College,Medium,6.4,Yes,4.0,2,6.8,No,3,10.6,Dorm,Yes,Medium,3,2,10,Kinesthetic,5.2,92
+160589,27,Other,Psychology,4.6,0.8,3.2,No,65.4,6.0,Fair,6,Some College,High,5.6,Yes,3.23,7,5.0,No,4,9.1,Quiet Room,Yes,Medium,2,4,10,Kinesthetic,9.0,80
+149735,24,Other,Computer Science,3.585527958556759,1.4,2.1,Yes,66.3,6.9,Fair,4,Bachelor,High,3.9,Yes,4.0,7,6.0,No,4,8.6,Quiet Room,Yes,Medium,10,5,10,Visual,7.2,100
+135382,19,Other,Business,2.0,0.6,1.9,No,74.1,6.5,Good,5,PhD,High,9.4,Yes,3.92,2,6.2,No,0,5.4,Dorm,No,High,7,7,8,Reading,8.2,100
+173000,28,Male,Engineering,6.2,4.3,2.8,Yes,86.1,6.0,Fair,0,Bachelor,Medium,5.0,Yes,3.58,6,8.4,No,3,14.8,Co-Learning Group,No,Low,4,8,7,Visual,2.2,86
+128785,16,Male,Computer Science,5.254721263292028,0.9,1.2,Yes,48.0,4.4,Fair,0,Bachelor,High,8.4,Yes,2.91,4,1.7,No,5,8.4,Library,Yes,High,3,2,10,Auditory,3.1,72
+142504,20,Other,Engineering,3.1,3.2,1.5,No,99.6,9.7,Good,0,Some College,Medium,6.6,No,4.0,1,3.8,No,5,9.6,Co-Learning Group,Yes,Low,2,3,10,Visual,8.8,100
+107331,17,Female,Engineering,3.3,3.6,0.2,No,52.7,6.5,Poor,4,Bachelor,High,8.5,No,2.34,7,6.9,No,5,9.0,Dorm,No,Medium,10,2,10,Kinesthetic,8.0,59
+130021,25,Male,Computer Science,3.0650153660335553,1.2,2.9,Yes,45.5,7.0,Fair,1,Bachelor,High,6.6,Yes,4.0,7,5.1,No,5,8.7,Library,No,Medium,5,5,10,Visual,1.3,100
+104207,18,Male,Business,1.9,0.3,3.2,Yes,82.5,8.0,Good,2,Bachelor,High,7.9,Yes,3.12,1,2.7,No,0,5.8,Library,Yes,High,7,8,7,Visual,3.1,73
+141347,27,Male,Arts,0.2,1.4,0.0,Yes,96.7,5.8,Poor,7,PhD,High,9.6,Yes,4.0,8,6.0,No,1,1.9,Cafe,No,Low,3,9,6,Visual,1.2,100
+152581,26,Other,Biology,2.7,4.1,0.9,No,85.6,9.4,Good,3,PhD,High,10,Yes,3.34,4,7.0,No,3,9.1,Co-Learning Group,Yes,Low,6,10,5,Kinesthetic,1.9,79
+135093,17,Male,Biology,2.9,2.1,0.4,No,74.0,5.8,Good,7,High School,Low,6.2,No,4.0,3,3.7,No,4,6.5,Library,No,High,2,10,5,Visual,5.1,100
+108675,24,Female,Biology,1.7,0.4,0.0,Yes,53.2,10.8,Poor,5,Master,Medium,6.2,No,4.0,2,5.8,No,1,3.7,Library,No,High,7,7,8,Kinesthetic,8.3,99
+127653,20,Other,Psychology,0,2.3,1.9,Yes,75.8,6.9,Good,6,Some College,Medium,6.5,Yes,4.0,6,2.7,No,1,5.6,Quiet Room,Yes,Medium,9,9,6,Visual,8.5,95
+174341,21,Male,Business,4.7,3.5,3.1,Yes,55.0,8.1,Fair,5,Master,Low,10,No,3.55,4,6.2,No,4,12.9,Cafe,No,High,5,9,6,Reading,1.9,96
+141245,25,Male,Business,8.4,2.8,2.2,No,80.9,6.9,Poor,7,PhD,High,6.8,No,4.0,8,1.9,No,5,14.3,Co-Learning Group,No,Low,7,10,5,Kinesthetic,6.0,99
+127869,22,Other,Arts,4.5,1.5,0.7,No,42.7,5.1,Poor,4,Bachelor,Low,7.5,No,2.83,4,6.0,No,0,6.9,Cafe,No,Low,2,6,9,Reading,1.7,65
+165435,25,Male,Psychology,6.5,2.4,2.4,No,93.0,5.1,Good,5,Some College,High,7.0,No,3.29,5,2.6,No,3,11.6,Dorm,Yes,High,4,7,8,Visual,8.4,83
+151856,19,Male,Psychology,6.3,1.8,2.8,No,54.9,7.5,Fair,3,Some College,High,4.6,Yes,3.61,3,4.2,No,2,12.5,Library,Yes,Medium,10,7,8,Reading,7.1,90
+160142,23,Female,Psychology,6.7,4.9,0.6,Yes,62.1,8.1,Good,7,Master,Low,3.5,No,4.0,4,7.9,No,1,13.0,Library,No,High,7,3,10,Kinesthetic,6.3,100
+118726,23,Other,Computer Science,7.0263485616297725,0.5,0.8,No,66.3,8.5,Fair,2,Some College,Medium,6.5,No,4.0,5,3.2,No,4,8.5,Co-Learning Group,Yes,Medium,10,8,7,Visual,6.7,100
+134718,22,Other,Computer Science,2.7490270273095643,1.2,0.9,No,99.9,8.4,Good,6,PhD,High,6.3,Yes,3.39,3,1.3,No,1,5.5,Library,No,Medium,3,10,5,Kinesthetic,1.1,87
+118301,27,Male,Biology,6.1,0.5,3.9,No,71.9,5.7,Good,1,High School,Medium,7.7,Yes,3.94,3,4.0,No,4,11.4,Library,Yes,Low,2,6,9,Auditory,3.0,96
+132325,16,Other,Engineering,5.3,2.1,0.5,No,66.0,6.4,Good,2,Master,Low,6.3,Yes,3.65,6,1,No,0,8.0,Quiet Room,No,High,9,5,10,Kinesthetic,7.2,91
+173579,25,Male,Engineering,3.4,3.8,3.4,Yes,40.3,8.7,Good,3,High School,Medium,10,No,4.0,4,3.9,No,0,11.9,Dorm,Yes,High,3,5,10,Reading,3.3,96
+170644,28,Female,Biology,2.1,2.2,1.9,Yes,66.1,6.5,Poor,0,Master,Low,9.0,Yes,3.62,4,5.7,No,4,6.7,Cafe,No,Low,8,5,10,Auditory,10.0,91
+134438,19,Female,Arts,1.6,3.4,2.0,Yes,70.1,6.2,Good,0,PhD,High,5.5,Yes,4.0,8,5.0,No,5,7.7,Quiet Room,No,High,4,9,6,Auditory,4.3,98
+176622,25,Other,Biology,4.6,2.1,0.9,Yes,99.0,9.2,Fair,2,Some College,Low,8.3,No,2.68,7,5.0,No,1,8.0,Dorm,No,Low,8,2,10,Visual,3.6,60
+156155,26,Female,Engineering,5.8,0.4,3.7,Yes,60.9,9.0,Fair,1,Master,Medium,7.6,Yes,2.78,2,5.9,No,4,10.3,Cafe,No,High,7,2,10,Kinesthetic,4.7,64
+176484,26,Male,Computer Science,7.86874781722474,0.1,2.4,No,80.2,6.0,Fair,3,Master,Medium,5.5,Yes,4.0,8,3.2,No,0,10.6,Library,Yes,Medium,3,8,7,Auditory,3.7,100
+152350,19,Other,Biology,3.6,2.2,2.8,Yes,88.4,6.7,Fair,0,High School,High,6.7,No,4.0,8,5.7,No,1,10.4,Co-Learning Group,Yes,Medium,9,3,10,Auditory,10.0,94
+147447,25,Other,Arts,6.6,2.2,3.9,Yes,87.0,6.8,Good,7,PhD,Medium,5.6,No,2.94,1,8.3,No,1,13.4,Dorm,No,Medium,5,6,9,Kinesthetic,7.2,75
+128746,24,Female,Engineering,1.6,2.2,1.0,Yes,74.9,7.3,Fair,5,Master,Medium,5.0,Yes,4.0,2,5.1,No,4,4.9,Cafe,No,Medium,10,2,10,Visual,2.5,98
+118131,24,Female,Computer Science,3.1542691802071063,1.3,3.9,Yes,67.9,8.8,Good,0,Master,Medium,8.9,No,3.15,4,7.0,No,1,10.0,Cafe,No,Medium,10,9,6,Kinesthetic,2.4,79
+166784,20,Male,Arts,3.2,0.4,3.6,No,83.2,5.2,Fair,7,Bachelor,Medium,6.4,Yes,3.3,1,4.9,No,0,8.4,Quiet Room,Yes,Low,2,8,7,Visual,5.8,83
+164686,18,Male,Arts,5.7,4.0,4.0,No,48.0,11.1,Fair,0,Master,Low,6.4,No,3.44,8,5.8,No,0,13.9,Cafe,Yes,High,1,10,5,Visual,5.1,74
+111915,25,Female,Psychology,4.8,4.9,3.9,No,91.7,8.3,Fair,3,Master,Low,5.0,Yes,3.45,5,6.1,No,1,14.8,Quiet Room,No,Medium,6,10,5,Visual,4.3,89
+106175,22,Other,Psychology,5.4,2.5,3.4,No,77.0,4.8,Good,7,Some College,Medium,7.9,Yes,3.22,1,2.7,No,5,13.1,Library,Yes,Low,4,5,10,Auditory,4.6,92
+114371,24,Female,Business,2.0,1.5,1.0,Yes,91.7,6.4,Fair,3,Some College,High,7.9,Yes,4.0,5,2.9,No,0,6.1,Cafe,Yes,Low,9,5,10,Reading,9.6,100
+120033,16,Other,Engineering,4.9,0.2,3.5,No,85.4,6.2,Fair,5,Bachelor,Low,4.9,Yes,3.73,6,3.5,No,4,8.7,Quiet Room,No,Low,6,2,10,Visual,5.4,99
+120969,22,Male,Engineering,4.6,4.0,3.9,No,54.6,4,Fair,6,High School,Medium,7.6,No,4.0,8,7.7,No,4,14.4,Dorm,No,Medium,9,6,9,Auditory,8.5,100
+155333,26,Other,Psychology,3.7,3.4,2.9,Yes,85.9,7.1,Poor,0,Some College,High,4.8,Yes,4.0,5,5.1,No,0,11.0,Dorm,Yes,Medium,8,7,8,Reading,2.1,96
+178172,23,Female,Business,7.8,2.0,3.1,No,58.7,7.6,Good,2,High School,Medium,6.9,No,4.0,8,8.5,No,4,13.3,Cafe,Yes,Medium,7,7,8,Kinesthetic,1.8,100
+108326,18,Other,Biology,5.6,4.7,0.7,No,81.5,4,Good,6,Master,Low,8.5,No,2.66,1,6.4,No,2,12.9,Dorm,Yes,High,3,5,10,Visual,2.2,63
+150432,28,Female,Computer Science,4.974492186542491,4.8,1.6,Yes,82.3,5.5,Fair,2,High School,Low,8.7,No,3.04,4,4.8,No,3,12.7,Dorm,Yes,Low,5,4,10,Kinesthetic,5.6,76
+150019,24,Female,Engineering,5.5,4.8,2.5,No,59.0,5.9,Good,0,High School,Medium,7.1,Yes,3.11,7,8.0,No,1,14.4,Library,Yes,Medium,9,4,10,Auditory,1.3,74
+178104,22,Male,Psychology,7.6,1.0,2.6,Yes,92.3,7.3,Fair,3,High School,Medium,10,No,4.0,7,7.1,No,4,12.7,Cafe,Yes,Low,1,9,6,Auditory,7.5,100
+161348,22,Female,Engineering,5.2,1.9,1.8,Yes,85.9,5.3,Good,5,Master,Low,4.6,Yes,2.89,5,8.0,No,2,10.9,Co-Learning Group,No,High,9,4,10,Reading,4.5,80
+169352,21,Male,Arts,7.6,2.8,2.5,No,51.9,9.4,Good,1,PhD,Medium,7.5,Yes,4.0,6,6.4,No,5,14.2,Cafe,Yes,High,1,8,7,Reading,9.9,100
+132953,22,Female,Engineering,4.2,0.5,0.2,Yes,81.5,5.3,Good,7,High School,High,9.9,Yes,4.0,8,3.3,No,0,5.3,Library,Yes,Medium,2,4,10,Reading,8.5,100
+172512,24,Other,Biology,5.6,0.6,2.1,Yes,73.1,9.2,Fair,5,Master,High,8.6,No,4.0,5,1,No,2,8.3,Cafe,No,Low,6,8,7,Visual,8.3,100
+101504,28,Female,Arts,1.9,3.8,1.7,Yes,96.3,7.9,Good,4,Bachelor,Medium,5.6,Yes,3.5,4,2.0,No,2,9.1,Cafe,No,Medium,7,4,10,Reading,4.0,94
+115014,20,Male,Business,4.8,2.2,2.0,Yes,82.7,9.9,Fair,4,Some College,Low,10,No,4.0,7,5.2,No,5,9.6,Cafe,Yes,Medium,8,9,6,Kinesthetic,7.8,100
+170381,21,Other,Arts,6.0,3.3,3.7,Yes,74.2,8.8,Good,2,Master,High,8.9,Yes,2.94,6,6.1,No,1,14.7,Library,No,High,6,5,10,Reading,6.9,77
+134973,27,Female,Arts,3.3,4.9,0.3,No,43.3,9.2,Good,5,Some College,Medium,6.8,Yes,4.0,4,3.2,No,1,9.1,Quiet Room,No,High,9,4,10,Reading,1.5,100
+144587,18,Female,Engineering,4.4,1.4,1.7,Yes,60.3,5.8,Good,2,High School,Medium,6.0,No,3.03,6,2.2,No,5,9.5,Cafe,Yes,Low,8,4,10,Auditory,2.2,87
+114621,26,Other,Business,6.4,1.7,1.3,No,73.8,7.3,Good,4,High School,Low,8.8,No,4.0,6,5.7,No,3,9.4,Quiet Room,Yes,High,3,8,7,Auditory,5.8,100
+138469,26,Male,Biology,2.8,3.0,0.5,No,64.3,8.1,Good,5,PhD,Low,6.4,Yes,4.0,8,2.5,No,5,8.1,Co-Learning Group,No,Medium,3,6,9,Kinesthetic,8.8,96
+156985,22,Female,Engineering,5.7,0.0,3.0,Yes,49.3,8.1,Fair,4,Bachelor,Medium,6.2,Yes,3.88,4,3.4,No,4,9.6,Cafe,Yes,Medium,5,9,6,Visual,9.6,96
+120730,20,Male,Psychology,3.0,1.6,3.3,No,54.2,7.5,Poor,2,Bachelor,Medium,7.2,No,3.92,8,6.4,No,2,8.1,Library,No,Low,8,3,10,Auditory,4.2,93
+159470,20,Female,Psychology,4.5,0.3,3.3,No,40.9,7.1,Good,5,High School,High,5.4,No,3.38,8,3.4,No,3,9.0,Quiet Room,No,Medium,4,9,6,Kinesthetic,1.0,92
+100425,19,Male,Computer Science,6.701430679312905,3.0,0.9,No,78.6,5.3,Good,0,High School,Medium,9.6,Yes,4.0,8,1.6,No,4,10.6,Cafe,No,Medium,5,3,10,Visual,8.6,100
+134522,28,Female,Arts,3.0,5.0,1.2,No,44.8,7.4,Poor,2,Some College,Low,4.3,Yes,2.94,4,10,Yes,4,11.1,Library,Yes,Low,10,1,10,Auditory,9.5,71
+165612,21,Male,Computer Science,7.707070180094553,3.9,2.1,Yes,45.7,4,Poor,4,Bachelor,High,4.9,Yes,3.74,7,2.1,No,3,15.2,Library,No,High,10,8,7,Auditory,3.1,95
+123416,19,Female,Computer Science,2.967555366897103,0.2,0.7,No,87.2,8.0,Fair,5,PhD,Low,5.2,Yes,3.5,7,4.5,No,1,4.9,Cafe,Yes,High,4,8,7,Reading,4.3,87
+166542,20,Female,Business,5.2,1.2,0.9,Yes,49.4,6.7,Poor,1,Bachelor,Low,6.9,No,3.95,3,1.3,No,0,7.6,Cafe,Yes,Low,9,6,9,Auditory,7.8,96
+113947,18,Female,Arts,5.2,4.4,1.7,Yes,44.5,6.1,Poor,4,High School,Medium,6.9,No,4.0,4,8.7,No,4,12.3,Cafe,No,Medium,5,10,5,Reading,1.9,95
+139117,27,Other,Psychology,3.1,4.6,4.0,No,42.1,4.9,Good,2,PhD,Medium,10,Yes,3.87,5,3.3,No,4,12.0,Library,No,Medium,9,5,10,Auditory,1.6,98
+166540,18,Male,Computer Science,3.840401145713967,4.4,2.0,No,53.1,8.9,Good,4,High School,Low,8.3,No,4.0,1,7.6,No,4,12.0,Dorm,No,Low,3,7,8,Visual,1.5,100
+179818,28,Female,Business,0,2.1,1.3,Yes,57.0,5.5,Fair,1,Master,Medium,8.2,Yes,3.96,8,6.7,No,4,3.9,Cafe,No,Low,5,6,9,Visual,8.1,93
+126071,25,Male,Business,5.9,2.5,0.0,No,54.2,8.0,Good,2,High School,Medium,7.0,Yes,3.27,5,5.2,No,1,10.1,Co-Learning Group,No,Medium,6,5,10,Kinesthetic,4.3,81
+120032,16,Female,Biology,6.6,4.1,2.6,No,56.7,6.3,Poor,6,PhD,High,7.2,Yes,3.4,2,3.4,No,2,13.5,Dorm,No,Low,5,3,10,Visual,1.4,89
+149009,18,Other,Engineering,1.5,1.8,3.0,No,72.8,10.1,Fair,1,Bachelor,Medium,6.8,No,2.96,1,5.2,No,1,8.3,Quiet Room,No,High,8,2,10,Kinesthetic,6.4,76
+121174,28,Female,Computer Science,4.9451642126979465,4.5,3.1,No,59.6,8.3,Good,2,PhD,Medium,10,Yes,4.0,5,6.0,No,1,12.9,Dorm,No,Medium,2,7,8,Reading,5.6,94
+170697,23,Male,Computer Science,6.440711155029296,1.3,1.0,No,62.1,5.2,Fair,7,PhD,High,6.2,Yes,3.28,1,8.1,No,5,10.7,Library,No,High,9,10,5,Reading,4.4,83
+169514,22,Male,Arts,3.1,1.9,1.1,Yes,61.9,6.6,Fair,7,Some College,Low,5.7,Yes,4.0,8,8.8,Yes,1,7.2,Library,Yes,High,5,1,10,Visual,2.2,100
+100074,21,Male,Engineering,5.4,1.9,2.5,No,88.8,5.9,Good,2,Bachelor,Low,3.5,No,4.0,2,4.5,No,3,10.3,Cafe,Yes,Low,3,8,7,Kinesthetic,10.0,100
+178504,17,Female,Business,3.2,4.9,3.3,No,46.6,6.9,Good,5,Some College,Low,7.6,No,4.0,5,10,No,1,13.2,Quiet Room,No,High,3,5,10,Auditory,1.4,94
+142487,24,Other,Biology,4.7,3.2,1.5,Yes,99.9,5.2,Fair,2,Bachelor,Low,9.5,Yes,4.0,2,5.8,No,5,10.7,Dorm,No,Medium,3,9,6,Kinesthetic,7.9,90
+164042,25,Male,Arts,8.7,4.2,0.6,Yes,74.3,7.7,Fair,3,Bachelor,High,4.9,Yes,3.77,7,4.1,No,1,13.7,Cafe,No,Low,8,5,10,Kinesthetic,2.6,97
+102552,22,Female,Business,7.8,1.0,0.9,No,83.7,7.1,Fair,3,High School,Low,6.2,No,3.26,3,8.1,Yes,5,9.7,Library,No,Medium,7,3,10,Reading,3.1,80
+114662,23,Male,Psychology,4.3,3.7,0.6,No,71.0,6.9,Good,3,Some College,High,6.7,Yes,3.25,5,3.7,No,3,9.2,Library,No,Medium,10,1,10,Visual,3.5,77
+147576,24,Other,Engineering,3.6,3.5,0.7,Yes,70.3,6.7,Poor,6,Some College,Medium,7.4,No,4.0,4,4.8,No,5,9.1,Dorm,Yes,Medium,10,5,10,Auditory,1.3,96
+140306,17,Other,Arts,6.8,3.9,1.1,No,57.3,9.0,Fair,2,Some College,Medium,4.3,Yes,4.0,8,3.1,No,4,12.8,Quiet Room,Yes,Medium,8,7,8,Auditory,2.3,100
+131385,18,Other,Business,5.6,2.2,1.6,No,88.0,7.1,Good,1,PhD,Medium,9.4,No,4.0,3,6.4,No,0,10.6,Library,No,Low,7,10,5,Visual,6.1,100
+107592,27,Female,Computer Science,5.895761509274378,1.7,1.3,No,46.4,8.6,Fair,7,Bachelor,Low,7.3,Yes,4.0,6,4.9,No,0,10.4,Library,Yes,Low,6,2,10,Auditory,1.6,100
+131571,27,Other,Psychology,6.4,2.7,1.4,Yes,72.0,8.5,Good,2,Master,High,7.7,Yes,4.0,4,2.6,No,2,11.3,Cafe,Yes,Medium,9,6,9,Reading,6.7,100
+174364,25,Female,Psychology,0.2,4.2,0.2,Yes,51.2,7.2,Good,5,Some College,High,6.4,Yes,4.0,1,3.2,No,4,5.8,Library,Yes,Medium,4,5,10,Kinesthetic,4.2,100
+110322,16,Female,Psychology,4.6,1.1,3.5,Yes,90.0,7.2,Good,2,High School,Medium,10,No,3.67,3,2.8,No,1,10.6,Library,Yes,Low,2,4,10,Visual,7.7,89
+111226,27,Male,Business,2.1,0.7,1.6,No,43.3,8.9,Fair,5,High School,Medium,6.4,No,3.4,7,5.0,No,0,4.6,Co-Learning Group,Yes,High,1,2,10,Reading,1.7,85
+163699,19,Other,Business,4.8,0.7,3.4,No,51.6,6.1,Good,7,High School,Low,6.0,No,4.0,1,4.2,No,5,9.5,Cafe,No,Medium,7,1,10,Kinesthetic,8.8,99
+109071,23,Other,Biology,5.9,3.7,1.7,No,40.1,7.6,Poor,0,Some College,Medium,10,No,3.11,3,4.3,No,4,11.9,Dorm,No,Medium,1,1,10,Kinesthetic,6.7,81
+169822,22,Female,Biology,4.8,2.0,2.0,No,76.4,7.5,Good,0,Some College,High,8.1,No,3.14,3,6.2,No,1,9.8,Dorm,Yes,Medium,5,3,10,Kinesthetic,4.8,79
+116483,25,Female,Biology,2.6,2.9,2.3,Yes,93.5,8.2,Fair,6,Master,High,5.8,No,3.34,3,5.1,No,1,9.0,Co-Learning Group,Yes,Low,2,9,6,Kinesthetic,9.9,88
+116828,24,Male,Psychology,4.2,3.7,1.8,No,76.5,7.2,Good,0,Bachelor,Low,4.2,No,2.24,6,6.9,No,0,11.7,Dorm,No,Medium,6,5,10,Reading,4.5,61
+162296,27,Male,Biology,6.0,4.5,1.8,Yes,91.2,4.9,Good,4,Some College,Medium,6.5,Yes,2.61,5,6.5,No,5,13.3,Cafe,No,High,3,4,10,Auditory,5.9,60
+172063,23,Male,Arts,2.1,3.9,2.3,Yes,83.3,4,Fair,0,Master,High,4.4,No,4.0,4,3.1,No,0,8.6,Library,Yes,Low,8,5,10,Kinesthetic,2.9,100
+121643,18,Female,Engineering,5.2,4.1,3.0,No,89.6,6.8,Good,4,High School,Low,6.1,Yes,4.0,8,2.5,No,4,13.4,Quiet Room,No,Medium,5,4,10,Reading,4.6,99
+134741,27,Other,Computer Science,4.571171806202559,1.7,1.8,No,88.4,6.7,Good,2,High School,High,4.6,No,4.0,1,5.6,No,2,8.7,Library,No,High,4,7,8,Visual,5.6,100
+169163,26,Male,Biology,4.7,2.4,3.8,Yes,55.5,9.1,Fair,1,Some College,High,7.2,Yes,4.0,2,2.9,No,1,11.3,Library,No,Medium,9,8,7,Auditory,6.8,97
+179507,18,Male,Computer Science,5.787913337002094,3.7,2.0,Yes,60.2,8.5,Fair,5,Some College,Medium,6.1,Yes,3.59,3,4.6,No,2,12.9,Library,No,Medium,7,1,10,Reading,1.9,87
+155461,20,Female,Psychology,8.1,0.7,0.3,Yes,57.9,9.4,Good,3,Bachelor,High,5.4,Yes,3.89,1,4.4,No,5,10.9,Dorm,No,Medium,8,8,7,Reading,8.3,100
+127760,18,Male,Biology,2.1,0.6,3.4,No,67.9,9.1,Fair,0,Bachelor,Medium,7.6,Yes,2.77,4,2.1,No,5,8.0,Library,No,High,4,1,10,Reading,9.6,69
+170686,25,Other,Computer Science,7.5414128470540955,2.0,2.7,No,66.9,6.0,Good,6,Master,Medium,4.5,Yes,4.0,2,4.2,No,0,13.4,Cafe,Yes,Medium,8,3,10,Auditory,8.4,94
+126365,23,Male,Biology,4.0,2.9,1.3,Yes,99.1,8.1,Good,4,Bachelor,High,3.0,Yes,3.43,6,1.8,No,0,8.9,Dorm,No,Medium,6,7,8,Kinesthetic,8.7,81
+140857,23,Male,Business,7.1,4.4,3.3,No,61.8,4,Fair,3,PhD,Medium,3.6,No,4.0,8,3.9,No,1,15.9,Co-Learning Group,No,Low,8,9,6,Reading,8.0,88
+152296,20,Male,Arts,2.1,1.5,3.8,Yes,60.2,6.0,Good,5,Master,Medium,6.7,No,3.56,4,6.4,No,4,8.6,Dorm,Yes,Low,6,5,10,Visual,3.8,78
+148944,17,Male,Business,6.6,0.5,3.8,No,62.3,7.2,Poor,1,Bachelor,Medium,5.7,Yes,3.54,3,4.8,No,2,11.4,Library,Yes,Low,5,6,9,Visual,4.7,85
+157422,24,Female,Engineering,3.4,0.5,3.9,Yes,85.5,9.1,Good,2,Bachelor,High,6.9,No,4.0,4,5.3,No,2,9.8,Library,Yes,Low,8,9,6,Auditory,5.6,91
+167839,16,Female,Engineering,7.6,4.8,2.6,Yes,75.5,4.3,Good,5,PhD,Medium,7.1,Yes,3.44,3,3.7,No,1,16.8,Dorm,No,Medium,3,6,9,Kinesthetic,2.2,89
+159177,21,Female,Computer Science,0.9757058311188196,1.2,1.3,No,71.2,6.6,Poor,7,Master,High,4.5,No,3.7,6,2.4,No,1,5.2,Quiet Room,Yes,Low,2,4,10,Visual,7.9,96
+115860,23,Female,Arts,8.5,2.0,3.4,No,84.1,7.5,Fair,1,High School,High,4.7,No,3.46,3,3.7,No,2,14.7,Dorm,Yes,Medium,2,3,10,Auditory,1.9,83
+132493,16,Male,Biology,3.5,4.2,1.0,Yes,77.3,7.3,Good,7,PhD,Low,6.6,No,3.84,1,3.1,No,0,9.2,Dorm,No,High,1,7,8,Kinesthetic,3.2,94
+129451,26,Male,Arts,6.8,0.1,3.9,Yes,81.3,8.1,Poor,1,PhD,Medium,6.0,Yes,4.0,3,5.0,No,3,11.6,Library,No,High,1,8,7,Visual,1.0,100
+108392,16,Female,Computer Science,5.407484228052184,3.3,1.1,Yes,57.5,4,Fair,6,PhD,High,5.3,Yes,3.4,3,7.2,No,5,11.7,Quiet Room,Yes,Medium,1,1,10,Kinesthetic,8.9,84
+144313,25,Other,Computer Science,2.220497091603224,4.7,3.0,No,97.9,5.8,Good,4,High School,High,5.9,Yes,3.33,2,1,No,3,10.0,Library,No,Medium,4,10,5,Auditory,3.8,84
+102757,26,Female,Psychology,4.1,3.0,1.3,Yes,56.9,8.6,Poor,6,PhD,Low,9.8,No,4.0,1,9.0,Yes,5,10.1,Quiet Room,Yes,Medium,6,1,10,Auditory,2.5,98
+177110,19,Female,Psychology,1.7,2.5,0.7,Yes,64.6,5.3,Good,0,Master,High,10,No,2.67,6,5.0,No,5,6.4,Quiet Room,Yes,Low,5,2,10,Reading,3.3,73
+172603,25,Other,Arts,3.3,4.5,3.2,No,96.7,9.5,Fair,3,Master,Medium,9.4,No,2.61,5,3.8,No,4,11.6,Dorm,No,High,9,3,10,Reading,8.5,61
+130161,26,Other,Arts,9.5,4.2,3.9,Yes,95.5,7.1,Fair,4,Some College,High,8.8,Yes,4.0,1,6.1,No,1,17.9,Library,No,High,6,1,10,Auditory,2.0,95
+177128,18,Female,Business,2.7,3.8,2.5,Yes,97.7,8.8,Fair,7,Some College,High,7.699999999999999,No,4.0,8,7.4,No,3,10.7,Dorm,Yes,High,1,6,9,Auditory,6.9,90
+128864,26,Male,Arts,1.5,4.0,0.6,Yes,71.2,5.3,Fair,4,High School,Medium,3.6,Yes,4.0,8,4.8,No,2,7.2,Dorm,Yes,Low,1,4,10,Auditory,7.6,100
+100942,25,Male,Psychology,4.9,0.8,2.5,Yes,42.0,6.7,Good,2,Master,High,7.8,Yes,4.0,5,5.9,No,2,9.3,Library,Yes,High,6,7,8,Reading,3.7,95
+109305,26,Female,Computer Science,6.149449980192862,0.7,2.8,No,62.7,10.8,Fair,1,High School,Low,6.4,Yes,3.88,7,6.4,No,0,10.2,Cafe,No,High,1,3,10,Reading,5.3,100
+107716,21,Other,Biology,6.1,0.7,2.7,Yes,77.9,5.5,Good,0,PhD,Medium,8.7,Yes,4.0,3,6.7,No,3,10.3,Library,Yes,High,2,9,6,Visual,5.0,96
+130007,18,Other,Arts,3.0,1.4,3.4,No,68.8,6.9,Good,6,PhD,Low,2.6,No,3.56,5,6.4,No,3,8.0,Dorm,Yes,High,4,3,10,Visual,8.6,90
+108834,25,Other,Psychology,7.3,3.1,1.8,No,60.7,5.3,Good,5,Some College,Low,7.4,No,4.0,8,1.7,No,2,12.7,Library,Yes,Low,2,8,7,Kinesthetic,9.3,99
+104117,28,Male,Computer Science,4.171595845366828,3.5,0.9,Yes,83.6,8.1,Good,0,Bachelor,Low,8.9,Yes,3.93,5,2.8,No,2,10.5,Library,No,Medium,5,2,10,Visual,5.5,90
+143309,17,Other,Computer Science,2.659833135437243,1.1,3.2,No,65.2,8.7,Fair,3,Some College,High,6.0,No,2.35,8,8.3,Yes,5,7.6,Co-Learning Group,No,Low,1,2,10,Visual,5.2,59
+109287,24,Male,Business,3.4,0.6,2.2,Yes,74.9,5.4,Good,2,Master,High,10,Yes,4.0,7,4.8,No,0,7.1,Quiet Room,Yes,Low,5,5,10,Reading,7.6,100
+167391,28,Other,Arts,5.1,2.8,2.8,Yes,96.2,7.2,Good,0,Master,Medium,7.4,Yes,4.0,2,3.7,No,0,12.5,Cafe,Yes,Low,1,5,10,Visual,9.6,99
+131195,18,Female,Biology,3.0,0.9,1.5,No,77.1,8.3,Poor,5,Master,High,7.1,No,3.1,3,4.7,No,5,6.6,Cafe,Yes,High,10,6,9,Auditory,5.2,79
+136500,18,Male,Biology,1.3,1.4,3.0,No,61.1,8.3,Fair,7,Master,Low,5.7,Yes,4.0,4,5.6,No,0,7.5,Co-Learning Group,No,High,7,9,6,Kinesthetic,8.6,100
+163624,19,Other,Biology,6.0,4.2,2.0,Yes,49.7,7.1,Fair,3,PhD,Medium,10,Yes,3.98,1,1,No,3,12.7,Co-Learning Group,Yes,High,7,9,6,Auditory,4.7,100
+128080,27,Other,Engineering,4.6,0.1,0.7,Yes,71.3,4.9,Good,0,PhD,High,3.4,Yes,4.0,2,2.8,No,4,7.2,Quiet Room,Yes,High,3,10,5,Reading,2.4,96
+170678,28,Other,Computer Science,3.588606659334868,1.7,0.5,Yes,94.2,7.9,Good,7,Bachelor,Medium,4.0,No,3.45,2,3.6,No,1,7.4,Dorm,No,High,6,8,7,Reading,4.3,92
+117342,17,Female,Psychology,4.0,2.9,3.3,Yes,48.5,7.8,Good,6,Master,High,6.5,No,3.68,7,6.7,No,4,11.6,Dorm,Yes,Low,1,9,6,Reading,5.1,90
+174847,25,Other,Engineering,3.5,4.8,0.5,Yes,43.0,8.5,Good,7,High School,Low,5.3,No,3.03,4,4.4,No,4,10.5,Quiet Room,No,High,7,1,10,Kinesthetic,5.5,64
+175525,18,Female,Psychology,4.6,4.4,3.2,No,66.0,8.6,Poor,2,Some College,Low,8.0,Yes,3.91,6,4.7,No,5,12.5,Dorm,Yes,Medium,1,2,10,Auditory,1.4,94
+161953,17,Male,Arts,6.0,0.6,2.5,Yes,64.2,8.0,Good,7,Master,Low,6.1,No,4.0,2,4.9,No,0,10.3,Co-Learning Group,No,Low,6,6,9,Auditory,6.1,96
+131850,20,Other,Business,2.5,4.3,2.5,No,44.2,8.0,Good,4,High School,Medium,6.4,Yes,4.0,2,2.0,No,0,9.6,Cafe,Yes,Medium,6,6,9,Auditory,1.6,100
+161993,21,Other,Business,1.7,0.3,3.6,No,51.1,5.7,Good,6,PhD,Low,8.6,Yes,3.25,4,6.8,No,1,7.0,Co-Learning Group,Yes,Low,4,7,8,Kinesthetic,3.9,79
+153354,26,Female,Business,4.2,3.8,3.8,Yes,93.0,6.6,Fair,2,Master,High,7.2,No,4.0,1,4.5,No,5,12.2,Co-Learning Group,No,Low,8,5,10,Kinesthetic,3.5,98
+124957,28,Female,Psychology,6.8,4.3,1.8,Yes,64.7,9.1,Poor,6,High School,Medium,3.0,Yes,3.17,8,5.0,No,4,14.3,Library,No,Low,5,5,10,Reading,7.6,82
+112363,24,Other,Arts,4.5,2.1,2.1,No,47.8,9.5,Fair,2,PhD,High,4.0,Yes,4.0,8,2.7,No,0,8.8,Cafe,No,Medium,4,9,6,Visual,2.5,97
+112704,19,Other,Engineering,1.7,0.8,0.6,Yes,49.3,4.1,Poor,4,Bachelor,High,9.0,Yes,2.83,6,4.7,No,5,5.0,Library,Yes,High,2,7,8,Auditory,5.9,68
+156498,27,Male,Arts,0.7,0.8,0.2,No,65.3,5.3,Poor,0,Master,Medium,5.1,Yes,4.0,3,6.1,No,2,2.7,Quiet Room,No,Medium,8,9,6,Auditory,9.2,100
+146438,25,Female,Psychology,4.5,2.2,0.3,No,86.7,9.4,Good,2,Master,High,3.4000000000000004,No,2.89,2,7.4,No,4,7.7,Dorm,Yes,Low,5,6,9,Visual,9.0,67
+155519,28,Other,Arts,4.0,0.6,2.8,No,42.4,8.7,Good,4,Some College,Low,9.0,Yes,3.73,4,5.2,No,2,8.3,Co-Learning Group,No,High,3,8,7,Visual,6.4,98
+153883,21,Female,Business,0.6,1.9,2.9,Yes,72.6,5.5,Good,3,Some College,High,7.3,No,3.17,6,5.0,No,3,6.7,Co-Learning Group,No,Low,5,1,10,Visual,4.5,83
+161213,28,Male,Business,0.1,3.3,2.0,No,71.6,8.0,Fair,5,PhD,Medium,6.8,No,3.54,8,10,No,4,6.6,Cafe,No,High,5,6,9,Reading,6.7,98
+107100,18,Female,Arts,8.6,0.6,2.0,Yes,69.2,6.5,Fair,1,High School,High,3.1,Yes,3.48,4,5.9,No,5,12.9,Dorm,Yes,Low,7,6,9,Auditory,4.6,93
+112899,26,Male,Psychology,5.9,1.0,3.8,Yes,69.6,7.2,Good,5,Master,Low,8.9,Yes,3.87,5,4.6,No,1,10.9,Cafe,No,Medium,5,2,10,Kinesthetic,7.3,92
+107944,27,Other,Computer Science,4.803866419787477,3.6,2.9,No,99.5,6.0,Fair,6,PhD,Medium,10,Yes,4.0,3,4.3,No,1,11.7,Library,Yes,Low,4,3,10,Visual,4.9,98
+152772,19,Male,Business,6.6,0.9,1.4,No,97.4,6.9,Good,3,Some College,Low,4.6,No,3.16,4,8.2,No,1,10.2,Cafe,No,High,3,10,5,Visual,2.8,71
+144473,16,Female,Psychology,1.7,3.2,2.1,No,71.7,6.7,Good,0,Bachelor,High,7.6,Yes,3.08,7,6.5,No,2,7.8,Cafe,No,High,8,3,10,Visual,9.2,77
+114322,28,Male,Business,3.6,1.1,1.4,No,99.7,6.7,Good,6,Some College,Low,4.5,Yes,3.97,7,7.5,No,2,7.4,Quiet Room,No,Low,2,4,10,Kinesthetic,8.3,100
+132591,20,Male,Biology,4.9,0.8,1.0,Yes,44.1,6.9,Good,0,Bachelor,High,5.9,Yes,3.19,2,3.3,No,1,7.0,Dorm,Yes,Medium,3,5,10,Reading,1.6,80
+125112,28,Female,Computer Science,3.955048479073938,4.6,2.7,Yes,59.9,8.6,Fair,6,Master,High,8.5,No,4.0,4,6.3,No,1,11.8,Quiet Room,Yes,Low,1,10,5,Auditory,5.1,97
+124931,26,Male,Engineering,4.1,4.6,3.2,Yes,94.6,5.0,Good,3,Some College,Low,7.3,No,3.04,5,4.7,No,3,13.1,Quiet Room,Yes,High,3,2,10,Reading,4.3,72
+170292,21,Other,Arts,5.6,3.7,1.3,No,97.5,7.1,Good,1,Some College,High,8.1,No,3.95,2,6.3,No,5,11.5,Dorm,No,Medium,5,3,10,Visual,8.6,100
+158800,22,Male,Arts,3.2,1.7,2.6,No,64.2,6.7,Good,1,Some College,Medium,4.8,No,2.51,2,5.6,No,2,7.9,Dorm,No,Low,8,1,10,Kinesthetic,6.3,59
+118373,19,Other,Biology,1.7,4.8,3.0,Yes,94.2,5.3,Poor,3,Master,High,5.5,No,3.63,8,3.6,No,1,10.8,Quiet Room,Yes,High,2,10,5,Visual,7.8,93
+155296,21,Female,Psychology,1.9,4.6,2.8,Yes,96.2,9.4,Good,7,Master,High,4.6,Yes,4.0,6,7.7,No,0,11.2,Library,No,Low,2,4,10,Kinesthetic,3.6,100
+124050,26,Other,Biology,5.1,4.5,3.7,No,72.7,7.6,Fair,4,High School,Low,9.9,No,4.0,2,7.4,No,4,13.6,Dorm,No,High,1,8,7,Auditory,8.4,100
+136509,21,Other,Arts,2.6,3.2,2.5,Yes,40.2,11.0,Fair,1,Some College,Medium,5.4,Yes,3.92,3,2.4,No,4,10.2,Library,Yes,Low,1,1,10,Kinesthetic,8.0,95
+160637,19,Other,Computer Science,5.141844257542533,1.2,2.9,Yes,94.7,7.3,Good,0,Master,High,7.1,No,3.81,4,7.0,No,5,9.9,Quiet Room,Yes,High,7,5,10,Reading,6.1,90
+132742,27,Male,Biology,4.7,5.0,0.4,Yes,82.0,7.0,Fair,6,Bachelor,Medium,3.1,Yes,4.0,3,3.4,No,3,10.4,Quiet Room,No,High,9,5,10,Auditory,8.0,99
+109880,22,Other,Business,1.4,0.3,3.7,Yes,97.6,4.6,Good,1,Master,Medium,6.9,Yes,3.59,6,5.8,No,0,5.8,Dorm,Yes,Low,1,2,10,Reading,5.9,91
+158082,23,Other,Computer Science,4.613773366879703,0.7,1.6,Yes,75.0,8.5,Good,0,High School,Low,8.3,Yes,4.0,2,6.2,No,3,7.9,Dorm,Yes,High,9,10,5,Auditory,5.2,99
+172132,21,Female,Biology,3.9,4.1,2.1,No,60.6,4.8,Poor,0,PhD,High,8.5,No,4.0,6,3.8,No,5,11.7,Co-Learning Group,No,Medium,9,8,7,Auditory,6.9,92
+112833,24,Other,Arts,1.1,2.0,2.0,Yes,84.2,6.1,Good,2,High School,High,9.8,Yes,3.54,1,5.8,No,1,7.1,Library,No,Low,3,2,10,Auditory,5.0,91
+106630,28,Female,Business,2.5,4.5,0.3,No,61.5,6.5,Good,1,PhD,Low,5.0,Yes,3.73,8,7.1,No,0,8.5,Dorm,No,Low,4,10,5,Auditory,8.0,95
+170855,28,Female,Computer Science,1.745414638900995,1.2,3.9,No,63.8,8.7,Good,4,Master,High,5.5,Yes,2.51,2,7.5,No,4,8.6,Dorm,Yes,Low,7,7,8,Kinesthetic,8.7,64
+101934,19,Male,Biology,4.4,4.6,1.2,Yes,50.2,6.9,Fair,2,Some College,High,4.6,No,2.99,7,5.3,No,4,10.5,Quiet Room,Yes,Low,3,1,10,Auditory,1.1,68
+112224,16,Male,Computer Science,3.9042478404660326,3.2,1.1,No,66.3,8.0,Good,7,Master,Medium,4.5,No,4.0,4,8.8,No,5,10.0,Quiet Room,No,Medium,10,10,5,Auditory,6.6,100
+130982,20,Male,Arts,3.3,1.0,2.8,No,83.2,9.0,Fair,1,Bachelor,Medium,6.4,No,4.0,7,3.4,No,5,8.1,Co-Learning Group,No,Medium,6,10,5,Visual,3.6,100
+121798,16,Other,Psychology,5.7,1.6,2.2,Yes,87.4,5.9,Fair,2,High School,Low,6.0,Yes,4.0,6,6.6,No,3,9.6,Dorm,Yes,High,5,2,10,Kinesthetic,5.9,100
+153269,23,Other,Business,0,4.8,2.0,No,71.1,4,Good,3,Bachelor,High,7.8,Yes,3.4,2,5.1,No,4,8.5,Library,Yes,High,6,2,10,Visual,6.9,89
+163653,28,Female,Computer Science,2.241077278379497,4.8,1.8,No,86.5,5.9,Good,7,Bachelor,Medium,8.5,No,4.0,5,6.4,No,1,9.1,Quiet Room,No,Low,1,10,5,Visual,9.3,98
+163092,19,Other,Psychology,5.6,0.4,2.2,Yes,72.7,8.5,Fair,4,Some College,Low,8.7,No,4.0,4,3.4,No,2,9.2,Co-Learning Group,No,High,2,9,6,Kinesthetic,7.2,100
+128016,21,Male,Engineering,3.6,3.4,2.4,No,62.2,9.9,Good,4,Master,Low,3.0,No,3.61,6,5.5,No,5,9.7,Quiet Room,Yes,Low,9,7,8,Kinesthetic,5.3,96
+152565,20,Other,Engineering,1.0,1.2,2.6,No,62.4,7.7,Fair,7,PhD,High,8.7,No,3.62,5,3.1,No,0,6.4,Co-Learning Group,Yes,Medium,7,3,10,Visual,9.0,84
+107685,27,Male,Biology,6.6,2.3,0.2,Yes,85.1,5.4,Poor,1,Bachelor,Low,4.3,Yes,3.48,8,4.3,No,5,9.4,Cafe,No,High,4,1,10,Visual,2.9,87
+121579,16,Female,Arts,5.4,2.9,2.3,Yes,83.2,5.0,Good,2,Master,Medium,7.9,No,4.0,1,7.2,No,1,11.3,Quiet Room,Yes,High,5,7,8,Visual,7.2,100
+149672,18,Other,Psychology,1.4,1.7,0.9,Yes,68.5,8.5,Fair,5,High School,Low,4.7,Yes,2.76,7,1.8,No,3,4.3,Cafe,Yes,Low,10,2,10,Visual,5.9,70
+100282,16,Other,Business,6.2,0.1,1.3,No,74.4,5.7,Good,5,High School,Medium,7.0,No,3.92,1,4.0,No,2,8.7,Dorm,No,High,4,6,9,Auditory,5.5,99
+151173,27,Other,Biology,6.7,2.3,3.0,No,67.8,7.7,Fair,3,Bachelor,High,8.5,Yes,4.0,5,5.6,No,4,12.3,Library,Yes,Low,1,2,10,Visual,2.6,100
+134760,22,Other,Computer Science,3.2600481676222417,3.4,3.7,No,76.3,6.9,Good,0,High School,High,9.0,No,3.96,5,6.0,No,0,11.5,Co-Learning Group,No,Medium,9,1,10,Reading,4.7,100
+159638,24,Male,Business,3.9,1.6,2.3,No,54.6,7.8,Good,0,Master,Medium,9.0,Yes,4.0,4,6.5,No,3,9.4,Quiet Room,No,Low,10,9,6,Kinesthetic,2.9,100
+137388,16,Female,Biology,4.5,2.2,3.4,No,68.0,6.7,Fair,4,Bachelor,Medium,9.8,No,2.42,6,6.4,No,2,11.9,Dorm,No,Low,1,4,10,Visual,3.0,66
+155444,23,Female,Computer Science,0,0.7,1.3,Yes,60.3,4,Poor,2,Some College,Low,3.7,Yes,3.6,2,8.0,No,0,3.7,Dorm,No,Medium,7,9,6,Auditory,6.1,83
+172845,16,Other,Engineering,1.6,1.5,2.7,Yes,86.3,8.1,Fair,2,High School,Medium,9.4,No,4.0,6,5.9,No,5,6.8,Cafe,Yes,Low,6,6,9,Kinesthetic,3.5,92
+163788,22,Other,Engineering,5.5,1.6,0.9,No,46.8,6.0,Fair,5,Bachelor,Low,5.1,No,3.49,7,2.5,No,2,9.8,Dorm,No,High,10,2,10,Reading,3.3,100
+120289,22,Male,Biology,1.2,0.4,0.8,Yes,84.1,6.6,Poor,3,Master,Medium,3.8,Yes,3.94,8,1,No,4,3.3,Dorm,Yes,High,6,3,10,Kinesthetic,7.4,100
+124890,24,Male,Computer Science,5.3729103068867925,0.7,3.5,Yes,59.3,6.9,Fair,7,Some College,Low,7.8,Yes,4.0,6,6.5,No,4,9.8,Quiet Room,Yes,Low,1,5,10,Kinesthetic,7.1,98
+138890,21,Female,Psychology,1.7,1.9,0.6,Yes,94.5,4.7,Fair,7,Bachelor,Medium,6.6,No,4.0,3,2.3,No,1,4.5,Quiet Room,Yes,High,8,1,10,Auditory,1.9,100
+128534,21,Male,Arts,4.2,3.0,2.4,No,51.3,7.9,Good,3,Master,Medium,5.4,Yes,4.0,6,8.0,No,2,10.4,Co-Learning Group,No,Medium,3,1,10,Auditory,4.1,95
+107665,23,Female,Business,7.2,1.3,2.6,No,56.9,5.0,Poor,2,High School,Low,3.7,No,3.32,2,2.8,No,3,12.1,Library,Yes,Medium,5,5,10,Kinesthetic,8.0,88
+175914,18,Other,Biology,1.3,0.7,2.5,Yes,95.9,6.2,Fair,3,Bachelor,High,6.7,Yes,2.68,6,2.7,No,2,6.0,Dorm,No,Low,5,4,10,Auditory,1.4,65
+171066,22,Female,Biology,6.1,1.2,1.8,Yes,83.3,7.9,Fair,6,PhD,Medium,7.5,No,4.0,7,4.6,No,1,11.0,Quiet Room,No,High,8,4,10,Kinesthetic,3.0,100
+107989,18,Female,Computer Science,4.61342156346414,4.3,2.0,Yes,50.1,8.8,Good,0,Master,Medium,5.4,No,2.77,4,5.8,No,0,11.3,Cafe,No,High,5,7,8,Reading,8.7,68
+141104,18,Male,Computer Science,7.696737843225064,3.9,1.7,Yes,93.3,9.6,Fair,7,Bachelor,Medium,6.4,Yes,4.0,1,6.1,No,2,13.7,Dorm,Yes,Medium,8,8,7,Kinesthetic,9.1,100
+107492,21,Female,Engineering,5.1,2.8,1.7,No,93.1,7.2,Good,4,PhD,Low,6.7,Yes,4.0,6,7.7,No,2,10.1,Quiet Room,No,High,8,9,6,Reading,4.4,100
+106572,16,Female,Engineering,2.2,4.0,2.4,No,94.3,9.4,Fair,0,Some College,Medium,5.7,Yes,4.0,2,1,No,1,9.1,Cafe,Yes,High,1,10,5,Visual,3.1,100
+176569,25,Male,Arts,1.2,1.1,1.6,Yes,74.9,6.8,Fair,5,Some College,Low,8.2,No,3.1,8,5.8,No,1,4.5,Quiet Room,No,High,7,2,10,Kinesthetic,6.8,78
+162493,26,Other,Biology,4.8,1.9,1.6,Yes,77.6,5.9,Fair,7,High School,High,6.6,Yes,4.0,5,7.0,No,5,9.1,Co-Learning Group,Yes,Low,6,4,10,Kinesthetic,5.2,99
+165909,28,Female,Psychology,2.7,3.0,0.1,No,94.8,7.8,Fair,2,Bachelor,Medium,5.0,Yes,4.0,4,4.2,No,4,7.8,Co-Learning Group,Yes,Medium,1,4,10,Auditory,3.9,97
+169615,27,Other,Biology,1.3,4.6,2.7,Yes,80.7,6.5,Good,3,Bachelor,Medium,2.5,Yes,2.48,8,4.1,No,5,9.7,Quiet Room,No,High,7,4,10,Kinesthetic,1.5,57
+120635,23,Male,Computer Science,6.689444839755414,2.3,2.0,Yes,65.6,7.4,Good,4,Some College,Medium,9.7,No,4.0,3,3.4,No,2,11.4,Quiet Room,No,Low,7,10,5,Visual,6.5,100
+107455,22,Male,Arts,4.3,0.0,2.7,No,45.7,7.4,Poor,2,Some College,Medium,5.0,No,3.74,5,8.1,Yes,5,8.7,Quiet Room,No,Medium,1,1,10,Auditory,7.8,94
+166562,16,Other,Business,2.5,4.9,3.8,Yes,48.5,7.7,Good,2,High School,Low,9.4,Yes,2.5,8,5.1,No,3,12.7,Dorm,Yes,High,2,3,10,Auditory,3.1,64
+110500,18,Female,Business,6.3,4.8,2.3,Yes,92.5,4,Fair,5,High School,High,7.6,Yes,4.0,6,3.5,No,5,15.2,Cafe,No,Low,7,1,10,Reading,9.5,96
+124356,17,Other,Psychology,4.7,3.3,2.2,No,63.9,6.3,Poor,3,Bachelor,Low,10,No,3.88,4,3.7,No,5,11.1,Cafe,Yes,High,5,1,10,Kinesthetic,5.1,100
+108981,28,Male,Business,4.9,4.4,1.9,No,89.6,7.3,Good,4,Master,Low,4.8,Yes,3.68,2,1.9,No,2,12.3,Cafe,Yes,High,8,5,10,Reading,4.1,89
+177992,25,Male,Engineering,3.3,3.1,3.2,No,77.2,7.7,Fair,7,Bachelor,Low,5.2,Yes,4.0,8,2.9,No,1,11.1,Cafe,No,Medium,1,6,9,Visual,5.4,100
+108907,19,Female,Biology,5.4,4.0,1.3,No,91.0,5.9,Poor,1,PhD,High,3.0,No,3.99,6,2.3,No,2,11.5,Quiet Room,Yes,Low,7,8,7,Reading,1.6,100
+130828,23,Other,Engineering,6.6,0.5,1.5,Yes,70.3,7.7,Good,3,High School,Low,5.0,No,2.99,3,6.3,No,5,8.8,Quiet Room,No,High,6,2,10,Visual,8.5,77
+152923,17,Male,Psychology,0.1,4.7,1.4,No,82.7,11.6,Poor,6,Some College,Low,6.2,No,4.0,7,6.8,No,0,6.4,Dorm,No,High,7,10,5,Kinesthetic,7.5,97
+115713,27,Female,Biology,7.2,1.7,3.5,Yes,75.0,5.6,Good,4,High School,Medium,5.4,No,2.71,7,4.6,No,5,13.5,Dorm,No,Medium,4,4,10,Visual,9.7,68
+174668,27,Female,Business,2.1,0.6,0.4,Yes,83.1,8.5,Fair,4,Bachelor,High,7.1,No,2.53,2,3.4,No,2,4.3,Dorm,Yes,Medium,2,1,10,Reading,9.9,68
+132271,28,Male,Psychology,7.6,3.3,2.4,No,81.2,6.7,Fair,6,PhD,Low,6.2,No,3.63,6,8.7,No,3,15.2,Dorm,No,Low,1,6,9,Reading,4.9,84
+175880,20,Female,Psychology,7.3,4.0,3.0,Yes,60.5,7.1,Good,7,Bachelor,Medium,6.2,Yes,3.54,6,8.9,No,2,15.1,Co-Learning Group,Yes,Medium,4,8,7,Visual,7.8,90
+177924,18,Other,Engineering,6.4,3.4,1.1,No,76.4,8.2,Poor,6,Master,Low,6.9,No,3.25,2,4.2,No,4,11.2,Cafe,Yes,High,9,5,10,Kinesthetic,3.8,83
+105209,17,Female,Engineering,4.6,4.2,3.2,No,45.3,8.1,Good,1,Bachelor,High,10,Yes,4.0,2,3.9,No,1,12.7,Cafe,No,High,8,10,5,Auditory,2.0,96
+110745,22,Other,Business,5.0,2.1,3.6,Yes,78.3,9.6,Good,7,PhD,High,5.8,Yes,3.36,8,7.0,No,5,11.9,Cafe,Yes,High,2,5,10,Reading,1.8,76
+154948,21,Other,Psychology,3.2,1.3,1.7,Yes,66.3,7.8,Poor,2,High School,High,5.6,Yes,4.0,3,7.2,No,5,6.6,Dorm,Yes,Medium,5,7,8,Reading,8.2,100
+176503,19,Female,Computer Science,6.4826450805863205,4.3,2.0,Yes,69.4,7.2,Good,4,High School,High,8.5,No,3.08,3,8.1,No,5,13.9,Cafe,No,High,8,4,10,Visual,9.8,81
+174085,19,Female,Arts,1.6,0.3,2.0,No,96.7,9.1,Good,0,Some College,Low,6.4,Yes,4.0,5,6.8,No,5,5.5,Co-Learning Group,No,Low,3,3,10,Kinesthetic,1.5,98
+168522,25,Male,Engineering,3.8,0.7,0.7,Yes,96.2,7.8,Fair,0,Some College,Low,3.1,Yes,4.0,3,3.4,No,4,5.8,Co-Learning Group,No,High,8,8,7,Visual,5.0,94
+141467,26,Male,Business,6.1,3.1,0.9,No,99.2,6.8,Fair,6,PhD,Medium,7.1,Yes,4.0,8,5.0,No,2,11.5,Quiet Room,Yes,Low,1,5,10,Kinesthetic,7.4,100
+134179,26,Male,Engineering,4.3,1.4,1.5,Yes,49.0,6.0,Fair,3,Some College,Low,6.4,No,3.04,1,10,No,0,8.7,Library,No,High,6,5,10,Visual,9.7,78
+126772,23,Female,Business,2.0,4.9,3.2,No,44.8,6.9,Fair,1,Bachelor,Medium,10,Yes,3.07,1,4.7,No,1,11.6,Cafe,No,Low,4,6,9,Reading,6.1,76
+141180,25,Male,Engineering,4.7,1.0,3.3,No,63.7,7.7,Fair,0,Some College,High,4.1,Yes,2.93,6,2.6,No,3,10.3,Cafe,No,Low,4,2,10,Kinesthetic,2.1,71
+131285,19,Female,Arts,6.1,2.0,2.8,No,94.3,5.2,Good,3,Some College,High,8.4,No,4.0,5,3.0,No,0,12.8,Co-Learning Group,Yes,High,1,2,10,Kinesthetic,2.2,100
+134814,26,Female,Psychology,3.1,1.4,3.3,Yes,67.8,9.4,Fair,3,PhD,Medium,7.5,Yes,4.0,3,4.0,No,4,8.8,Quiet Room,Yes,High,4,10,5,Kinesthetic,3.6,100
+151876,25,Other,Engineering,4.3,1.1,3.5,No,52.3,7.5,Fair,6,Master,Medium,8.9,No,3.18,7,3.1,No,4,9.1,Co-Learning Group,No,Low,10,6,9,Visual,9.1,76
+117154,26,Female,Engineering,2.5,4.0,1.8,Yes,44.2,8.8,Poor,6,Some College,High,4.6,No,4.0,1,8.6,Yes,3,9.3,Library,Yes,Medium,5,3,10,Auditory,10.0,100
+139321,20,Other,Computer Science,0,1.6,1.9,No,69.8,5.8,Good,3,Bachelor,High,7.2,Yes,4.0,6,2.9,No,0,3.9,Cafe,No,Medium,7,9,6,Auditory,8.7,100
+159929,19,Male,Business,1.3,0.7,0.3,Yes,91.8,7.7,Good,5,PhD,High,10,No,4.0,7,4.9,No,3,3.4,Quiet Room,Yes,Medium,7,1,10,Auditory,6.4,100
+141441,16,Male,Arts,3.5,3.2,2.4,Yes,85.3,6.4,Good,6,Master,High,7.3,Yes,3.75,6,3.7,No,3,10.0,Library,No,Low,7,9,6,Visual,3.6,91
+109508,16,Male,Psychology,5.9,1.4,0.6,No,50.9,6.1,Poor,5,PhD,High,6.0,No,4.0,4,6.3,No,2,8.7,Co-Learning Group,Yes,Low,8,5,10,Auditory,7.1,100
+101220,21,Male,Computer Science,7.781214189728813,5.0,2.4,No,64.4,7.9,Poor,4,Bachelor,Low,7.2,No,2.65,1,6.3,No,3,16.5,Dorm,No,Low,7,1,10,Visual,4.5,71
+160068,25,Other,Computer Science,2.3147699027779707,1.4,1.1,No,99.4,5.7,Poor,3,Master,Medium,6.3,No,3.21,2,7.7,No,1,6.5,Library,No,Medium,1,7,8,Auditory,8.2,83
+173792,25,Other,Arts,5.3,3.4,2.4,Yes,48.1,5.6,Fair,0,High School,High,7.2,No,2.95,7,4.0,No,3,12.8,Co-Learning Group,No,High,3,8,7,Reading,3.0,68
+113104,28,Male,Computer Science,7.448351354977719,3.5,1.3,No,49.1,6.2,Fair,0,Bachelor,Medium,8.2,Yes,3.0,5,4.4,No,5,12.9,Library,No,Low,7,5,10,Visual,3.6,81
+109602,20,Male,Arts,5.5,0.1,2.1,No,84.8,4.6,Good,4,Some College,Medium,7.8,Yes,3.57,8,4.3,No,2,8.0,Dorm,Yes,Low,3,6,9,Kinesthetic,5.0,96
+170468,23,Other,Arts,4.6,0.1,0.9,No,42.3,6.2,Fair,7,High School,Medium,6.1,Yes,3.39,8,2.2,No,0,5.9,Co-Learning Group,Yes,Medium,10,4,10,Reading,4.8,84
+127938,26,Other,Psychology,3.2,1.9,1.6,No,96.6,6.4,Good,4,High School,Medium,6.3,No,2.73,7,5.9,No,2,6.8,Cafe,Yes,Low,8,2,10,Reading,3.1,76
+166307,17,Male,Biology,1.2,0.8,3.8,No,45.8,9.7,Good,7,Master,High,8.8,No,3.01,3,4.8,No,4,7.0,Quiet Room,Yes,Low,8,2,10,Auditory,9.7,80
+117361,17,Female,Business,1.7,2.2,2.2,No,55.7,6.0,Good,6,PhD,Medium,7.1,Yes,4.0,8,4.3,No,2,6.2,Quiet Room,Yes,Low,10,1,10,Auditory,2.6,99
+145745,19,Male,Arts,7.9,1.1,1.8,No,88.9,5.9,Good,6,Bachelor,Medium,7.5,No,3.83,4,4.0,No,0,12.7,Library,No,Medium,1,3,10,Reading,6.6,88
+109016,19,Male,Business,5.5,0.6,2.7,No,66.5,8.0,Poor,1,PhD,Low,7.800000000000001,No,3.3,4,8.5,No,3,9.4,Dorm,Yes,High,7,5,10,Visual,2.3,79
+132018,22,Female,Arts,2.3,3.0,2.2,Yes,74.7,4.4,Good,5,High School,Medium,7.5,Yes,3.72,3,2.7,No,1,8.0,Quiet Room,Yes,Medium,7,7,8,Auditory,7.3,91
+148434,19,Male,Psychology,1.1,2.1,2.3,No,89.4,7.7,Fair,5,PhD,Medium,6.2,Yes,3.98,1,6.2,No,2,7.3,Dorm,No,Medium,7,6,9,Auditory,4.6,97
+137353,23,Female,Computer Science,6.767402133879762,3.6,2.2,No,56.4,7.0,Good,6,Bachelor,Medium,9.6,Yes,4.0,2,6.5,No,4,13.2,Cafe,No,Medium,9,5,10,Auditory,3.6,95
+120676,25,Female,Computer Science,4.603541346122843,4.3,3.7,Yes,89.5,5.0,Good,4,Some College,Low,7.1,Yes,4.0,4,5.8,No,4,13.0,Cafe,No,High,4,9,6,Kinesthetic,5.4,100
+157433,25,Female,Engineering,2.6,1.1,3.2,No,44.9,7.1,Poor,1,Bachelor,Medium,6.6,Yes,3.21,3,5.1,No,1,7.4,Dorm,No,High,3,1,10,Kinesthetic,8.8,65
+171200,16,Other,Computer Science,6.058906828990087,3.6,2.5,No,62.0,9.2,Good,7,Master,High,3.5,Yes,3.83,1,5.6,No,4,12.5,Library,Yes,Medium,8,7,8,Reading,6.5,91
+139651,22,Female,Arts,5.3,1.6,1.7,No,60.9,6.6,Good,3,Bachelor,High,7.1,No,3.93,2,3.7,No,2,9.6,Dorm,No,Medium,5,2,10,Visual,1.6,100
+169329,23,Female,Biology,1.3,1.6,1.9,Yes,94.1,4.9,Good,1,Master,High,6.0,No,4.0,8,3.3,No,4,4.9,Quiet Room,No,High,4,5,10,Reading,9.5,100
+101025,18,Male,Psychology,4.2,1.4,1.3,Yes,61.5,6.5,Good,3,PhD,High,3.5999999999999996,Yes,3.48,3,8.1,Yes,0,7.2,Quiet Room,Yes,Medium,1,1,10,Reading,3.5,88
+172692,18,Other,Business,1.0,1.9,0.3,Yes,75.5,6.0,Good,4,Some College,High,4.0,Yes,2.85,3,5.7,No,3,4.6,Co-Learning Group,Yes,Low,5,5,10,Kinesthetic,9.0,81
+139240,27,Female,Arts,5.9,3.3,3.7,Yes,86.1,6.9,Fair,2,PhD,High,9.3,Yes,3.52,5,6.2,No,5,13.1,Quiet Room,Yes,High,1,6,9,Kinesthetic,9.0,86
+113577,25,Male,Computer Science,7.633100894912917,4.9,3.9,No,93.8,8.4,Fair,7,High School,Medium,8.6,Yes,4.0,2,3.2,No,2,17.5,Dorm,No,Low,1,9,6,Reading,5.5,100
+117601,18,Female,Biology,5.0,3.2,0.6,Yes,93.3,8.6,Good,1,Some College,High,6.3,Yes,3.77,5,1,No,1,9.7,Dorm,Yes,Medium,8,10,5,Kinesthetic,5.4,94
+134664,24,Other,Business,3.8,0.7,3.5,No,40.3,7.1,Good,5,Some College,Low,5.3,Yes,3.07,4,4.8,No,0,8.7,Quiet Room,No,Low,9,8,7,Reading,3.2,70
+115129,19,Other,Computer Science,6.048058944917237,3.0,1.8,No,95.6,5.8,Fair,7,PhD,Medium,7.7,No,2.75,8,4.6,No,1,12.5,Dorm,Yes,High,10,2,10,Auditory,2.0,66
+114029,17,Male,Arts,7.1,2.6,3.4,Yes,51.6,4,Good,4,PhD,Low,5.4,No,2.85,5,3.2,No,4,13.9,Dorm,Yes,Medium,2,1,10,Visual,8.9,68
+120374,24,Male,Psychology,2.6,1.5,2.6,No,49.3,8.2,Fair,3,PhD,High,7.9,Yes,3.3,4,6.2,No,3,7.9,Dorm,Yes,Low,10,10,5,Visual,3.7,80
+135697,24,Other,Arts,0,0.9,0.7,Yes,82.3,4.8,Poor,0,PhD,High,6.2,Yes,2.82,1,5.4,No,2,2.0,Cafe,Yes,High,2,9,6,Auditory,8.1,73
+136930,16,Other,Business,1.4,2.4,3.9,Yes,75.7,10.4,Fair,5,Master,High,8.2,No,3.92,8,7.3,No,5,9.3,Co-Learning Group,Yes,Low,4,4,10,Reading,7.2,100
+179276,16,Male,Psychology,2.7,3.4,3.0,No,63.2,7.7,Poor,7,High School,High,4.6,Yes,3.68,2,3.2,No,2,9.1,Library,No,Medium,8,7,8,Reading,6.1,98
+127607,23,Male,Computer Science,3.428741916128496,1.0,1.2,No,88.8,10.1,Fair,7,Master,Medium,10,No,3.57,1,8.0,No,4,5.8,Co-Learning Group,Yes,Medium,5,1,10,Visual,1.8,98
+144942,21,Other,Psychology,6.7,3.2,1.5,Yes,86.8,10.0,Fair,3,Some College,High,8.5,No,4.0,6,7.4,No,0,13.3,Quiet Room,Yes,High,4,8,7,Visual,2.9,96
+126685,25,Male,Business,3.9,1.0,1.3,No,52.8,6.2,Good,7,Master,Low,7.7,No,3.88,2,3.7,No,3,8.2,Quiet Room,No,Low,10,8,7,Visual,1.1,100
+134600,27,Female,Engineering,1.8,0.1,1.2,Yes,95.5,8.7,Fair,2,Master,High,6.7,Yes,4.0,5,4.1,No,4,4.4,Cafe,Yes,Low,10,9,6,Visual,1.2,100
+166244,22,Female,Biology,5.0,1.8,2.7,No,71.3,5.4,Good,7,Master,Low,10,No,2.84,5,4.1,No,4,10.5,Dorm,No,Medium,1,6,9,Reading,8.0,70
+164032,28,Female,Business,1.7,0.4,0.4,No,74.5,8.2,Good,0,Some College,Low,7.8,No,4.0,3,4.2,No,0,3.4,Library,Yes,Medium,10,7,8,Visual,9.6,100
+132914,26,Female,Business,0.9,4.3,3.1,Yes,61.0,7.4,Good,2,High School,Low,7.5,Yes,4.0,8,4.0,No,0,9.8,Dorm,Yes,High,5,10,5,Kinesthetic,4.3,100
+106658,17,Male,Psychology,3.7,0.4,3.0,No,49.9,7.7,Fair,5,Some College,Low,6.1,Yes,3.98,4,8.2,No,2,7.8,Library,No,Medium,5,4,10,Auditory,2.8,100
+112097,28,Other,Psychology,8.3,1.8,1.1,No,62.7,5.7,Good,0,Some College,High,6.1,No,3.43,8,2.1,No,3,11.9,Co-Learning Group,No,Medium,6,1,10,Kinesthetic,7.0,85
+155518,20,Female,Business,4.5,2.4,0.8,Yes,86.9,6.6,Good,5,Some College,Medium,7.7,No,3.22,4,6.5,No,2,9.5,Dorm,No,High,7,1,10,Visual,9.8,75
+136265,19,Other,Psychology,3.1,0.8,3.6,No,89.1,7.3,Fair,2,Some College,Low,6.8,No,4.0,2,4.5,No,5,7.8,Co-Learning Group,Yes,High,5,5,10,Auditory,7.6,95
+105778,23,Female,Computer Science,4.327063806893041,3.3,1.6,No,72.2,9.1,Good,4,Master,Low,10,Yes,3.69,2,4.4,No,5,10.8,Library,Yes,Medium,7,10,5,Kinesthetic,3.5,88
+100464,22,Female,Biology,5.0,1.3,2.2,No,47.6,7.5,Poor,1,Master,Medium,10,Yes,4.0,3,2.4,No,2,10.4,Co-Learning Group,Yes,Low,3,2,10,Kinesthetic,2.2,100
+143719,28,Other,Arts,3.1,1.2,1.0,No,60.0,6.5,Good,6,PhD,Low,8.3,No,3.88,3,4.0,No,3,6.9,Library,Yes,Medium,2,8,7,Auditory,8.3,99
+117146,23,Male,Arts,8.2,4.2,1.7,Yes,94.9,5.6,Poor,6,Some College,High,9.4,Yes,4.0,6,4.8,No,0,14.8,Co-Learning Group,Yes,High,10,3,10,Visual,7.5,100
+134335,19,Other,Psychology,4.0,1.3,1.3,Yes,44.6,4.5,Good,5,Some College,Medium,7.2,No,4.0,8,3.6,No,3,7.7,Dorm,Yes,Low,1,7,8,Reading,9.5,100
+121178,26,Other,Engineering,3.4,2.2,1.5,No,54.2,5.4,Good,1,Master,Low,7.4,No,2.69,7,4.5,No,2,9.1,Quiet Room,Yes,Low,10,3,10,Reading,6.9,76
+157912,25,Male,Psychology,0.5,3.1,2.9,Yes,68.1,5.6,Fair,3,Bachelor,Low,5.0,Yes,4.0,8,3.7,No,1,7.8,Library,Yes,Medium,1,9,6,Visual,1.5,93
+172309,17,Female,Arts,5.0,4.7,1.0,Yes,89.4,8.4,Good,3,PhD,High,5.2,Yes,4.0,2,8.0,No,1,11.6,Co-Learning Group,Yes,Low,9,4,10,Kinesthetic,4.9,100
+156057,18,Female,Arts,5.7,4.7,2.5,Yes,55.5,6.8,Poor,6,High School,Medium,9.1,No,3.4,1,2.3,No,1,13.3,Cafe,No,Medium,1,1,10,Visual,2.1,84
+173519,22,Male,Biology,4.1,3.2,1.0,Yes,59.9,9.3,Fair,7,Master,Low,7.1,Yes,3.11,7,4.5,No,4,9.5,Library,No,Low,4,5,10,Reading,7.4,86
+101267,26,Female,Biology,6.4,3.6,1.6,No,62.0,5.3,Poor,1,Master,Medium,6.9,Yes,2.91,1,6.9,No,1,13.3,Dorm,Yes,High,2,1,10,Visual,5.2,73
+114663,22,Female,Biology,5.6,3.6,3.1,No,50.4,6.5,Good,4,Bachelor,Medium,4.3,No,3.5,7,6.1,No,0,14.0,Co-Learning Group,Yes,Medium,5,4,10,Kinesthetic,7.9,84
+109862,26,Other,Biology,2.7,0.4,2.2,Yes,91.8,9.0,Good,1,High School,Medium,8.3,Yes,3.91,4,7.7,No,0,5.8,Dorm,Yes,Medium,9,3,10,Auditory,4.1,100
+119536,24,Other,Biology,3.3,3.1,3.0,No,81.5,10.0,Poor,4,PhD,Medium,6.9,No,3.55,2,4.1,No,0,11.3,Cafe,No,Low,5,6,9,Kinesthetic,8.6,91
+171511,26,Male,Arts,4.9,3.0,2.0,No,98.9,6.5,Fair,2,Bachelor,Medium,4.7,Yes,4.0,7,3.1,No,4,11.0,Dorm,Yes,Medium,6,4,10,Reading,7.4,98
+104722,21,Other,Engineering,2.0,0.4,2.2,No,44.1,7.4,Good,7,Bachelor,Low,5.9,No,3.42,8,3.6,No,1,4.8,Library,Yes,Medium,6,5,10,Reading,5.8,80
+148393,25,Male,Biology,2.6,3.3,0.3,Yes,62.6,8.5,Fair,1,Master,Low,5.0,No,3.2,6,3.3,No,4,7.5,Cafe,Yes,High,4,7,8,Auditory,7.6,81
+176350,20,Male,Engineering,4.9,1.9,1.1,No,41.9,7.4,Poor,4,Some College,Low,5.0,No,4.0,4,5.8,No,0,8.3,Quiet Room,No,High,2,10,5,Visual,1.4,100
+172420,19,Female,Psychology,4.6,2.3,3.7,No,84.7,7.2,Good,2,Bachelor,High,6.5,Yes,4.0,4,4.5,No,0,12.4,Quiet Room,Yes,High,9,4,10,Reading,9.5,100
+119410,25,Other,Psychology,2.4,3.9,0.1,Yes,70.2,7.4,Fair,2,Bachelor,Medium,5.7,Yes,3.34,7,1,No,5,7.8,Dorm,Yes,Low,8,3,10,Auditory,1.6,91
+156333,26,Female,Computer Science,3.541100965215537,0.2,3.2,Yes,45.8,7.6,Fair,4,Some College,Low,9.7,No,4.0,4,5.4,No,5,7.4,Cafe,Yes,Low,8,4,10,Reading,5.3,100
+116704,23,Female,Arts,3.2,4.3,1.1,No,50.4,7.7,Good,0,Master,Low,8.7,No,4.0,1,1.8,No,1,10.3,Dorm,Yes,Medium,10,9,6,Visual,9.9,100
+105482,20,Female,Biology,3.4,3.1,3.3,No,63.2,7.2,Good,1,Master,High,6.6,Yes,2.75,5,5.1,No,2,11.5,Co-Learning Group,No,Medium,8,1,10,Auditory,5.7,66
+140404,27,Male,Psychology,2.3,2.1,3.3,No,52.6,9.9,Poor,3,Some College,Low,8.1,No,3.58,6,6.5,No,5,8.4,Co-Learning Group,No,Medium,4,5,10,Auditory,8.4,90
+147795,21,Female,Psychology,3.2,4.8,0.1,Yes,51.8,8.1,Good,1,Some College,Low,7.1,No,2.97,8,5.6,No,4,8.1,Dorm,No,High,1,7,8,Visual,6.3,78
+105229,19,Female,Biology,3.9,3.2,0.2,Yes,52.2,8.8,Good,7,Bachelor,Medium,5.7,No,4.0,8,7.0,No,5,9.0,Co-Learning Group,Yes,Low,3,2,10,Reading,4.9,97
+146898,27,Other,Computer Science,5.874147898736326,4.9,0.3,No,98.6,4.4,Fair,6,Master,Low,5.9,Yes,4.0,4,2.6,No,3,12.0,Quiet Room,Yes,Medium,6,1,10,Auditory,9.7,100
+127535,27,Male,Business,3.8,2.0,3.7,Yes,99.5,6.8,Good,0,Bachelor,Medium,1,No,3.57,2,4.0,No,4,11.4,Library,No,Low,9,8,7,Kinesthetic,7.5,89
+132706,23,Male,Business,3.5,1.6,2.6,Yes,42.0,7.8,Good,0,PhD,Medium,5.2,Yes,3.93,2,5.1,No,4,9.1,Quiet Room,Yes,Low,1,5,10,Kinesthetic,9.4,98
+113473,19,Female,Business,4.5,4.4,1.5,No,98.2,7.5,Fair,0,Some College,Low,7.2,No,4.0,6,1.8,No,1,11.1,Co-Learning Group,No,Medium,10,5,10,Visual,4.2,98
+146357,26,Female,Psychology,5.8,4.0,0.8,No,60.6,9.4,Fair,4,Bachelor,High,2.4,No,3.84,1,6.0,No,5,10.9,Library,Yes,Medium,9,5,10,Visual,1.6,97
+173385,20,Male,Biology,6.7,2.6,0.7,No,97.1,6.0,Good,1,Master,Low,2.3,Yes,4.0,3,4.3,No,0,11.6,Quiet Room,No,Low,9,3,10,Auditory,5.2,96
+153264,19,Female,Biology,2.1,2.5,0.7,No,62.0,5.7,Fair,0,Some College,Medium,1.7,Yes,2.78,8,5.4,No,1,5.7,Library,Yes,High,2,5,10,Kinesthetic,1.5,70
+120257,21,Other,Engineering,2.6,2.4,4.0,No,94.3,8.0,Good,3,Some College,Low,7.8,Yes,3.22,5,4.6,No,0,9.6,Quiet Room,No,Low,4,5,10,Kinesthetic,9.9,81
+131029,19,Male,Biology,4.3,3.4,2.3,No,81.5,5.4,Good,5,PhD,High,9.1,Yes,4.0,1,6.4,No,5,10.6,Co-Learning Group,No,Low,6,10,5,Visual,5.5,100
+121299,21,Female,Computer Science,4.033451099814149,3.4,0.1,No,64.4,7.3,Poor,5,Bachelor,Low,7.4,No,3.11,2,5.0,No,3,9.3,Cafe,No,High,8,6,9,Auditory,8.5,74
+123206,16,Female,Engineering,2.7,4.0,1.1,Yes,69.2,7.2,Good,7,PhD,High,3.0999999999999996,No,3.77,6,7.8,No,5,8.8,Quiet Room,Yes,High,7,8,7,Reading,4.8,83
+154040,21,Other,Arts,4.4,0.7,3.1,Yes,51.6,8.8,Good,2,Master,Low,9.5,Yes,3.97,4,3.3,No,1,8.9,Cafe,Yes,Medium,4,8,7,Reading,3.6,91
+103248,19,Male,Business,7.3,4.9,0.5,No,97.2,7.4,Good,4,PhD,Low,6.8,Yes,3.86,8,5.9,No,4,13.2,Cafe,No,Low,6,2,10,Auditory,6.9,94
+123509,24,Female,Biology,6.1,2.4,2.3,No,52.7,5.4,Good,3,PhD,Low,4.7,Yes,2.88,7,5.6,No,2,12.5,Quiet Room,Yes,Medium,1,1,10,Auditory,8.5,70
+143540,25,Female,Psychology,0.7,0.0,1.2,No,41.2,6.2,Good,3,PhD,Medium,5.5,Yes,3.15,3,4.8,No,0,3.7,Dorm,No,High,8,4,10,Kinesthetic,8.8,70
+153964,22,Male,Arts,1.4,2.8,1.2,No,60.3,8.4,Fair,0,Master,Low,5.8,No,3.89,5,3.8,No,0,6.3,Dorm,Yes,Medium,5,5,10,Visual,7.0,100
+132527,26,Female,Business,3.2,2.8,2.0,No,99.3,5.9,Fair,1,PhD,Low,8.3,Yes,4.0,7,5.1,No,2,8.2,Co-Learning Group,Yes,Low,10,9,6,Kinesthetic,9.0,91
+134970,24,Other,Biology,7.1,4.8,0.3,No,79.0,7.8,Good,5,Some College,Low,7.1,No,3.9,4,1.5,No,4,13.9,Cafe,Yes,High,8,1,10,Auditory,6.8,100
+120866,24,Female,Biology,3.1,1.4,2.1,No,59.1,6.6,Poor,6,PhD,Medium,7.5,No,3.29,6,5.1,No,0,7.9,Co-Learning Group,No,Low,8,10,5,Auditory,3.9,84
+114168,26,Other,Biology,9.7,2.3,2.7,Yes,97.7,5.8,Good,4,High School,High,5.7,No,4.0,3,4.9,No,0,14.7,Dorm,Yes,Low,6,1,10,Kinesthetic,8.8,97
+150140,23,Female,Computer Science,4.766694973442249,1.0,3.0,Yes,91.7,5.4,Fair,4,PhD,High,8.1,Yes,2.84,1,4.7,No,0,8.9,Co-Learning Group,Yes,High,2,2,10,Kinesthetic,5.2,76
+105075,25,Other,Arts,5.6,0.8,3.0,Yes,84.8,7.3,Poor,7,PhD,Low,3.9,No,4.0,8,4.4,No,0,10.3,Co-Learning Group,Yes,Low,8,9,6,Reading,5.8,100
+161694,28,Male,Psychology,4.5,1.5,4.0,No,47.6,8.4,Good,5,Some College,Medium,9.6,No,3.12,2,7.0,No,1,10.1,Dorm,No,High,10,1,10,Reading,8.4,77
+129154,20,Female,Computer Science,5.6250597545973475,2.7,2.4,No,81.7,4.5,Fair,7,High School,Low,7.0,Yes,4.0,2,3.4,No,1,10.8,Library,Yes,Medium,9,7,8,Kinesthetic,4.9,100
+126158,16,Male,Computer Science,4.930078234377061,4.6,0.9,No,70.2,8.4,Good,0,Some College,High,1,Yes,3.09,4,8.2,No,5,11.8,Quiet Room,No,Low,4,8,7,Reading,4.2,81
+160332,28,Other,Arts,5.7,4.6,2.6,No,78.8,6.7,Good,4,Some College,High,2.7,No,4.0,4,9.5,No,4,14.2,Quiet Room,Yes,Low,5,10,5,Reading,5.6,93
+145830,20,Male,Arts,6.9,0.3,1.9,Yes,88.9,6.0,Good,3,PhD,Low,4.8,Yes,3.01,7,6.1,No,0,9.7,Dorm,No,High,2,6,9,Reading,9.7,74
+140001,26,Female,Computer Science,5.647670619507946,0.4,0.4,No,50.9,8.7,Good,5,Bachelor,Low,10,No,4.0,2,6.0,No,3,6.8,Library,Yes,Low,6,6,9,Visual,6.0,100
+129831,26,Other,Computer Science,7.10386414740854,4.7,1.2,Yes,67.5,10.5,Fair,4,PhD,Low,9.0,No,4.0,1,6.6,No,5,13.1,Quiet Room,No,Medium,2,8,7,Kinesthetic,1.0,100
+129219,25,Female,Engineering,2.3,3.2,3.3,No,44.9,7.1,Fair,4,Master,Low,6.8,No,3.71,4,4.6,No,2,10.3,Dorm,Yes,High,6,6,9,Reading,9.2,96
+103101,23,Female,Psychology,7.5,4.1,1.6,Yes,41.5,6.8,Good,4,Master,High,3.5999999999999996,Yes,3.8,6,8.7,Yes,0,14.9,Co-Learning Group,Yes,High,7,3,10,Visual,2.0,95
+125313,18,Male,Engineering,6.0,2.6,1.6,No,75.6,6.5,Poor,4,Bachelor,Low,4.7,Yes,3.87,7,4.1,No,0,10.6,Quiet Room,Yes,High,5,2,10,Reading,1.1,92
+152227,23,Female,Computer Science,3.6106241033815385,4.5,0.4,Yes,57.8,7.5,Good,1,Some College,Medium,3.6,Yes,4.0,7,5.4,No,4,9.3,Co-Learning Group,No,High,5,8,7,Visual,7.0,95
+143025,18,Female,Engineering,2.2,4.0,2.4,No,87.0,7.2,Good,4,High School,Medium,9.2,No,4.0,5,5.1,No,4,9.5,Dorm,No,Low,10,7,8,Visual,7.7,98
+136517,25,Other,Biology,1.5,1.3,0.6,Yes,83.3,6.8,Fair,7,Some College,Low,6.4,Yes,4.0,7,4.8,No,2,4.2,Quiet Room,No,High,9,8,7,Auditory,9.2,91
+109099,27,Male,Business,1.8,1.5,1.6,Yes,92.1,7.8,Fair,6,Some College,Medium,4.9,No,3.48,2,6.6,No,3,5.0,Cafe,No,High,1,10,5,Auditory,6.4,85
+136585,27,Other,Business,2.2,1.7,3.0,No,56.8,6.5,Good,3,Some College,High,6.6,Yes,3.17,4,5.9,No,1,8.1,Quiet Room,No,High,5,9,6,Reading,4.2,81
+146025,22,Male,Engineering,5.4,4.7,1.1,No,64.3,9.6,Good,7,PhD,High,7.5,No,4.0,5,3.0,No,3,12.3,Quiet Room,Yes,Medium,3,6,9,Reading,5.6,100
+166768,21,Male,Engineering,3.4,2.4,3.3,Yes,98.7,8.2,Poor,4,Master,High,10,No,4.0,7,2.4,No,3,11.0,Cafe,Yes,High,1,2,10,Visual,4.4,97
+152386,25,Other,Computer Science,7.756463989900015,3.7,1.6,Yes,59.9,4.4,Fair,4,PhD,High,7.2,Yes,4.0,2,4.0,No,1,13.5,Quiet Room,Yes,High,8,10,5,Reading,1.2,98
+170282,19,Male,Business,3.2,4.9,2.3,No,58.0,7.0,Fair,3,Some College,Low,10,Yes,3.77,5,2.1,No,5,11.2,Dorm,No,High,1,4,10,Kinesthetic,5.5,97
+143404,25,Other,Biology,5.5,0.0,3.1,No,98.5,6.4,Poor,5,Master,Medium,2.4,Yes,3.98,3,7.0,No,2,10.1,Library,No,Low,2,1,10,Auditory,5.1,100
+103617,25,Male,Business,4.1,2.3,1.6,Yes,83.3,6.2,Poor,0,Bachelor,Medium,4.7,No,4.0,2,3.0,No,2,8.4,Quiet Room,Yes,Medium,2,10,5,Reading,7.5,100
+115118,16,Male,Computer Science,7.3329391979711795,2.7,3.0,No,74.4,8.5,Good,4,Bachelor,High,8.1,No,3.84,7,3.5,No,5,13.8,Cafe,Yes,Low,2,4,10,Auditory,2.7,96
+134237,24,Male,Biology,4.2,4.8,1.3,Yes,95.4,7.6,Good,6,Master,Low,6.7,No,4.0,3,2.6,No,5,12.2,Quiet Room,No,Low,2,9,6,Kinesthetic,2.6,100
+123405,27,Female,Arts,4.4,4.6,1.4,Yes,94.3,6.3,Good,4,Master,High,9.3,No,4.0,8,3.7,No,0,11.1,Cafe,Yes,High,9,5,10,Reading,5.4,100
+176099,25,Other,Psychology,6.4,3.1,2.4,Yes,54.5,7.4,Fair,1,High School,Low,5.9,Yes,4.0,8,1.4,No,0,13.2,Co-Learning Group,Yes,Medium,5,6,9,Reading,4.8,100
+134795,22,Male,Computer Science,2.732663421872278,1.4,2.5,Yes,90.5,6.1,Good,1,High School,Low,5.8,Yes,4.0,5,6.5,No,3,8.6,Library,Yes,High,2,1,10,Reading,6.1,100
+105014,20,Other,Engineering,3.3,0.6,1.6,No,45.6,7.7,Fair,5,Some College,High,4.8,Yes,4.0,7,5.7,No,5,6.4,Dorm,Yes,Medium,6,4,10,Auditory,6.6,100
+114208,24,Other,Biology,0,3.4,3.2,No,56.5,6.7,Good,1,High School,High,7.3,No,3.96,2,5.6,No,1,8.5,Co-Learning Group,Yes,High,5,9,6,Reading,4.9,95
+178193,17,Male,Arts,6.8,1.3,0.8,Yes,70.4,6.5,Poor,7,Master,High,9.5,No,4.0,3,1.3,No,1,10.7,Quiet Room,No,Medium,1,9,6,Auditory,9.0,96
+156959,28,Male,Computer Science,5.303317984503165,0.9,1.4,Yes,51.0,8.2,Good,0,Bachelor,Low,7.2,No,3.2,6,2.5,No,3,8.3,Library,No,Medium,1,4,10,Visual,2.9,71
+145309,22,Female,Arts,0.8,2.6,0.7,Yes,93.3,5.5,Fair,5,High School,Medium,6.6,No,3.16,1,4.8,No,4,4.2,Cafe,No,Low,4,1,10,Reading,5.6,80
+141114,17,Male,Engineering,1.8,4.2,0.4,Yes,91.0,7.9,Fair,7,Master,Low,4.7,Yes,4.0,3,1.6,No,2,8.4,Library,No,High,4,7,8,Reading,8.3,95
+157199,19,Female,Psychology,0.4,3.9,3.7,No,79.1,5.2,Fair,4,Some College,High,6.2,Yes,2.68,6,6.4,No,5,8.4,Quiet Room,Yes,High,3,2,10,Auditory,8.3,67
+179457,26,Male,Business,1.2,4.6,1.2,Yes,86.5,5.5,Fair,4,Some College,High,7.5,Yes,3.18,4,6.6,No,1,7.2,Library,Yes,Low,6,2,10,Auditory,8.0,79
+167033,27,Female,Biology,3.0,4.0,3.9,Yes,55.3,7.0,Poor,1,High School,High,8.2,No,3.84,8,4.6,No,5,11.6,Quiet Room,No,Low,9,4,10,Auditory,9.1,100
+115157,27,Female,Computer Science,3.751991329382429,2.4,1.3,Yes,59.3,5.2,Poor,4,Some College,Medium,8.0,Yes,4.0,3,8.0,No,5,8.5,Quiet Room,Yes,High,7,3,10,Auditory,3.7,99
+150488,18,Male,Computer Science,3.7967360181956975,3.9,0.9,Yes,87.5,6.1,Fair,0,Some College,High,5.3,No,4.0,2,3.0,No,3,10.1,Quiet Room,No,Medium,9,10,5,Visual,3.6,100
+175574,24,Other,Business,3.3,0.4,2.5,No,74.0,5.6,Poor,1,High School,Medium,5.5,Yes,3.17,2,7.6,No,5,7.0,Quiet Room,Yes,Low,6,2,10,Auditory,7.8,87
+124914,16,Female,Arts,3.1,4.5,1.2,No,50.9,8.2,Fair,7,High School,Medium,8.3,Yes,4.0,5,6.6,No,2,9.1,Co-Learning Group,Yes,High,3,10,5,Kinesthetic,6.1,100
+133386,25,Male,Business,3.8,3.8,2.7,No,46.2,8.7,Fair,3,Some College,Medium,5.9,No,3.06,6,9.2,No,2,11.8,Library,No,High,7,9,6,Visual,1.2,71
+105817,26,Male,Arts,6.3,0.7,3.3,No,56.7,7.4,Good,2,Bachelor,High,9.9,Yes,4.0,1,3.5,No,4,10.3,Quiet Room,Yes,Medium,1,6,9,Reading,2.6,98
+157154,23,Male,Computer Science,5.075000743675984,1.3,3.4,Yes,91.4,7.5,Poor,7,Master,High,6.4,No,3.7,5,3.1,No,4,11.0,Quiet Room,No,High,4,9,6,Kinesthetic,4.3,93
+100221,16,Male,Business,5.6,3.7,3.8,Yes,47.1,5.8,Poor,2,Some College,High,7.9,Yes,4.0,3,2.3,No,0,13.7,Cafe,Yes,Low,10,5,10,Kinesthetic,1.1,100
+168146,25,Male,Psychology,4.6,2.0,3.8,No,70.6,6.9,Fair,7,High School,Medium,7.2,Yes,3.92,7,5.1,No,1,12.0,Dorm,No,High,7,10,5,Auditory,8.7,90
+170575,22,Other,Computer Science,2.3056561143859753,0.6,0.4,Yes,52.9,7.0,Fair,2,High School,Low,10,Yes,3.27,5,2.0,No,2,4.0,Library,No,Low,1,1,10,Kinesthetic,2.4,78
+125825,25,Male,Biology,4.9,4.5,2.0,Yes,89.1,6.2,Good,4,Bachelor,Low,5.1,Yes,4.0,2,3.6,No,4,12.9,Dorm,No,Low,4,5,10,Kinesthetic,9.0,99
+147739,25,Male,Psychology,8.1,2.8,1.6,No,98.8,8.8,Good,1,PhD,High,7.6,No,4.0,6,1.7,No,4,14.0,Co-Learning Group,Yes,Medium,2,1,10,Auditory,7.5,97
+156531,27,Male,Arts,7.5,1.4,3.8,Yes,85.3,7.1,Poor,4,Some College,Low,7.2,Yes,4.0,6,2.8,No,3,12.9,Dorm,Yes,Low,9,6,9,Visual,2.8,100
+109171,17,Male,Biology,2.4,4.2,1.3,No,42.4,5.4,Fair,4,PhD,Low,7.6,No,3.0,1,6.8,No,3,8.8,Quiet Room,No,Low,5,5,10,Reading,1.4,74
+143279,20,Female,Computer Science,3.1140079002067376,2.6,3.7,Yes,98.3,8.4,Fair,3,Some College,Medium,4.1,Yes,2.94,3,4.6,No,0,10.7,Library,No,Medium,6,6,9,Kinesthetic,1.6,71
+141145,19,Other,Business,4.2,4.0,1.7,Yes,94.2,8.2,Fair,7,Master,Medium,6.5,No,2.94,7,6.0,No,1,10.2,Quiet Room,No,High,1,1,10,Reading,4.8,71
+116334,19,Male,Computer Science,3.9128473578396505,4.1,3.2,No,64.4,5.2,Fair,5,Some College,High,7.3,No,4.0,7,1.3,No,1,11.5,Library,No,Medium,5,6,9,Visual,9.6,100
+139363,21,Male,Engineering,0.3,1.2,3.8,No,98.4,7.0,Good,7,High School,Medium,8.5,Yes,2.39,4,4.4,No,1,6.0,Cafe,No,Medium,5,1,10,Kinesthetic,9.0,60
+166469,18,Male,Computer Science,6.316732825741758,4.7,2.2,No,82.3,9.1,Poor,5,Some College,Low,6.9,Yes,4.0,1,4.2,No,1,15.2,Dorm,Yes,Low,5,10,5,Visual,2.0,100
+140538,28,Female,Biology,5.8,4.7,2.6,Yes,54.0,5.1,Good,3,Bachelor,Low,3.3,Yes,2.97,4,6.1,No,2,14.9,Cafe,Yes,Medium,4,3,10,Auditory,1.4,82
+153528,18,Other,Arts,4.7,2.5,3.0,No,99.9,4,Fair,5,Bachelor,Low,2.7,Yes,3.91,8,1.7,No,4,11.8,Library,Yes,Low,7,4,10,Auditory,5.4,92
+142753,27,Other,Engineering,5.7,2.9,1.3,Yes,50.5,6.8,Fair,4,Master,High,6.9,No,4.0,5,5.1,No,0,10.7,Library,Yes,High,9,6,9,Kinesthetic,7.3,100
+152743,23,Female,Psychology,4.2,1.2,2.2,Yes,53.2,7.0,Good,2,PhD,Low,3.9,Yes,3.31,1,4.4,No,2,9.3,Dorm,No,Low,7,9,6,Kinesthetic,6.5,75
+138752,28,Female,Engineering,4.8,1.8,1.9,No,59.4,8.0,Fair,6,Some College,High,7.7,Yes,2.86,1,3.7,No,2,10.0,Cafe,No,High,9,2,10,Kinesthetic,5.6,73
+172667,25,Female,Psychology,4.3,1.8,3.1,Yes,59.6,5.2,Good,7,Bachelor,High,6.6,No,4.0,7,5.4,No,5,9.5,Quiet Room,Yes,High,2,9,6,Visual,5.0,100
+116683,27,Male,Biology,2.6,3.6,0.7,No,74.1,4.6,Fair,2,High School,Medium,9.5,Yes,3.68,8,3.5,No,5,8.4,Library,Yes,High,2,5,10,Reading,5.3,92
+125144,20,Female,Biology,3.7,3.0,3.2,Yes,76.9,5.6,Poor,6,Some College,Low,6.1,Yes,4.0,3,2.0,No,5,10.9,Library,Yes,Low,6,4,10,Reading,2.3,98
+155108,19,Female,Biology,4.8,1.9,0.3,Yes,78.0,8.6,Poor,5,Bachelor,Low,4.4,No,3.69,5,2.6,No,2,8.8,Cafe,Yes,Low,2,7,8,Visual,3.1,92
+149695,27,Other,Engineering,2.9,4.2,0.0,No,70.9,8.5,Good,4,Bachelor,Low,7.6,Yes,2.44,4,5.2,No,3,8.6,Cafe,No,Medium,9,1,10,Auditory,8.2,51
+122810,19,Male,Computer Science,2.8556932162905317,3.8,2.9,Yes,84.7,6.3,Good,6,Bachelor,Medium,7.9,No,4.0,4,4.4,No,2,11.4,Dorm,Yes,Low,7,4,10,Visual,9.1,100
+174593,16,Other,Arts,2.7,2.9,1.6,No,81.3,6.0,Fair,2,Master,High,9.3,Yes,3.99,5,5.2,No,0,7.6,Cafe,No,Low,6,9,6,Kinesthetic,1.9,100
+139446,18,Other,Psychology,3.7,2.3,3.7,No,46.7,5.1,Good,0,Bachelor,Low,8.9,No,2.91,6,4.5,No,3,10.6,Dorm,No,Medium,8,10,5,Auditory,6.3,79
+153225,26,Other,Arts,6.2,3.1,2.9,No,72.8,7.5,Poor,2,PhD,Medium,3.8,No,4.0,7,5.0,No,2,13.4,Quiet Room,No,High,8,9,6,Kinesthetic,6.6,100
+171819,16,Female,Arts,6.7,4.9,1.6,Yes,80.2,5.6,Fair,5,Bachelor,Low,8.2,Yes,3.76,5,1.4,No,1,13.6,Cafe,No,Medium,1,5,10,Reading,6.9,94
+100053,16,Male,Engineering,4.4,1.4,0.5,Yes,50.5,6.7,Fair,6,Some College,Low,7.4,Yes,3.13,1,2.1,No,0,7.3,Quiet Room,No,High,9,6,9,Kinesthetic,1.6,70
+139829,20,Other,Psychology,4.2,1.7,1.3,No,52.0,6.1,Poor,3,High School,Low,6.1,No,4.0,3,5.5,No,0,9.1,Co-Learning Group,Yes,Low,8,1,10,Visual,6.7,98
+137606,18,Other,Arts,5.0,3.4,2.9,Yes,50.6,8.5,Poor,7,Some College,Low,6.7,No,3.68,5,4.5,No,1,13.2,Dorm,No,High,10,5,10,Visual,3.3,82
+127549,17,Male,Arts,1.9,0.5,3.7,No,94.0,8.1,Good,2,Some College,Medium,6.9,No,2.77,5,5.4,No,1,8.0,Dorm,Yes,Low,10,2,10,Auditory,4.6,68
+156346,17,Female,Computer Science,9.617385963801445,1.1,0.6,Yes,90.8,4.3,Good,3,High School,High,7.5,No,4.0,8,4.1,No,0,12.1,Dorm,No,Low,10,5,10,Visual,9.6,93
+176019,21,Female,Engineering,2.8,1.3,0.4,Yes,86.0,4.7,Good,5,Some College,Low,9.9,Yes,3.81,7,6.0,No,5,5.7,Co-Learning Group,Yes,Medium,2,8,7,Kinesthetic,2.7,95
+179516,25,Male,Psychology,1.6,4.8,2.0,Yes,69.7,9.0,Good,5,Master,High,5.2,No,3.75,3,3.6,No,0,9.4,Quiet Room,No,Medium,9,5,10,Auditory,3.2,100
+142237,18,Other,Biology,1.4,0.2,3.6,Yes,41.8,6.0,Good,6,Some College,High,9.1,Yes,3.6,7,6.2,No,2,5.6,Co-Learning Group,No,High,3,9,6,Kinesthetic,9.1,91
+160946,27,Other,Psychology,6.6,3.7,3.8,No,56.2,6.2,Poor,3,PhD,High,3.5,Yes,4.0,6,2.0,No,1,15.4,Dorm,No,Medium,6,2,10,Auditory,2.5,97
+157905,22,Male,Engineering,6.4,1.5,1.1,No,43.9,4,Fair,5,Some College,Low,6.4,Yes,3.67,3,7.2,No,4,9.9,Dorm,Yes,Medium,7,4,10,Kinesthetic,5.9,92
+157954,28,Female,Computer Science,2.7502832572329727,0.4,1.4,No,50.1,6.3,Fair,7,Bachelor,High,5.0,Yes,4.0,2,6.5,No,2,5.1,Library,Yes,High,10,10,5,Visual,6.7,100
+128010,20,Female,Computer Science,6.141051267172573,0.7,3.3,Yes,81.7,6.1,Poor,0,High School,High,9.3,Yes,4.0,5,6.3,No,1,11.3,Quiet Room,No,High,3,7,8,Kinesthetic,7.1,100
+167000,21,Female,Business,3.5,2.1,3.5,Yes,61.2,6.3,Poor,1,Bachelor,Medium,8.1,No,3.06,4,4.0,No,4,10.5,Co-Learning Group,Yes,Medium,8,5,10,Visual,4.1,75
+162021,21,Female,Biology,2.8,4.3,1.2,No,98.5,7.2,Poor,1,Some College,High,8.5,No,2.73,5,3.9,No,4,8.9,Cafe,No,Medium,6,4,10,Visual,9.1,74
+122241,22,Female,Engineering,4.6,2.5,0.8,Yes,76.5,7.1,Good,6,PhD,Medium,8.2,No,3.2,3,6.3,No,5,8.5,Library,Yes,Low,4,2,10,Visual,7.2,79
+111114,26,Female,Psychology,4.7,3.2,2.3,No,46.2,6.4,Fair,0,Master,Medium,7.4,No,4.0,5,8.1,No,3,11.6,Cafe,Yes,Low,9,9,6,Auditory,9.2,100
+137196,17,Male,Biology,4.2,0.1,2.3,No,95.3,4,Poor,2,Some College,Low,6.8,Yes,3.88,7,5.4,No,2,7.9,Dorm,Yes,Medium,1,7,8,Auditory,1.6,94
+167561,28,Female,Psychology,3.6,3.9,1.3,Yes,85.8,8.7,Fair,1,High School,Medium,5.6,Yes,2.45,2,4.6,No,1,10.8,Dorm,Yes,Low,7,3,10,Reading,7.9,72
+143933,25,Male,Engineering,5.4,0.3,1.2,Yes,95.5,7.6,Good,7,PhD,High,7.5,No,4.0,1,5.5,No,2,7.0,Co-Learning Group,Yes,Medium,4,9,6,Kinesthetic,7.4,100
+112240,17,Other,Computer Science,6.900344154538289,4.5,0.5,Yes,99.4,9.2,Good,2,High School,Medium,7.8,Yes,4.0,1,5.5,No,4,12.1,Cafe,Yes,Medium,6,7,8,Kinesthetic,7.3,98
+130784,26,Other,Business,3.9,0.6,1.6,Yes,54.4,8.0,Poor,2,Some College,High,7.300000000000001,Yes,3.57,2,7.2,No,3,7.0,Cafe,No,Medium,5,5,10,Visual,4.3,88
+140687,22,Male,Arts,4.1,0.2,1.0,Yes,81.4,6.9,Good,3,Master,Low,10,No,4.0,1,4.0,No,2,6.3,Cafe,No,High,9,7,8,Kinesthetic,9.0,100
+129444,16,Male,Arts,0.7,0.3,2.4,No,43.5,7.0,Good,2,Bachelor,Low,6.9,Yes,2.86,5,6.6,No,1,4.0,Library,Yes,Medium,8,3,10,Reading,6.7,73
+126100,18,Male,Arts,4.8,3.6,3.2,No,50.9,8.1,Fair,6,Master,Low,5.6,Yes,4.0,7,5.3,No,0,12.6,Cafe,Yes,Medium,5,9,6,Kinesthetic,1.5,94
+119313,27,Female,Arts,4.3,0.4,0.2,No,88.4,7.3,Good,3,Master,High,10,No,3.06,1,6.3,No,2,5.1,Co-Learning Group,Yes,Low,6,7,8,Auditory,6.1,82
+103201,28,Male,Biology,4.4,4.1,0.1,No,61.2,4.6,Good,0,Some College,Low,6.5,Yes,3.22,8,4.8,No,4,9.2,Cafe,No,High,5,6,9,Auditory,1.5,79
+106057,25,Female,Psychology,1.2,3.0,3.0,No,42.1,8.3,Good,3,Master,Low,7.5,Yes,3.81,2,4.0,No,4,8.5,Co-Learning Group,No,Low,3,1,10,Visual,5.6,91
+132092,28,Other,Computer Science,2.817849555106794,1.5,3.1,Yes,90.8,7.4,Good,4,Bachelor,High,6.0,No,3.13,2,6.1,No,4,7.9,Cafe,No,Medium,6,6,9,Auditory,5.4,78
+162277,17,Female,Engineering,0.6,4.2,3.7,No,64.7,9.7,Good,1,Bachelor,Medium,7.1,No,3.2,7,5.1,No,1,9.0,Co-Learning Group,No,Medium,8,3,10,Visual,7.2,82
+109545,17,Other,Psychology,0.8,4.0,0.1,Yes,73.6,4.6,Poor,0,High School,Low,7.1,No,2.25,5,7.1,No,3,6.0,Quiet Room,No,High,8,4,10,Reading,1.8,50
+159692,25,Female,Biology,5.5,1.0,2.9,Yes,61.1,7.4,Good,3,Bachelor,High,7.3,Yes,3.59,2,2.2,No,2,9.9,Library,Yes,High,1,4,10,Visual,5.2,90
+154321,22,Male,Business,3.7,0.4,1.4,No,93.4,4.9,Fair,6,Some College,High,5.2,Yes,3.93,6,5.7,No,1,6.4,Co-Learning Group,Yes,Low,9,6,9,Visual,7.0,96
+175454,20,Other,Computer Science,5.256161917958766,2.1,3.6,No,93.1,9.1,Fair,6,Master,Low,2.4,Yes,4.0,1,5.4,No,3,11.3,Dorm,No,Low,8,1,10,Reading,1.1,100
+125485,17,Female,Computer Science,4.432367155073351,3.9,2.0,No,87.2,5.8,Good,7,Some College,Medium,5.0,No,4.0,7,4.9,No,4,10.7,Quiet Room,Yes,Low,10,5,10,Reading,8.4,100
+150328,27,Female,Arts,3.2,2.9,2.5,Yes,48.9,7.3,Fair,5,High School,Low,6.7,No,4.0,7,5.2,No,1,9.5,Dorm,Yes,Medium,7,9,6,Kinesthetic,5.2,100
+164799,20,Other,Arts,6.2,0.8,3.3,Yes,85.4,4.8,Good,7,Master,Low,5.1,No,4.0,7,4.5,No,4,11.4,Quiet Room,Yes,Medium,4,6,9,Auditory,5.0,99
+152383,24,Female,Engineering,1.9,0.7,2.2,Yes,88.2,6.5,Fair,6,Bachelor,Medium,7.4,Yes,3.27,3,8.1,Yes,4,6.5,Co-Learning Group,Yes,Medium,8,2,10,Kinesthetic,9.2,76
+131979,28,Female,Business,4.5,2.7,2.0,Yes,60.6,9.6,Fair,3,Some College,Low,6.4,No,4.0,7,3.4,No,3,9.5,Dorm,No,High,8,10,5,Kinesthetic,6.6,92
+119342,26,Female,Arts,8.0,2.1,3.0,No,56.1,7.2,Fair,5,Bachelor,High,4.0,No,3.73,2,3.8,No,4,14.9,Cafe,No,Low,7,8,7,Visual,4.0,93
+100726,21,Male,Engineering,6.8,1.4,2.4,Yes,83.2,8.0,Good,3,Master,High,8.2,No,4.0,7,6.4,No,1,11.4,Library,Yes,Low,5,8,7,Visual,5.6,97
+113970,28,Other,Biology,6.4,0.4,0.4,No,57.4,6.1,Good,1,Some College,High,8.7,Yes,3.39,5,3.4,No,1,7.8,Quiet Room,No,High,6,2,10,Visual,6.2,83
+155724,16,Female,Engineering,4.6,3.2,2.7,No,91.9,5.5,Poor,1,Master,Low,6.9,Yes,3.18,4,4.1,No,3,11.8,Quiet Room,Yes,High,10,3,10,Visual,5.9,80
+128683,20,Male,Psychology,2.7,4.7,2.4,Yes,65.0,6.0,Fair,2,Some College,High,5.1,No,3.69,5,7.7,No,3,11.8,Dorm,No,High,5,6,9,Kinesthetic,9.4,99
+123053,28,Female,Business,6.1,0.5,1.8,No,42.5,8.2,Poor,5,PhD,Medium,5.0,Yes,4.0,3,9.1,Yes,3,8.9,Quiet Room,Yes,Low,1,1,10,Reading,8.0,100
+167889,26,Male,Psychology,5.6,0.3,0.8,No,97.5,4,Poor,1,Some College,High,10,No,3.97,1,5.9,No,3,7.9,Library,No,Medium,5,10,5,Reading,6.4,94
+160889,17,Male,Engineering,3.6,5.0,3.7,Yes,49.8,5.9,Good,4,High School,Low,6.3,No,4.0,8,2.6,No,5,12.7,Dorm,No,Low,10,3,10,Auditory,2.2,100
+106582,19,Male,Computer Science,6.050535142447188,3.5,2.1,Yes,57.8,8.3,Good,6,Master,High,4.8,No,3.35,1,4.8,No,4,12.1,Library,No,High,1,3,10,Auditory,4.3,86
+173060,23,Other,Psychology,2.3,1.0,0.7,Yes,57.1,7.0,Good,6,Bachelor,Low,4.4,No,4.0,1,8.8,No,0,4.6,Library,No,Low,10,10,5,Reading,8.7,99
+132662,26,Other,Biology,3.2,0.0,1.0,No,87.8,7.0,Fair,6,Master,Medium,5.9,No,4.0,7,4.9,No,3,4.7,Cafe,Yes,Medium,4,5,10,Auditory,9.8,95
+115906,17,Male,Psychology,4.8,4.8,0.7,Yes,83.0,5.3,Fair,3,Master,High,7.8,No,4.0,7,2.8,No,2,11.2,Co-Learning Group,No,Low,6,4,10,Kinesthetic,3.1,100
+159829,18,Male,Computer Science,4.692191197775899,4.1,1.2,Yes,83.5,6.9,Fair,3,Some College,High,9.7,No,3.41,2,4.2,No,5,11.6,Cafe,Yes,High,1,1,10,Kinesthetic,7.0,88
+117477,27,Male,Engineering,5.2,0.4,0.2,Yes,81.9,6.1,Good,0,High School,Medium,6.9,Yes,4.0,2,2.3,No,3,7.3,Co-Learning Group,Yes,Low,2,8,7,Reading,7.5,100
+160901,22,Other,Business,5.6,2.0,3.3,Yes,58.3,10.0,Fair,7,High School,Low,5.2,Yes,3.42,7,5.0,No,3,12.3,Library,Yes,High,9,1,10,Auditory,4.2,87
+169616,28,Male,Computer Science,8.580865300680346,1.9,0.1,No,53.1,7.5,Good,2,High School,High,4.6,Yes,4.0,8,1,No,3,11.2,Cafe,No,High,8,2,10,Visual,5.6,100
+173259,21,Female,Biology,7.2,2.6,0.6,Yes,77.7,7.7,Poor,7,PhD,Low,4.9,No,4.0,7,7.4,No,5,12.4,Co-Learning Group,No,Low,2,2,10,Auditory,8.1,96
+178047,25,Other,Business,3.7,3.3,1.9,No,46.9,7.9,Good,0,Some College,Medium,7.6,Yes,3.01,1,4.7,No,5,9.7,Quiet Room,Yes,Low,9,2,10,Visual,8.7,79
+141588,27,Other,Arts,0.5,0.0,4.0,No,72.3,8.2,Fair,2,Master,High,6.8,No,3.61,7,2.3,No,4,6.2,Dorm,No,Medium,5,10,5,Kinesthetic,7.7,89
+158008,23,Female,Biology,9.0,0.9,2.0,Yes,91.9,8.2,Good,2,PhD,Medium,3.7,Yes,3.91,2,7.2,No,2,11.9,Library,Yes,Low,1,2,10,Reading,4.8,100
+166162,28,Other,Psychology,7.0,1.0,1.7,Yes,81.6,9.8,Good,2,Some College,Low,6.1,Yes,3.59,4,3.3,No,0,9.9,Cafe,Yes,Low,5,1,10,Visual,6.3,84
+155933,24,Other,Biology,8.9,0.8,0.3,No,55.9,5.2,Good,0,High School,Medium,8.4,No,3.69,7,6.6,No,1,11.8,Co-Learning Group,No,Medium,6,5,10,Reading,2.3,82
+171810,18,Female,Computer Science,2.7482964859830528,3.7,3.5,Yes,77.7,6.4,Fair,1,PhD,High,7.2,No,3.69,4,6.0,No,5,10.2,Quiet Room,Yes,High,5,9,6,Reading,8.9,91
+158446,28,Male,Arts,7.6,3.2,1.4,Yes,43.1,7.2,Fair,0,PhD,Low,10,No,3.97,7,5.9,No,0,13.1,Quiet Room,Yes,High,8,7,8,Reading,6.8,100
+120861,19,Male,Engineering,3.3,4.5,1.8,Yes,70.2,10.6,Good,4,Some College,Medium,8.0,Yes,3.79,8,4.9,No,5,10.9,Dorm,No,High,6,7,8,Visual,6.9,90
+162216,19,Male,Business,2.0,2.8,2.3,No,75.0,7.3,Fair,5,Master,Medium,7.2,No,3.08,8,4.1,No,1,7.1,Co-Learning Group,Yes,Low,2,5,10,Visual,10.0,78
+158991,20,Other,Computer Science,6.782416878437936,2.7,3.4,Yes,44.0,6.4,Good,0,Bachelor,Medium,2.6,Yes,4.0,7,4.8,No,2,12.9,Co-Learning Group,Yes,Medium,8,6,9,Kinesthetic,8.1,100
+133972,24,Female,Psychology,2.7,2.3,2.1,No,91.1,7.5,Good,7,PhD,High,5.1,Yes,3.17,7,7.2,No,2,7.2,Dorm,No,Low,4,4,10,Visual,3.7,75
+132406,16,Other,Computer Science,4.7228426336400515,4.5,1.7,Yes,60.2,9.2,Good,3,Master,Low,7.3,Yes,4.0,8,4.5,No,0,10.9,Cafe,Yes,Medium,3,6,9,Visual,3.5,99
+136347,20,Female,Business,2.2,1.9,3.6,Yes,44.3,5.9,Poor,0,Some College,Medium,7.6,No,3.31,4,5.1,No,1,9.1,Co-Learning Group,Yes,Low,3,1,10,Reading,5.4,83
+168327,20,Male,Computer Science,5.096132149061374,4.0,1.3,No,86.7,4.7,Good,0,Bachelor,Low,7.3,No,3.52,7,4.3,No,3,11.1,Cafe,Yes,Medium,7,3,10,Kinesthetic,8.5,87
+163517,27,Male,Psychology,4.1,2.1,0.2,No,46.4,4,Good,6,Master,Low,9.9,No,4.0,7,5.8,No,2,8.2,Dorm,Yes,Low,10,9,6,Auditory,2.0,95
+131358,23,Other,Psychology,5.5,2.2,1.4,No,79.0,7.2,Good,4,Bachelor,Low,10,No,4.0,5,2.3,No,4,10.7,Quiet Room,No,High,4,5,10,Auditory,6.5,100
+135992,22,Male,Psychology,2.8,3.7,0.1,No,53.0,8.0,Fair,5,Master,Medium,5.6,No,4.0,8,5.8,No,1,7.9,Dorm,Yes,Medium,10,10,5,Reading,5.9,100
+157654,28,Female,Psychology,2.7,2.2,1.1,Yes,42.4,5.6,Good,4,Bachelor,Medium,2.3,No,3.49,5,7.7,No,0,6.4,Library,Yes,High,3,3,10,Kinesthetic,4.7,82
+110155,23,Male,Business,2.9,0.2,2.9,No,97.4,6.7,Good,2,Some College,Low,5.7,No,3.79,1,4.3,No,3,7.6,Co-Learning Group,Yes,Medium,6,4,10,Visual,4.3,90
+137450,20,Other,Engineering,4.9,0.2,0.2,No,91.8,4.4,Poor,7,Bachelor,Medium,8.3,No,3.43,1,9.2,Yes,1,6.3,Quiet Room,Yes,Low,10,3,10,Visual,8.4,89
+130735,16,Other,Psychology,7.7,4.7,0.4,No,74.7,6.4,Fair,0,Some College,Low,7.8,Yes,4.0,2,4.5,No,4,13.7,Library,Yes,Low,6,6,9,Auditory,6.0,100
+135614,21,Female,Arts,2.0,2.0,3.9,Yes,59.7,7.4,Fair,5,Some College,High,10,Yes,3.63,5,6.3,No,5,9.3,Co-Learning Group,Yes,High,7,3,10,Auditory,9.5,90
+144020,16,Male,Psychology,7.9,2.8,3.2,Yes,87.8,7.1,Good,1,Some College,High,3.5999999999999996,Yes,4.0,4,7.8,No,5,14.9,Co-Learning Group,No,Low,10,9,6,Reading,1.1,96
+141904,27,Female,Engineering,4.7,1.3,3.6,Yes,83.2,7.4,Fair,3,High School,Low,8.6,Yes,3.49,6,6.8,No,0,10.8,Co-Learning Group,Yes,Low,7,1,10,Reading,8.2,87
+170798,23,Other,Engineering,3.7,4.3,1.5,No,53.9,7.7,Good,3,Master,Medium,5.4,Yes,4.0,2,3.0,No,3,10.9,Dorm,Yes,Low,7,8,7,Reading,3.9,100
+110561,22,Other,Arts,3.9,4.4,1.2,No,62.2,9.5,Good,4,Master,Low,7.5,No,3.04,2,2.5,No,3,10.0,Cafe,No,High,6,5,10,Reading,7.9,79
+118136,26,Female,Business,3.8,4.0,1.4,Yes,57.1,6.7,Good,2,Some College,High,7.2,No,4.0,2,1.2,No,3,9.9,Co-Learning Group,Yes,Low,9,5,10,Reading,9.4,100
+119769,23,Other,Biology,5.3,3.6,0.5,Yes,82.8,7.4,Fair,3,High School,Medium,5.6,No,3.65,8,5.5,No,3,9.7,Library,Yes,Low,7,7,8,Auditory,7.9,88
+130311,16,Female,Biology,6.2,4.2,0.9,No,49.9,7.1,Fair,3,PhD,Medium,10,Yes,4.0,3,4.2,No,5,11.3,Co-Learning Group,Yes,Medium,10,6,9,Auditory,5.6,100
+150205,23,Other,Biology,6.0,3.5,0.5,No,57.4,5.4,Fair,3,Master,Medium,9.1,No,3.47,8,5.8,No,0,10.9,Dorm,Yes,High,7,2,10,Reading,7.6,89
+120028,28,Male,Business,3.2,3.2,0.8,Yes,40.3,7.1,Poor,3,Bachelor,High,10,Yes,4.0,8,7.0,No,2,8.0,Co-Learning Group,Yes,Low,8,5,10,Visual,8.6,100
+128043,17,Female,Biology,6.1,2.7,1.8,No,50.2,6.6,Good,4,Master,High,6.0,Yes,4.0,2,1.1,No,1,11.2,Library,No,Medium,8,3,10,Auditory,7.3,100
+108418,20,Male,Computer Science,3.9869940127646144,2.0,1.9,No,94.8,7.8,Fair,4,PhD,High,2.8,No,2.92,6,7.4,No,0,8.6,Dorm,Yes,Medium,6,2,10,Reading,3.6,71
+154377,17,Female,Psychology,2.9,4.2,2.4,No,72.7,6.5,Fair,1,PhD,High,10,No,3.15,3,6.5,No,4,11.5,Co-Learning Group,No,Low,2,1,10,Visual,4.3,74
+153424,26,Other,Business,3.6,3.0,0.5,Yes,71.6,6.3,Poor,1,Bachelor,High,9.1,Yes,4.0,6,6.4,No,0,8.5,Quiet Room,Yes,Medium,7,8,7,Reading,9.6,99
+143369,28,Other,Psychology,3.8,4.3,2.2,Yes,54.0,6.4,Good,7,Bachelor,Low,5.1,Yes,3.68,6,5.6,No,4,11.5,Dorm,Yes,Medium,3,4,10,Visual,8.4,95
+171121,21,Other,Arts,2.6,3.6,2.1,Yes,91.0,7.2,Good,5,Some College,Low,6.2,No,2.83,8,5.1,No,4,8.5,Library,No,Low,9,6,9,Auditory,9.5,78
+161069,16,Male,Psychology,1.5,1.7,1.5,No,51.8,7.8,Good,7,Some College,High,7.300000000000001,No,3.8,2,8.4,Yes,4,5.1,Library,Yes,High,10,2,10,Reading,3.0,100
+154496,23,Other,Computer Science,2.2380094392814796,3.8,2.0,No,98.9,6.8,Good,0,PhD,Medium,7.9,Yes,2.59,2,2.2,No,3,8.8,Co-Learning Group,Yes,Low,10,2,10,Visual,6.5,61
+108161,17,Other,Arts,6.6,2.1,3.5,Yes,49.9,8.3,Good,0,Bachelor,Low,4.0,No,4.0,6,6.7,No,4,12.3,Cafe,Yes,High,9,7,8,Kinesthetic,1.6,99
+127110,23,Other,Arts,3.2,0.4,3.8,No,94.0,6.4,Good,4,Master,High,9.2,No,3.61,6,1.2,No,3,7.6,Cafe,No,Medium,10,5,10,Visual,8.6,84
+155069,16,Male,Computer Science,4.389771269634829,4.8,2.2,No,46.2,7.1,Fair,3,PhD,Low,10,No,3.23,5,4.7,No,4,12.3,Cafe,Yes,Medium,8,1,10,Visual,7.6,88
+151049,23,Other,Engineering,4.9,1.5,0.4,No,97.2,6.6,Fair,0,High School,Low,4.7,No,4.0,5,6.0,No,1,6.9,Quiet Room,Yes,Medium,8,5,10,Reading,5.7,100
+176556,26,Female,Arts,3.0,1.6,1.3,Yes,81.9,8.8,Good,3,Master,Medium,6.6,No,4.0,8,5.7,No,5,6.7,Library,Yes,Low,10,3,10,Visual,7.3,98
+102560,24,Female,Biology,7.5,1.5,0.6,Yes,74.1,6.1,Good,0,PhD,High,8.2,No,3.33,7,3.0,No,2,11.1,Cafe,No,Low,4,8,7,Visual,4.0,91
+175456,20,Female,Computer Science,6.191304275730798,2.6,1.3,No,47.7,5.6,Good,6,High School,Medium,6.9,Yes,4.0,7,1.3,No,1,11.6,Quiet Room,Yes,Medium,3,10,5,Auditory,6.0,97
+149857,25,Female,Arts,0.6,4.0,2.0,Yes,74.0,6.1,Good,1,High School,High,4.1,Yes,2.96,3,6.4,No,1,7.9,Co-Learning Group,No,Low,7,5,10,Reading,5.6,79
+162518,19,Other,Engineering,4.5,4.9,1.9,No,67.3,6.7,Good,6,Bachelor,Low,3.9000000000000004,No,4.0,1,8.4,No,3,11.8,Co-Learning Group,No,Low,5,4,10,Kinesthetic,2.4,96
+100772,17,Male,Biology,0.9,4.4,2.3,Yes,50.0,4.7,Good,7,Master,High,6.2,No,2.96,7,1.7,No,5,8.5,Dorm,No,High,9,1,10,Auditory,7.4,71
+146105,27,Other,Computer Science,3.4057893091440894,0.3,0.3,Yes,57.5,8.7,Fair,0,Bachelor,High,7.9,No,3.85,8,7.1,No,1,5.5,Quiet Room,No,High,6,9,6,Reading,5.7,100
+139139,17,Female,Computer Science,7.346277851240053,2.2,0.1,No,71.9,7.5,Good,1,PhD,Low,5.0,Yes,4.0,7,6.1,No,0,11.3,Dorm,Yes,High,9,1,10,Kinesthetic,7.9,90
+151116,21,Male,Arts,7.4,4.9,1.2,No,40.5,8.8,Fair,3,High School,High,7.9,No,3.68,7,5.0,No,2,14.4,Quiet Room,Yes,High,9,5,10,Auditory,2.8,86
+154921,27,Male,Arts,1.3,1.8,3.1,Yes,80.9,8.9,Good,1,High School,Medium,8.3,Yes,3.3,8,6.7,No,2,7.8,Quiet Room,Yes,Medium,2,3,10,Auditory,4.3,78
+170545,17,Female,Biology,5.0,3.4,1.1,Yes,55.4,4.1,Good,7,High School,High,10,Yes,3.38,3,6.4,No,5,11.0,Co-Learning Group,Yes,Medium,9,7,8,Kinesthetic,6.8,82
+171582,16,Male,Arts,3.7,3.1,2.8,Yes,88.4,7.7,Fair,7,Some College,Medium,8.3,No,3.73,7,5.6,No,5,11.6,Quiet Room,Yes,Low,7,10,5,Visual,6.2,90
+179069,27,Other,Arts,2.4,1.4,2.8,Yes,60.5,6.6,Poor,5,Some College,High,9.2,No,3.63,6,5.5,No,3,7.0,Co-Learning Group,Yes,High,7,5,10,Reading,4.9,85
+128906,22,Male,Psychology,2.8,4.3,3.8,No,92.0,8.4,Fair,5,Master,Low,5.5,Yes,3.54,4,4.2,No,2,11.6,Library,Yes,High,9,4,10,Reading,9.7,89
+163993,27,Other,Biology,4.7,1.7,0.2,Yes,78.9,6.1,Good,5,High School,High,9.1,No,3.92,8,2.0,No,5,8.6,Co-Learning Group,No,Medium,7,5,10,Kinesthetic,3.1,86
+128760,20,Other,Engineering,6.7,3.8,2.0,Yes,52.2,6.3,Good,6,PhD,Low,4.7,Yes,3.26,7,2.7,No,4,13.7,Co-Learning Group,No,High,2,7,8,Reading,4.6,78
+135774,19,Female,Arts,2.6,2.0,0.1,No,79.4,7.8,Fair,6,Master,Medium,7.8,No,3.72,5,5.1,No,5,5.0,Cafe,No,Low,6,6,9,Auditory,4.0,90
+157125,26,Other,Biology,8.2,4.8,0.2,Yes,97.2,8.5,Fair,4,High School,Low,3.6,Yes,3.87,7,5.2,No,0,14.4,Dorm,Yes,Medium,3,4,10,Auditory,9.3,99
+163654,18,Other,Biology,4.4,2.9,2.6,Yes,96.5,8.8,Fair,2,Some College,Low,6.1,No,3.07,2,3.6,No,4,10.2,Library,No,Medium,8,4,10,Kinesthetic,5.3,82
+103804,19,Female,Arts,4.2,3.0,0.9,Yes,44.6,9.1,Good,6,PhD,Low,10,No,3.98,1,4.6,No,3,9.0,Co-Learning Group,No,Medium,5,9,6,Auditory,6.2,100
+150968,19,Other,Business,5.2,2.6,4.0,Yes,96.6,8.3,Fair,3,PhD,High,6.3,No,4.0,2,4.3,No,4,11.9,Co-Learning Group,Yes,Medium,8,7,8,Visual,8.2,100
+144057,27,Female,Business,3.3,3.5,1.1,Yes,97.2,8.4,Good,4,High School,Medium,6.0,No,3.15,3,8.0,No,5,8.9,Co-Learning Group,No,Low,9,1,10,Reading,8.4,83
+152994,26,Other,Psychology,0.5,5.0,3.8,No,45.3,6.2,Good,4,Bachelor,High,9.3,No,4.0,4,5.0,No,5,9.6,Library,No,Low,3,3,10,Reading,7.6,95
+121632,18,Female,Biology,2.2,3.6,1.3,No,59.8,8.8,Good,4,PhD,Medium,10,No,3.06,8,4.6,No,1,8.1,Co-Learning Group,No,Low,1,8,7,Kinesthetic,6.3,74
+161261,19,Male,Arts,3.1,2.9,0.6,Yes,70.6,7.6,Good,2,High School,Low,10,Yes,3.17,2,5.3,No,5,7.4,Library,Yes,Medium,6,9,6,Reading,7.4,86
+116728,27,Other,Computer Science,2.5596982062920244,2.0,2.4,Yes,79.3,5.8,Fair,4,Master,High,4.2,No,3.91,4,3.5,No,0,7.4,Cafe,No,Medium,2,3,10,Kinesthetic,3.7,100
+170008,21,Other,Psychology,1.3,0.2,2.1,No,68.2,7.5,Good,6,Bachelor,Medium,9.1,Yes,3.87,5,4.5,No,0,5.2,Co-Learning Group,Yes,Low,2,6,9,Reading,8.6,95
+103534,24,Male,Psychology,4.0,4.4,3.2,No,82.0,6.6,Good,6,PhD,High,8.4,No,2.9,3,1.2,No,1,12.0,Dorm,No,Medium,5,3,10,Reading,6.8,77
+151645,24,Female,Engineering,6.2,0.0,1.9,No,44.1,6.9,Fair,7,PhD,Low,8.3,Yes,4.0,2,6.9,No,5,8.3,Co-Learning Group,Yes,High,4,10,5,Visual,6.4,100
+177580,18,Male,Psychology,4.6,4.3,3.0,No,46.2,4,Good,0,PhD,Medium,7.4,Yes,3.97,5,5.0,No,0,12.2,Quiet Room,Yes,High,9,6,9,Reading,7.5,96
+173975,20,Other,Computer Science,5.057226077904372,1.1,0.2,Yes,40.8,6.7,Poor,3,High School,High,5.5,No,3.95,2,4.6,No,5,8.3,Library,No,Low,3,7,8,Reading,8.5,100
+103552,22,Other,Business,5.9,1.0,0.7,No,98.5,7.1,Poor,3,PhD,Medium,4.1,No,3.07,5,3.5,No,3,8.3,Cafe,No,Medium,1,3,10,Visual,7.7,84
+111003,17,Female,Computer Science,3.1570364963006727,3.7,2.9,Yes,86.8,7.4,Good,1,Bachelor,High,7.4,Yes,3.28,2,9.9,Yes,3,11.3,Cafe,No,Medium,9,3,10,Kinesthetic,8.2,88
+156179,18,Male,Business,5.0,2.2,0.5,Yes,72.2,8.9,Good,2,Master,Low,7.6,Yes,3.89,1,8.0,No,2,8.6,Dorm,No,High,4,4,10,Kinesthetic,7.6,99
+117786,28,Female,Psychology,4.2,1.8,0.5,Yes,68.9,8.0,Fair,3,High School,Low,8.7,No,3.99,6,3.2,No,2,7.4,Co-Learning Group,No,Medium,5,6,9,Auditory,1.5,100
+160515,17,Male,Computer Science,6.936051372040952,3.6,2.9,No,81.8,6.2,Good,4,Some College,Low,7.8,Yes,3.8,5,4.7,No,4,14.5,Quiet Room,Yes,Low,9,10,5,Visual,8.8,99
+123819,28,Female,Psychology,2.9,4.4,1.8,Yes,78.5,6.9,Poor,0,Some College,High,4.8,No,2.63,8,4.9,No,5,10.8,Dorm,Yes,Medium,4,7,8,Auditory,6.9,64
+106590,27,Other,Business,3.5,1.9,2.7,Yes,42.0,4,Good,4,Some College,Low,7.0,Yes,4.0,8,10,No,3,8.8,Co-Learning Group,Yes,Low,7,8,7,Visual,8.2,98
+134099,26,Female,Psychology,7.0,2.1,3.7,No,89.0,9.3,Poor,4,PhD,Medium,6.8,Yes,3.8,7,5.4,No,2,13.9,Library,No,High,9,7,8,Kinesthetic,9.6,85
+149689,20,Other,Arts,1.7,3.4,2.7,No,52.6,8.2,Fair,6,Master,Low,4.2,No,3.76,4,7.3,No,0,8.5,Cafe,No,Medium,7,2,10,Auditory,6.4,93
+142906,22,Male,Psychology,4.3,1.6,1.3,No,83.1,6.9,Good,5,PhD,Medium,9.8,No,4.0,1,5.6,No,4,8.7,Co-Learning Group,No,High,2,3,10,Kinesthetic,1.5,100
+127742,18,Other,Engineering,3.7,5.0,0.8,No,72.9,5.1,Good,5,High School,Medium,5.9,No,4.0,7,1.9,No,5,10.8,Cafe,No,Low,1,1,10,Visual,1.0,100
+159598,26,Other,Biology,2.9,2.0,2.1,No,90.9,6.6,Good,5,Master,High,4.8,No,4.0,1,6.9,No,4,8.9,Library,Yes,Low,3,1,10,Reading,7.3,100
+142840,16,Female,Engineering,8.7,1.0,3.3,No,75.0,7.5,Fair,0,PhD,High,8.5,Yes,4.0,2,1,No,0,14.6,Dorm,Yes,High,9,8,7,Visual,3.4,99
+144236,21,Male,Engineering,2.7,0.9,2.1,No,66.8,7.4,Fair,7,High School,Low,7.0,No,4.0,4,1,No,4,5.8,Dorm,Yes,Low,8,6,9,Reading,5.4,96
+149692,17,Other,Psychology,2.8,2.9,3.6,No,76.3,9.2,Fair,1,PhD,Low,5.7,Yes,4.0,3,6.5,No,2,9.9,Co-Learning Group,Yes,Low,5,10,5,Kinesthetic,5.7,100
+136471,20,Other,Biology,7.6,0.5,1.9,No,86.4,8.8,Fair,3,Bachelor,Medium,6.6,Yes,4.0,5,6.1,No,1,11.7,Co-Learning Group,No,Low,9,5,10,Reading,6.8,95
+155255,16,Male,Business,4.4,0.0,3.2,No,83.1,7.6,Fair,4,Master,Low,8.1,No,4.0,1,3.0,No,2,9.3,Library,No,Medium,10,9,6,Reading,2.3,97
+133065,23,Male,Business,6.0,4.1,2.9,No,87.3,5.1,Good,7,High School,Medium,7.2,Yes,4.0,7,3.1,No,5,13.4,Cafe,Yes,Low,5,5,10,Visual,6.3,100
+110735,18,Male,Computer Science,8.196102955550788,2.9,3.9,No,44.1,4.2,Good,3,PhD,High,5.9,No,3.68,6,9.1,No,1,15.8,Library,Yes,Low,2,4,10,Auditory,1.3,91
+161644,27,Female,Psychology,5.0,0.2,0.5,No,77.7,5.8,Good,4,Some College,Low,5.5,Yes,3.05,8,3.0,No,3,6.3,Dorm,Yes,High,6,2,10,Reading,3.6,78
+102540,23,Male,Computer Science,3.2860101967017457,4.3,2.4,No,81.9,7.3,Good,6,Master,Low,6.6,No,3.47,8,6.0,No,4,10.6,Cafe,Yes,High,3,6,9,Kinesthetic,3.3,95
+170702,18,Male,Engineering,1.4,1.5,2.8,Yes,84.0,8.3,Good,2,Master,Low,4.3,No,3.72,1,4.0,No,2,7.6,Quiet Room,No,Medium,10,8,7,Visual,1.4,94
+106826,24,Male,Psychology,5.1,3.0,0.4,No,76.2,5.7,Fair,7,PhD,Medium,6.6,Yes,3.33,8,5.5,No,0,10.2,Quiet Room,No,Medium,6,4,10,Visual,1.8,72
+145870,26,Male,Business,4.4,1.0,2.2,Yes,80.0,6.5,Good,3,High School,High,7.0,Yes,3.58,2,1,No,1,9.0,Library,Yes,Low,9,10,5,Reading,3.8,82
+129389,23,Male,Psychology,5.5,2.2,0.1,No,44.2,5.4,Good,3,Master,Low,10,Yes,3.51,2,6.0,No,5,8.4,Cafe,Yes,Low,5,9,6,Reading,2.1,95
+108993,17,Female,Engineering,8.3,1.6,3.3,No,96.2,7.2,Good,0,PhD,High,3.5,No,3.98,1,3.9,No,4,13.8,Quiet Room,Yes,Low,6,10,5,Auditory,5.7,100
+105276,19,Male,Business,5.0,1.6,1.4,No,47.5,8.3,Good,3,Master,High,7.0,Yes,4.0,5,7.0,No,0,8.5,Dorm,Yes,High,1,2,10,Auditory,4.5,93
+104067,24,Male,Business,4.8,0.7,1.3,Yes,64.2,8.8,Good,0,Master,Medium,7.5,No,4.0,1,6.4,No,4,7.6,Library,No,High,9,9,6,Reading,9.1,100
+132411,20,Other,Computer Science,6.472663625259502,4.6,1.2,No,63.2,6.5,Good,1,Master,Low,7.2,No,2.52,5,6.6,No,1,13.6,Co-Learning Group,No,Low,9,1,10,Reading,6.4,62
+126130,27,Other,Computer Science,3.197204827703238,1.8,3.1,Yes,42.1,8.0,Fair,2,Some College,Low,10,No,2.91,3,4.5,No,1,8.7,Dorm,Yes,Medium,10,6,9,Visual,4.9,70
+102671,28,Other,Psychology,7.2,2.1,3.5,No,48.7,6.3,Good,2,Bachelor,Medium,6.4,No,3.79,7,5.2,No,4,14.3,Cafe,No,Low,6,5,10,Reading,6.8,87
+119973,20,Male,Arts,4.3,1.4,3.6,No,65.7,6.5,Good,7,PhD,Low,5.2,No,4.0,4,2.6,No,3,9.4,Quiet Room,No,Medium,3,7,8,Reading,2.2,100
+131266,28,Other,Business,3.0,2.3,1.6,Yes,60.0,8.3,Fair,3,Some College,Low,6.6,No,3.11,6,6.5,No,5,8.8,Library,Yes,Low,7,2,10,Auditory,9.8,77
+116544,18,Male,Computer Science,7.511825883891699,0.9,0.1,No,40.6,6.7,Fair,5,Some College,Medium,4.8,Yes,3.94,4,3.5,No,0,10.4,Dorm,Yes,High,3,5,10,Kinesthetic,3.8,100
+162070,19,Male,Business,2.1,4.9,3.4,No,50.4,6.4,Fair,3,Bachelor,Low,6.9,Yes,2.98,5,2.6,No,4,12.3,Dorm,Yes,Low,1,2,10,Visual,5.5,80
+114993,17,Other,Business,3.7,2.8,0.8,Yes,46.3,4,Good,2,High School,High,8.4,Yes,4.0,3,1.4,No,2,7.6,Co-Learning Group,No,Low,5,10,5,Reading,2.7,95
+173920,17,Male,Biology,3.6,1.4,2.8,Yes,47.6,5.8,Good,6,Bachelor,Low,5.2,No,3.21,5,5.2,No,3,8.5,Dorm,Yes,High,4,5,10,Kinesthetic,1.7,77
+128569,23,Male,Arts,2.1,4.8,0.5,Yes,74.8,8.1,Poor,4,Bachelor,Low,5.7,No,4.0,1,4.7,No,0,9.3,Library,Yes,High,8,9,6,Reading,1.2,100
+160952,24,Female,Engineering,0.9,4.8,1.6,Yes,46.1,6.9,Fair,2,PhD,Medium,6.0,Yes,3.25,3,5.2,No,1,9.1,Cafe,Yes,Medium,4,8,7,Auditory,7.9,76
+133586,20,Other,Psychology,5.0,0.5,0.7,No,42.9,5.0,Good,7,Bachelor,Medium,9.1,No,3.72,1,4.8,No,4,6.3,Quiet Room,No,Low,8,5,10,Kinesthetic,2.7,100
+148351,28,Male,Biology,2.9,4.6,2.3,No,70.2,8.1,Fair,0,Some College,High,9.9,Yes,4.0,3,4.5,No,3,11.5,Quiet Room,Yes,High,10,1,10,Visual,1.5,100
+121992,19,Other,Biology,7.1,0.9,1.7,Yes,40.7,8.1,Fair,7,PhD,Low,6.6,No,3.76,7,5.9,No,3,10.0,Co-Learning Group,No,Low,5,5,10,Kinesthetic,3.2,98
+179415,19,Other,Computer Science,7.758098080622069,4.2,1.7,No,62.4,10.1,Fair,0,Some College,Medium,7.3,Yes,4.0,2,6.0,No,5,14.9,Library,Yes,High,4,6,9,Visual,8.0,97
+179593,23,Other,Engineering,3.1,2.1,3.3,No,50.6,8.9,Fair,2,High School,High,5.1,Yes,3.26,1,6.0,No,3,8.9,Quiet Room,No,Medium,8,2,10,Reading,6.2,83
+115012,26,Other,Psychology,5.1,3.1,1.7,No,71.0,7.1,Good,7,Some College,Low,6.4,No,3.98,8,3.1,No,3,10.5,Co-Learning Group,Yes,Medium,7,4,10,Auditory,2.4,93
+121465,18,Other,Engineering,3.7,1.1,1.7,No,52.1,4.5,Good,4,Some College,Medium,6.3,No,4.0,1,3.5,No,1,7.9,Quiet Room,No,High,6,10,5,Reading,5.9,100
+140768,22,Female,Business,0.9,2.9,2.5,Yes,53.7,5.2,Fair,1,Master,High,6.4,Yes,4.0,3,6.6,No,0,6.5,Quiet Room,Yes,High,4,10,5,Reading,9.6,91
+175849,23,Female,Biology,3.9,4.4,2.4,No,93.4,5.3,Good,5,Master,Low,5.5,Yes,3.3,4,5.4,No,1,12.1,Quiet Room,No,Medium,4,9,6,Auditory,5.9,84
+103365,20,Other,Psychology,2.6,3.0,0.5,No,87.6,7.3,Fair,6,Bachelor,Medium,5.5,No,2.77,4,4.2,No,4,7.2,Dorm,Yes,High,2,5,10,Kinesthetic,8.0,74
+140888,18,Male,Engineering,7.3,3.1,2.5,No,44.9,8.3,Poor,4,Some College,Medium,5.0,No,4.0,7,3.7,No,1,14.8,Quiet Room,No,Medium,2,7,8,Kinesthetic,6.9,100
+175470,26,Other,Engineering,6.1,3.5,3.9,No,98.0,5.3,Fair,4,Some College,Medium,7.9,Yes,3.14,6,2.6,No,3,13.9,Cafe,Yes,High,2,3,10,Kinesthetic,8.8,75
+149192,16,Female,Arts,6.2,2.0,0.3,Yes,47.4,8.7,Good,1,Master,High,8.8,No,4.0,5,3.8,No,5,9.4,Library,No,High,2,1,10,Auditory,4.4,100
+151990,25,Other,Engineering,3.3,2.6,3.3,Yes,42.7,5.2,Fair,0,Bachelor,Low,8.0,Yes,3.73,7,5.8,No,3,10.5,Cafe,Yes,Medium,3,5,10,Visual,7.0,90
+125995,24,Other,Biology,3.9,3.7,3.3,Yes,80.7,6.9,Poor,1,High School,Medium,5.7,Yes,2.93,4,2.4,No,3,12.8,Dorm,Yes,High,8,1,10,Auditory,1.7,74
+109961,17,Other,Business,3.3,0.0,0.9,No,96.7,7.0,Fair,0,Some College,High,5.6,Yes,3.01,8,4.7,No,4,5.5,Quiet Room,Yes,High,6,6,9,Auditory,8.5,74
+177607,23,Female,Psychology,5.1,2.3,0.1,No,82.5,8.8,Good,4,Master,Medium,7.1,Yes,3.63,3,5.4,No,1,8.3,Dorm,No,Low,5,10,5,Reading,4.7,94
+131830,21,Other,Computer Science,2.11697394607764,2.4,2.0,Yes,53.3,9.6,Good,1,Bachelor,Medium,7.0,No,3.25,7,3.0,No,4,8.5,Co-Learning Group,No,High,2,3,10,Kinesthetic,1.2,80
+113356,18,Male,Psychology,2.4,1.7,0.7,No,48.3,4.3,Fair,0,Bachelor,Medium,7.8,Yes,4.0,6,5.9,No,2,6.7,Quiet Room,Yes,Low,7,10,5,Reading,9.8,100
+139529,24,Male,Computer Science,4.45318456862029,3.3,3.8,Yes,87.4,5.9,Fair,6,High School,Low,5.0,No,2.92,2,4.7,No,1,12.2,Library,Yes,High,9,2,10,Reading,5.2,75
+178697,22,Male,Biology,5.2,4.3,2.0,Yes,70.5,4.9,Poor,7,PhD,Medium,8.5,No,4.0,5,2.4,No,4,12.4,Library,No,High,1,8,7,Visual,7.5,100
+115866,21,Other,Engineering,3.2,3.6,0.3,No,69.8,4.3,Fair,3,High School,Medium,7.7,Yes,3.89,5,3.0,No,3,7.9,Dorm,No,Low,2,10,5,Auditory,5.3,93
+174177,19,Female,Biology,5.5,4.8,0.0,Yes,75.6,6.0,Good,4,Some College,Low,8.3,No,3.93,1,4.3,No,1,11.8,Co-Learning Group,No,Medium,6,4,10,Reading,1.6,100
+105383,22,Female,Business,4.4,3.1,0.9,No,99.6,8.9,Good,7,PhD,Medium,4.8,No,4.0,7,4.8,No,0,10.2,Library,Yes,Low,6,2,10,Reading,3.5,97
+145508,23,Other,Psychology,4.0,0.9,2.1,No,87.9,5.9,Good,2,PhD,Medium,6.7,Yes,3.42,2,3.9,No,4,8.0,Dorm,No,Medium,7,1,10,Visual,3.5,87
+169827,27,Other,Business,4.3,3.0,2.9,No,40.7,9.6,Good,4,Some College,High,3.5,No,4.0,2,5.3,No,3,12.0,Dorm,No,High,1,1,10,Reading,2.4,100
+156148,27,Other,Engineering,3.6,1.1,1.2,No,94.2,9.4,Fair,3,High School,Low,3.4000000000000004,Yes,3.17,2,7.2,No,4,6.3,Dorm,Yes,Medium,10,10,5,Auditory,4.9,85
+148571,26,Other,Biology,5.5,0.3,2.5,Yes,47.5,8.6,Poor,7,Bachelor,Low,5.9,No,4.0,7,7.6,No,3,9.4,Cafe,No,High,10,6,9,Visual,4.0,100
+109038,18,Other,Arts,5.8,2.4,3.4,No,92.5,10.1,Fair,1,Bachelor,Medium,6.4,Yes,4.0,5,5.8,No,1,11.9,Quiet Room,No,Medium,3,2,10,Reading,1.7,100
+166317,23,Male,Biology,4.3,0.4,2.6,Yes,82.6,5.7,Fair,6,High School,Low,8.3,Yes,3.46,1,5.7,No,1,8.5,Dorm,No,Medium,3,3,10,Visual,1.9,79
+144725,17,Other,Biology,4.2,0.7,2.2,No,55.6,9.9,Good,0,Master,Low,9.4,Yes,4.0,4,1.8,No,5,8.5,Co-Learning Group,Yes,High,8,4,10,Visual,7.8,94
+101658,26,Other,Psychology,3.9,1.4,3.0,Yes,59.3,5.6,Fair,6,High School,Low,3.7,Yes,4.0,3,1.8,No,2,9.2,Dorm,Yes,Medium,10,2,10,Reading,6.1,100
+155057,22,Female,Arts,5.3,0.7,3.3,Yes,91.6,4.2,Good,6,Bachelor,Medium,3.7,Yes,3.38,3,10,No,0,10.1,Dorm,No,Low,5,10,5,Visual,1.4,83
+164251,19,Other,Computer Science,5.864931969911648,2.2,2.5,No,70.2,7.2,Fair,3,High School,Low,8.1,No,4.0,8,4.6,No,3,10.8,Dorm,Yes,Medium,10,5,10,Auditory,7.0,94
+113833,22,Male,Psychology,6.0,3.2,3.0,Yes,40.6,8.0,Good,1,Master,High,3.7,No,3.68,8,9.9,Yes,4,13.9,Library,Yes,Low,9,3,10,Kinesthetic,6.3,91
+156822,22,Male,Arts,0.8,2.3,2.2,Yes,58.5,8.1,Fair,1,High School,High,7.9,No,3.01,3,3.5,No,3,7.0,Dorm,Yes,Low,3,2,10,Visual,4.2,80
+147472,18,Male,Biology,2.3,4.2,0.3,Yes,59.5,4.3,Good,4,PhD,High,8.7,Yes,2.57,8,4.1,No,4,7.8,Library,Yes,High,9,1,10,Reading,7.8,61
+160258,16,Other,Psychology,4.0,3.0,0.9,Yes,82.6,8.1,Good,7,Bachelor,Low,5.4,No,4.0,5,3.1,No,1,9.7,Cafe,No,High,4,7,8,Auditory,1.9,99
+120052,16,Male,Business,3.3,3.9,1.4,Yes,81.8,7.6,Good,3,Master,Low,10,No,3.82,1,5.7,No,2,9.7,Cafe,Yes,High,10,5,10,Auditory,5.7,95
+157080,18,Other,Biology,4.7,1.6,2.8,Yes,40.6,4.5,Poor,1,High School,Medium,7.5,No,3.68,8,5.9,No,0,9.8,Quiet Room,Yes,Medium,2,2,10,Kinesthetic,2.7,90
+123086,26,Other,Computer Science,9.133182435320705,1.0,3.0,Yes,70.6,8.2,Good,0,Master,Low,10,No,4.0,4,4.9,No,4,15.0,Co-Learning Group,No,High,8,1,10,Reading,7.3,90
+168386,26,Male,Engineering,6.8,4.4,3.3,No,78.2,6.1,Fair,5,Some College,Medium,5.6,No,4.0,6,9.1,No,4,15.3,Cafe,Yes,Medium,6,5,10,Kinesthetic,5.1,98
+135400,24,Male,Engineering,0,2.1,2.4,Yes,46.2,8.1,Poor,3,Master,High,8.5,Yes,4.0,3,3.8,No,4,6.2,Library,Yes,High,1,8,7,Reading,3.3,100
+170539,17,Other,Psychology,3.2,3.7,2.5,No,52.7,5.3,Good,3,Some College,Medium,8.1,Yes,2.54,8,5.5,No,3,10.6,Dorm,No,Medium,7,8,7,Visual,8.0,69
+163372,28,Female,Biology,5.0,3.1,1.3,Yes,65.6,5.4,Good,2,PhD,Low,5.9,No,3.56,2,6.9,No,1,10.2,Library,Yes,High,9,8,7,Reading,6.8,96
+160931,24,Female,Biology,5.3,0.3,0.6,Yes,47.9,7.7,Poor,6,Some College,Low,8.9,Yes,4.0,3,6.4,No,1,7.1,Library,Yes,Low,10,7,8,Auditory,6.4,99
+157091,16,Other,Business,4.2,0.8,2.1,Yes,56.8,6.4,Fair,0,PhD,Medium,7.0,No,3.1,4,1,No,4,7.4,Cafe,No,Medium,3,1,10,Visual,2.0,75
+177656,16,Male,Computer Science,4.138749552338876,3.0,2.0,Yes,99.0,6.9,Fair,4,High School,Medium,6.2,No,4.0,1,3.7,No,5,10.7,Quiet Room,No,Low,8,9,6,Kinesthetic,1.6,97
+135179,23,Female,Arts,6.7,0.6,3.9,No,80.2,7.9,Good,1,High School,High,4.9,Yes,4.0,7,6.1,No,3,11.6,Cafe,Yes,Medium,7,8,7,Auditory,6.3,94
+142245,26,Female,Business,3.3,3.1,0.1,Yes,91.9,8.6,Fair,3,PhD,High,7.0,Yes,3.1,8,8.2,No,4,7.7,Quiet Room,Yes,High,7,7,8,Auditory,4.3,76
+132177,22,Female,Arts,7.7,4.9,1.1,Yes,77.0,5.8,Fair,6,High School,High,9.9,Yes,4.0,3,6.3,No,3,15.5,Co-Learning Group,No,High,6,7,8,Auditory,1.8,99
+111359,26,Female,Psychology,3.2,2.4,2.1,No,52.0,8.7,Fair,1,PhD,Medium,4.6,No,3.48,1,6.8,No,3,9.0,Cafe,No,Medium,10,2,10,Visual,3.4,97
+136559,18,Female,Business,0,2.5,0.6,Yes,67.2,4,Good,0,Bachelor,Low,7.199999999999999,No,2.6,3,8.5,Yes,0,4.6,Quiet Room,No,Medium,3,3,10,Reading,1.8,57
+159087,24,Male,Engineering,4.7,1.1,3.1,Yes,49.0,6.3,Poor,6,Master,High,6.8,Yes,3.97,2,4.9,No,4,10.6,Quiet Room,Yes,Low,7,7,8,Auditory,2.9,100
+131963,28,Female,Business,3.0,1.5,3.5,Yes,50.7,7.9,Good,2,High School,Low,4.4,Yes,2.86,5,6.1,No,3,9.0,Library,No,Medium,5,1,10,Reading,8.1,66
+160910,22,Male,Psychology,1.8,2.1,2.7,No,88.7,5.6,Good,6,Bachelor,Low,3.2,Yes,3.51,2,5.6,No,1,6.8,Co-Learning Group,No,High,8,7,8,Reading,4.7,98
+174691,23,Male,Biology,1.7,2.6,2.3,No,53.2,8.5,Fair,6,Bachelor,Low,10,Yes,3.23,8,5.4,No,0,8.5,Library,No,Low,8,8,7,Reading,4.2,81
+179997,26,Female,Arts,4.1,1.6,1.6,Yes,46.1,8.3,Good,7,Master,Low,6.7,Yes,3.15,3,5.6,No,3,7.5,Dorm,No,Medium,7,1,10,Visual,1.3,89
+149674,25,Male,Biology,0.1,2.8,3.5,No,70.4,5.4,Poor,5,Some College,Low,8.5,No,2.48,5,2.9,No,2,8.0,Co-Learning Group,No,Medium,1,6,9,Reading,7.5,59
+144092,16,Male,Business,0,2.0,2.9,No,60.4,7.5,Good,5,Bachelor,Medium,6.9,Yes,3.21,8,6.9,No,2,6.2,Library,No,High,1,4,10,Reading,8.8,77
+103761,20,Other,Arts,3.8,1.0,3.1,Yes,76.7,6.8,Good,0,PhD,Medium,7.4,No,4.0,4,3.6,No,3,9.9,Library,No,High,3,10,5,Kinesthetic,4.3,100
+164789,19,Female,Engineering,3.1,1.5,3.9,No,45.5,5.8,Good,6,Bachelor,Medium,8.9,No,3.22,3,4.7,No,3,8.8,Quiet Room,Yes,Low,10,5,10,Kinesthetic,1.2,70
+142600,24,Female,Psychology,5.2,2.7,0.5,Yes,91.1,6.3,Good,7,Bachelor,High,8.5,Yes,3.92,6,3.6,No,5,9.4,Library,Yes,Low,1,1,10,Kinesthetic,8.2,100
+123834,25,Male,Arts,5.9,2.2,0.5,Yes,93.7,5.6,Fair,5,Master,High,4.1,Yes,3.24,3,5.3,No,0,10.4,Co-Learning Group,No,Medium,7,3,10,Visual,2.1,75
+163904,23,Male,Psychology,4.7,5.0,1.6,No,67.0,8.3,Fair,4,Some College,Low,6.1,Yes,4.0,3,3.9,No,5,11.6,Quiet Room,Yes,Low,4,3,10,Visual,5.3,100
+127802,26,Other,Engineering,3.6,1.0,0.8,No,77.6,6.1,Good,4,Bachelor,High,6.1,Yes,3.51,6,3.3,No,1,6.6,Co-Learning Group,Yes,Medium,8,7,8,Reading,9.9,90
+146507,16,Male,Psychology,3.5,2.9,2.3,Yes,71.2,6.2,Poor,2,PhD,Medium,6.5,No,3.45,6,5.6,No,1,8.9,Quiet Room,Yes,Medium,3,10,5,Visual,6.2,89
+133862,28,Female,Engineering,6.5,3.3,1.6,Yes,66.3,9.2,Good,6,Some College,High,5.7,No,4.0,3,5.0,No,0,11.8,Dorm,No,High,5,3,10,Reading,9.4,94
+144608,20,Female,Business,4.5,0.1,3.1,Yes,41.2,6.5,Poor,5,PhD,High,3.5999999999999996,Yes,2.71,8,8.6,Yes,5,9.1,Quiet Room,Yes,Medium,1,2,10,Visual,5.1,72
+136655,19,Other,Engineering,3.4,1.5,0.8,No,85.6,8.7,Good,2,Master,High,7.0,No,3.97,6,4.0,No,1,7.5,Quiet Room,No,Low,6,10,5,Reading,8.9,100
+178139,25,Other,Arts,2.2,2.8,0.6,No,86.8,5.8,Good,1,High School,High,6.2,Yes,3.81,4,6.7,No,3,5.9,Cafe,No,High,6,4,10,Auditory,3.1,90
+136211,16,Male,Computer Science,8.103948842089395,4.0,3.5,Yes,99.7,6.4,Fair,2,High School,Medium,8.0,No,4.0,1,1,No,2,17.5,Dorm,Yes,High,10,2,10,Auditory,4.0,100
+172848,26,Other,Biology,5.9,2.5,0.9,No,95.3,7.4,Fair,3,Some College,Medium,4.7,Yes,3.34,4,5.1,No,3,9.4,Library,No,High,2,3,10,Reading,4.4,87
+101330,20,Male,Engineering,2.0,1.2,2.7,Yes,53.7,5.9,Good,6,PhD,Medium,10,Yes,3.29,7,5.6,No,5,6.5,Co-Learning Group,Yes,Medium,10,5,10,Reading,1.1,89
+167715,17,Male,Arts,5.9,4.6,2.4,Yes,54.1,4.9,Poor,5,Master,Medium,6.9,No,2.92,8,2.5,No,5,14.6,Dorm,No,Medium,2,3,10,Kinesthetic,2.9,64
+125042,18,Male,Biology,3.7,0.7,3.9,Yes,89.8,6.3,Good,1,Some College,Low,8.7,No,3.76,4,2.8,No,5,10.0,Co-Learning Group,Yes,Low,10,3,10,Kinesthetic,5.4,89
+111221,28,Other,Biology,2.0,3.6,0.1,No,50.3,6.7,Poor,3,Master,Low,4.7,No,2.82,5,3.7,No,1,6.7,Co-Learning Group,No,Low,5,2,10,Kinesthetic,1.7,69
+131635,18,Other,Computer Science,5.554831028520447,4.8,3.0,Yes,98.6,8.3,Fair,4,Bachelor,Low,7.3,No,3.89,5,1,No,0,14.5,Co-Learning Group,No,Medium,10,2,10,Visual,7.7,99
+153271,17,Other,Business,0,2.2,3.5,Yes,55.5,6.5,Poor,3,Some College,Low,5.3,No,3.35,1,4.5,No,0,7.6,Dorm,No,Low,8,4,10,Reading,1.1,70
+164038,25,Male,Computer Science,7.407994111580421,3.4,0.0,No,47.0,8.3,Poor,2,Master,Medium,6.1,Yes,3.41,1,6.1,No,5,12.1,Co-Learning Group,Yes,High,3,3,10,Auditory,7.7,85
+172768,18,Male,Engineering,5.7,4.8,0.3,Yes,53.2,9.1,Fair,4,PhD,Medium,6.0,No,4.0,2,7.4,No,2,11.3,Co-Learning Group,Yes,Medium,8,10,5,Auditory,9.8,97
+131499,24,Female,Engineering,3.7,0.3,3.8,Yes,69.9,6.2,Fair,5,Bachelor,High,7.9,No,4.0,2,6.2,No,4,9.3,Co-Learning Group,Yes,High,10,1,10,Kinesthetic,8.4,99
+162402,26,Other,Business,5.2,2.7,1.9,Yes,84.0,5.9,Good,0,High School,Low,3.9,Yes,3.58,8,6.2,No,2,10.2,Quiet Room,Yes,High,9,6,9,Reading,8.7,92
+164332,23,Other,Business,0.5,3.4,1.7,Yes,56.8,7.1,Fair,3,Some College,Medium,3.5,Yes,4.0,7,5.1,No,2,7.0,Cafe,Yes,Medium,2,10,5,Visual,6.1,100
+158743,26,Female,Biology,1.0,1.9,1.0,No,71.8,8.8,Good,6,Master,High,5.5,Yes,3.44,6,6.2,No,4,4.7,Dorm,No,Medium,6,4,10,Auditory,3.4,83
+102260,24,Other,Business,4.3,2.7,2.2,Yes,93.1,4.9,Fair,6,Bachelor,Medium,8.9,No,3.25,5,5.0,No,1,9.4,Library,No,High,10,7,8,Reading,5.9,89
+112196,16,Other,Arts,3.7,2.0,2.3,No,83.1,6.0,Poor,1,Master,Medium,5.2,Yes,3.89,2,3.9,No,5,9.3,Co-Learning Group,No,Low,5,6,9,Visual,6.4,100
+138566,26,Male,Business,5.3,3.1,2.7,Yes,49.2,11.0,Good,3,PhD,Medium,9.9,Yes,4.0,5,2.8,No,3,12.8,Library,Yes,Low,8,6,9,Reading,7.4,100
+129045,26,Female,Psychology,6.2,0.6,2.5,No,86.9,8.2,Good,7,High School,High,7.4,Yes,4.0,4,5.6,No,0,10.8,Co-Learning Group,No,High,8,9,6,Kinesthetic,7.6,94
+153005,16,Male,Computer Science,9.250757556594554,2.5,3.1,Yes,85.7,4,Good,0,Bachelor,Low,7.800000000000001,No,3.14,6,8.8,No,5,15.1,Quiet Room,Yes,High,8,6,9,Auditory,6.1,78
+131890,23,Other,Engineering,4.9,4.0,0.8,No,64.5,5.8,Poor,0,PhD,Medium,3.8,Yes,4.0,2,3.2,No,4,9.9,Dorm,No,High,8,10,5,Kinesthetic,6.5,99
+140135,16,Other,Biology,6.6,4.4,3.2,Yes,92.1,7.7,Fair,4,High School,Medium,5.4,Yes,4.0,3,5.1,No,2,14.7,Quiet Room,No,Low,3,8,7,Auditory,8.4,99
+176225,23,Other,Biology,7.3,0.6,1.7,No,61.5,7.3,Fair,0,Some College,Low,6.5,Yes,4.0,3,6.5,No,2,9.7,Co-Learning Group,Yes,Medium,6,1,10,Reading,7.8,100
+148368,26,Female,Computer Science,4.86270164030319,1.3,0.7,No,70.8,7.1,Good,0,PhD,High,6.9,Yes,3.22,6,3.9,No,5,7.1,Quiet Room,No,High,3,9,6,Auditory,5.8,80
+162031,18,Male,Engineering,3.2,2.3,1.5,No,46.1,7.3,Fair,1,Master,Medium,1.2000000000000002,No,3.14,4,7.5,No,4,8.7,Library,No,High,4,10,5,Auditory,6.1,73
+172544,23,Female,Engineering,2.8,0.6,0.2,Yes,74.9,8.5,Good,7,Some College,High,6.2,Yes,4.0,2,5.2,No,3,5.2,Library,Yes,High,4,8,7,Auditory,3.9,100
+169588,23,Male,Computer Science,6.795341404384833,1.5,2.7,No,86.6,9.2,Fair,2,Master,High,9.1,No,4.0,8,5.3,No,2,11.5,Library,No,Low,7,5,10,Reading,2.6,100
+145056,26,Male,Engineering,5.2,1.6,2.8,Yes,66.0,9.2,Poor,5,Bachelor,Medium,6.6,Yes,4.0,6,2.4,No,3,9.9,Quiet Room,Yes,Low,10,10,5,Auditory,4.8,100
+155771,17,Male,Arts,5.8,1.3,1.3,Yes,49.7,7.1,Good,6,High School,Medium,6.0,No,3.37,3,6.7,No,4,10.3,Dorm,Yes,High,5,7,8,Kinesthetic,9.1,86
+172140,27,Female,Computer Science,7.646894467914541,0.4,0.8,Yes,74.5,8.1,Fair,6,Bachelor,Medium,7.5,No,4.0,6,4.4,No,0,10.4,Dorm,No,High,8,4,10,Auditory,2.7,100
+143357,24,Male,Biology,1.0,1.4,3.6,No,48.3,7.9,Good,7,Bachelor,High,7.7,Yes,2.63,8,6.9,No,5,6.2,Co-Learning Group,Yes,High,2,2,10,Kinesthetic,8.4,64
+146112,24,Female,Engineering,3.5,3.4,1.5,No,55.8,5.0,Poor,7,PhD,Medium,4.4,No,3.23,1,7.9,No,0,8.5,Quiet Room,No,Medium,3,8,7,Auditory,9.1,80
+159473,21,Other,Biology,3.1,4.4,1.3,No,55.5,5.2,Poor,5,Some College,Low,4.8,No,3.48,4,5.1,No,0,10.7,Dorm,Yes,Low,5,8,7,Visual,4.4,85
+135509,28,Other,Computer Science,2.4520092394261948,4.4,1.7,No,54.7,5.3,Fair,5,High School,Medium,10,No,4.0,7,3.0,No,2,8.6,Co-Learning Group,Yes,Medium,6,6,9,Kinesthetic,5.1,86
+140189,26,Male,Computer Science,4.6487160995446715,1.6,0.0,No,77.4,6.7,Fair,4,Master,Low,7.4,Yes,2.83,3,5.1,No,3,6.4,Dorm,Yes,Medium,3,2,10,Auditory,1.2,65
+132951,22,Male,Computer Science,1.0930296780247022,0.5,3.9,Yes,86.4,6.2,Poor,2,PhD,Medium,5.3,No,3.51,2,4.2,No,1,7.5,Dorm,No,High,4,2,10,Kinesthetic,6.6,90
+130217,23,Female,Psychology,6.8,4.6,1.0,No,55.9,6.9,Good,4,High School,High,8.0,No,4.0,3,7.0,No,0,13.4,Quiet Room,Yes,Low,2,9,6,Reading,4.0,100
+115814,20,Female,Business,4.1,0.0,1.6,Yes,56.0,9.5,Good,5,Bachelor,Medium,6.1,No,4.0,5,5.3,No,3,5.7,Cafe,Yes,Low,10,8,7,Visual,3.4,95
+125242,17,Female,Computer Science,3.6911466187089395,1.1,1.9,Yes,96.0,8.3,Fair,2,High School,Low,6.5,No,2.93,7,5.8,No,5,7.5,Dorm,Yes,High,3,9,6,Auditory,3.5,73
+141359,18,Female,Arts,0.9,1.2,3.6,Yes,49.2,5.4,Fair,6,Some College,Medium,8.7,No,3.94,5,7.4,No,0,6.9,Dorm,Yes,Medium,7,9,6,Visual,4.1,99
+115670,25,Male,Psychology,0.6,2.8,0.9,No,97.8,7.1,Poor,4,High School,Medium,6.0,No,2.54,7,4.9,No,0,5.5,Dorm,Yes,High,1,6,9,Kinesthetic,5.3,71
+170236,22,Other,Biology,3.9,1.4,1.5,No,95.8,7.0,Fair,0,Master,High,4.8,Yes,4.0,2,5.3,No,2,8.8,Library,Yes,High,6,4,10,Kinesthetic,1.9,94
+124267,18,Female,Biology,1.6,0.5,1.2,Yes,92.9,8.3,Good,4,Master,Low,8.8,No,3.02,5,7.3,No,4,4.2,Quiet Room,No,Low,4,3,10,Reading,1.8,73
+125105,25,Female,Business,1.4,2.7,1.9,No,81.2,5.0,Good,4,High School,Low,8.0,Yes,2.66,1,2.5,No,5,7.7,Library,No,Medium,8,3,10,Kinesthetic,8.3,69
+128361,17,Male,Arts,2.9,4.1,3.8,Yes,44.5,6.1,Fair,7,High School,Low,6.7,Yes,3.71,1,3.4,No,4,12.1,Quiet Room,Yes,Low,5,7,8,Visual,9.7,95
+163464,18,Other,Business,4.1,2.7,3.4,Yes,84.5,7.8,Good,7,Master,High,7.6,No,3.13,7,6.0,No,3,11.0,Quiet Room,No,High,7,4,10,Visual,8.4,77
+136241,19,Other,Engineering,3.9,2.8,2.7,Yes,46.4,5.8,Good,1,Some College,High,6.1,No,3.45,1,6.5,No,4,10.8,Quiet Room,No,High,10,9,6,Visual,9.4,87
+177278,16,Other,Psychology,2.9,3.6,2.4,No,72.2,7.4,Good,6,Master,Low,5.7,Yes,2.65,3,6.1,No,3,9.5,Co-Learning Group,No,Low,7,3,10,Auditory,5.7,70
+168765,27,Female,Computer Science,3.757561931369259,3.0,1.3,No,78.2,7.2,Good,2,Master,High,8.5,No,2.78,3,7.3,No,5,8.5,Quiet Room,No,Medium,3,3,10,Auditory,1.9,58
+178222,21,Other,Engineering,3.3,0.9,1.9,No,40.3,7.6,Good,5,Master,Medium,4.2,No,3.56,8,4.7,No,4,6.3,Co-Learning Group,Yes,Medium,4,10,5,Kinesthetic,10.0,77
+137093,23,Female,Psychology,3.8,1.1,2.1,Yes,52.9,6.9,Good,3,PhD,High,6.3,No,3.05,5,4.4,No,4,8.8,Cafe,Yes,Medium,10,8,7,Visual,6.0,68
+113176,20,Other,Engineering,5.9,2.3,1.6,Yes,79.8,6.1,Good,2,Some College,Medium,7.6,No,3.23,8,6.6,No,0,10.5,Dorm,No,Low,10,10,5,Reading,6.8,77
+125443,25,Other,Biology,2.9,1.1,2.3,Yes,50.2,7.7,Good,0,Bachelor,High,5.8,Yes,3.23,5,8.7,Yes,0,6.4,Library,Yes,Low,5,2,10,Visual,10.0,88
+138829,24,Male,Arts,4.7,0.8,3.3,Yes,56.3,4.8,Poor,3,Master,Medium,4.4,No,4.0,4,1.7,No,2,10.5,Cafe,Yes,High,6,7,8,Visual,5.5,100
+129816,28,Female,Psychology,1.7,2.9,3.3,Yes,88.5,5.7,Poor,4,Master,Medium,8.1,No,2.52,2,4.2,No,5,8.0,Dorm,Yes,Low,6,1,10,Auditory,5.3,59
+147301,25,Male,Arts,1.8,1.2,1.0,No,62.0,6.6,Fair,2,PhD,Low,9.8,Yes,3.87,4,5.1,No,0,4.5,Cafe,No,Medium,7,9,6,Visual,6.8,98
+123519,24,Male,Business,6.7,3.7,3.1,No,82.4,4,Good,0,High School,Low,3.5,No,3.17,8,7.0,No,3,14.8,Cafe,No,Low,8,8,7,Visual,1.7,76
+139618,20,Other,Arts,3.9,2.6,2.8,Yes,40.4,7.8,Fair,0,Some College,High,5.1,Yes,2.66,4,7.9,No,1,11.1,Library,Yes,High,5,3,10,Reading,3.9,61
+101854,20,Male,Arts,5.4,1.2,3.0,No,86.9,8.7,Good,6,PhD,Medium,6.4,Yes,4.0,7,7.9,No,4,11.3,Cafe,No,Medium,6,4,10,Kinesthetic,4.1,98
+116591,17,Male,Biology,2.6,3.4,1.3,Yes,43.5,5.1,Good,4,PhD,Low,3.7,No,3.62,7,4.5,No,1,7.8,Quiet Room,Yes,Medium,1,3,10,Visual,2.2,81
+135954,21,Female,Arts,5.2,3.1,1.6,Yes,94.7,6.9,Fair,4,Master,High,3.9,Yes,3.51,5,1.6,No,0,10.7,Library,No,Medium,9,3,10,Auditory,7.4,93
+105965,26,Female,Business,2.5,2.5,3.0,Yes,80.0,6.1,Fair,4,Master,Low,9.4,No,3.64,5,2.9,No,3,8.9,Quiet Room,No,High,9,4,10,Reading,4.0,91
+107146,24,Other,Business,5.4,4.5,1.1,No,72.2,9.5,Fair,4,High School,Low,9.2,Yes,4.0,5,6.0,No,5,12.9,Library,Yes,High,7,4,10,Visual,4.7,94
+172529,27,Male,Business,2.7,1.6,3.5,No,77.7,6.3,Fair,6,PhD,High,7.0,No,3.4,5,1.2,No,2,9.1,Cafe,No,Low,2,8,7,Kinesthetic,9.6,84
+138290,27,Male,Biology,5.2,2.5,0.8,Yes,80.2,9.2,Poor,1,High School,Low,4.8,No,4.0,3,7.4,No,0,9.7,Cafe,Yes,Medium,8,3,10,Visual,4.2,100
+116551,22,Female,Arts,6.1,2.4,0.3,Yes,93.2,8.7,Fair,7,PhD,Medium,7.0,No,4.0,6,5.5,No,3,9.3,Library,Yes,Low,10,5,10,Kinesthetic,3.0,100
+164340,23,Male,Arts,2.4,2.9,1.6,Yes,76.1,8.3,Poor,0,Master,Low,4.5,Yes,2.95,1,5.2,No,5,7.4,Dorm,Yes,High,10,10,5,Reading,3.4,72
+113446,28,Female,Biology,2.7,0.1,2.5,No,72.7,7.0,Poor,4,PhD,Medium,5.5,Yes,3.72,4,5.7,No,1,7.1,Quiet Room,Yes,Medium,9,7,8,Auditory,2.8,98
+101607,18,Female,Business,4.6,2.5,2.2,Yes,94.7,6.9,Poor,5,PhD,High,7.1,Yes,4.0,8,3.1,No,2,10.6,Cafe,Yes,High,10,2,10,Visual,6.6,97
+175243,18,Male,Business,2.0,4.2,0.8,No,86.9,8.5,Good,3,Bachelor,Medium,5.5,No,3.69,7,5.1,No,5,7.6,Quiet Room,No,Low,6,2,10,Visual,7.8,98
+137268,28,Male,Engineering,2.3,0.4,2.1,No,92.0,7.3,Good,0,High School,Medium,7.9,Yes,4.0,2,1.8,No,4,5.5,Quiet Room,Yes,Low,7,10,5,Kinesthetic,3.0,100
+161524,24,Other,Psychology,4.8,2.4,1.7,Yes,49.2,10.7,Fair,5,Some College,Medium,8.8,No,4.0,1,4.4,No,0,10.0,Library,No,High,6,8,7,Kinesthetic,5.2,96
+162746,24,Male,Biology,1.0,1.7,2.9,No,97.9,9.3,Fair,0,High School,High,4.7,No,3.87,8,5.7,No,0,7.3,Library,Yes,High,2,3,10,Auditory,3.5,91
+157733,27,Other,Business,0.5,3.1,0.1,No,55.2,5.4,Good,1,Bachelor,Medium,3.9,Yes,3.36,3,6.5,No,2,4.0,Quiet Room,Yes,Medium,9,5,10,Kinesthetic,2.9,88
+144657,21,Female,Business,2.8,0.4,0.0,No,56.1,5.8,Fair,5,Master,Low,8.4,No,3.68,8,8.3,No,2,5.1,Quiet Room,No,High,10,6,9,Reading,5.3,95
+124164,25,Female,Business,4.6,1.5,1.7,No,61.3,7.5,Good,5,High School,High,7.1,No,4.0,3,5.3,No,2,9.6,Quiet Room,Yes,Low,7,10,5,Kinesthetic,3.9,100
+106734,22,Male,Psychology,4.1,2.5,1.8,No,99.3,8.6,Poor,2,PhD,High,6.9,No,4.0,5,3.3,No,2,9.5,Quiet Room,No,High,2,8,7,Reading,4.5,100
+133092,27,Female,Engineering,4.5,0.6,3.2,No,57.3,6.1,Fair,6,High School,High,8.4,Yes,3.9,3,9.7,No,5,9.0,Cafe,No,High,10,10,5,Auditory,3.8,94
+162616,21,Male,Biology,5.4,0.9,2.5,No,71.8,6.8,Fair,7,Bachelor,High,8.1,Yes,4.0,5,3.8,No,4,9.9,Quiet Room,Yes,Low,7,10,5,Auditory,9.5,93
+114953,20,Male,Computer Science,4.988908024029874,3.1,3.5,Yes,66.1,6.4,Good,5,High School,High,8.1,Yes,3.42,4,8.6,No,3,13.4,Co-Learning Group,Yes,Low,8,8,7,Auditory,5.1,83
+108564,28,Other,Psychology,3.0,4.5,0.9,Yes,92.6,7.2,Good,3,PhD,Medium,6.2,Yes,4.0,7,5.4,No,5,10.0,Co-Learning Group,Yes,Medium,7,9,6,Reading,5.5,98
+152521,16,Other,Arts,3.2,1.8,0.7,No,83.8,5.6,Fair,6,Master,High,4.2,No,4.0,2,4.0,No,4,5.8,Quiet Room,No,High,3,3,10,Visual,6.0,100
+164454,18,Female,Engineering,2.6,0.6,3.0,No,55.2,8.8,Good,5,Master,Medium,7.6,No,4.0,6,3.4,No,0,7.8,Co-Learning Group,Yes,High,7,4,10,Reading,2.6,100
+109710,22,Male,Computer Science,4.808186135190908,2.6,0.5,No,80.7,4.4,Good,6,Master,Low,7.4,Yes,4.0,2,5.4,No,4,9.6,Dorm,Yes,High,1,4,10,Visual,5.4,96
+175631,18,Male,Business,1.5,2.1,2.8,Yes,95.8,4.2,Good,2,Some College,High,6.8,No,3.06,5,2.6,No,3,7.2,Cafe,No,Low,5,10,5,Reading,5.1,77
+107026,23,Other,Business,5.2,2.4,0.8,Yes,97.2,7.5,Good,6,Bachelor,Medium,8.7,Yes,3.2,6,4.8,No,5,9.6,Co-Learning Group,No,Medium,8,3,10,Visual,9.4,86
+119887,25,Other,Business,7.3,4.8,0.3,Yes,81.1,8.6,Fair,1,High School,High,4.5,Yes,4.0,5,7.0,No,0,14.1,Library,Yes,Low,1,7,8,Visual,8.0,100
+119555,22,Other,Arts,3.4,4.6,1.2,Yes,48.9,6.0,Poor,6,High School,Low,6.4,No,4.0,3,5.6,No,1,9.8,Cafe,Yes,High,9,5,10,Visual,7.6,95
+173772,18,Female,Engineering,5.4,4.1,3.1,No,54.6,8.6,Fair,1,High School,Low,4.4,Yes,3.48,7,7.6,No,4,12.7,Co-Learning Group,No,Low,6,8,7,Visual,1.9,95
+139824,17,Other,Computer Science,7.564445175608119,1.3,3.1,Yes,96.9,6.2,Good,6,Some College,High,7.2,Yes,4.0,7,4.7,No,4,13.4,Library,No,High,10,9,6,Reading,6.8,91
+111164,28,Female,Computer Science,6.44399187871636,1.8,2.1,Yes,79.8,5.4,Good,3,Bachelor,Medium,7.2,No,4.0,2,1.9,No,5,11.8,Library,No,Low,5,9,6,Reading,3.6,100
+132530,22,Other,Psychology,1.6,4.6,3.4,Yes,49.4,4,Good,6,High School,Low,4.4,Yes,3.24,5,1.7,No,2,10.0,Library,No,High,3,9,6,Reading,3.5,79
+115525,19,Other,Engineering,3.3,3.4,0.9,Yes,82.5,9.8,Fair,3,High School,High,2.7,Yes,4.0,3,3.9,No,5,7.8,Library,Yes,Medium,4,5,10,Visual,4.4,97
+173147,24,Other,Business,1.1,4.7,0.8,No,70.1,4.7,Good,6,Bachelor,Low,7.6,No,3.89,1,5.9,No,4,6.9,Cafe,Yes,High,10,6,9,Reading,2.6,88
+154548,25,Male,Engineering,3.8,1.6,3.0,Yes,62.4,7.8,Fair,7,Bachelor,High,6.3,No,3.78,3,3.7,No,5,10.1,Cafe,Yes,Low,8,9,6,Kinesthetic,7.4,94
+179471,20,Other,Engineering,5.5,0.0,0.5,Yes,49.4,6.2,Good,6,Some College,Low,6.9,Yes,4.0,2,4.1,No,1,8.0,Library,No,High,5,7,8,Kinesthetic,1.4,97
+178135,20,Female,Engineering,0.1,4.5,0.3,No,66.9,9.1,Good,7,Master,High,6.8,No,2.78,6,6.9,No,5,5.5,Co-Learning Group,Yes,Medium,7,4,10,Auditory,7.1,68
+129581,24,Male,Psychology,0,2.5,0.4,Yes,57.0,5.5,Good,2,High School,High,4.4,No,2.19,8,4.4,No,0,3.0,Library,Yes,High,2,1,10,Kinesthetic,5.6,50
+168494,28,Other,Arts,1.8,4.4,0.6,Yes,47.0,5.6,Fair,5,Bachelor,Low,5.6,No,2.75,6,5.1,No,3,6.9,Dorm,Yes,Medium,1,2,10,Kinesthetic,8.5,71
+149856,17,Female,Business,5.4,2.7,0.4,No,78.0,8.8,Fair,3,High School,Medium,3.3,Yes,4.0,2,2.2,No,0,9.9,Dorm,Yes,Low,2,7,8,Kinesthetic,5.3,98
+159049,20,Male,Business,5.4,3.6,2.8,No,86.3,5.1,Good,5,Master,Low,3.5999999999999996,Yes,4.0,1,7.2,No,4,13.7,Dorm,Yes,Low,2,2,10,Auditory,8.7,99
+158028,23,Male,Engineering,6.5,2.3,3.0,Yes,56.5,4,Poor,0,Master,Medium,8.3,No,4.0,5,5.0,No,3,12.4,Library,No,Low,4,6,9,Auditory,9.2,99
+138974,27,Other,Psychology,1.9,2.6,1.6,No,83.5,9.0,Fair,7,Bachelor,High,5.3,Yes,3.98,5,7.5,No,4,7.3,Co-Learning Group,No,Low,6,9,6,Reading,8.0,99
+177139,19,Other,Computer Science,6.535940795477523,2.3,3.6,No,78.5,7.2,Good,6,Master,Medium,8.1,Yes,4.0,8,3.8,No,5,14.0,Co-Learning Group,No,Medium,3,9,6,Auditory,3.0,100
+156207,28,Male,Biology,7.8,2.0,3.6,Yes,70.3,8.9,Good,6,PhD,High,4.3,Yes,3.14,4,4.4,No,2,15.0,Cafe,No,High,6,1,10,Reading,5.3,83
+140026,26,Female,Business,5.6,4.2,1.8,Yes,64.7,4,Fair,4,PhD,Low,6.1,Yes,4.0,7,8.9,No,3,12.9,Library,No,Low,6,9,6,Auditory,4.3,98
+174531,26,Male,Computer Science,2.9101611603200292,2.7,2.9,No,63.2,7.8,Fair,6,Bachelor,Low,7.0,No,4.0,8,7.2,No,2,9.1,Co-Learning Group,Yes,High,1,8,7,Reading,6.1,97
+107894,17,Female,Engineering,6.7,5.0,2.4,No,99.5,9.5,Good,0,Some College,High,3.7,No,3.6,1,2.0,No,3,15.8,Cafe,No,Low,3,7,8,Kinesthetic,9.5,95
+179905,17,Female,Business,7.2,4.2,2.4,No,92.1,4,Good,0,Bachelor,High,7.199999999999999,No,4.0,8,8.8,Yes,5,14.8,Library,Yes,Low,3,1,10,Kinesthetic,3.8,100
+113006,23,Male,Arts,3.3,3.1,1.3,Yes,79.4,4.2,Good,0,High School,Medium,6.6,Yes,3.45,1,4.8,No,5,8.1,Quiet Room,No,Low,8,9,6,Kinesthetic,5.1,89
+127235,28,Other,Computer Science,4.977926098794027,2.5,2.2,No,70.5,4,Fair,3,Some College,High,5.3,Yes,3.35,1,5.0,No,1,9.8,Cafe,Yes,Low,4,3,10,Visual,5.3,82
+127659,25,Other,Arts,2.3,3.9,1.5,No,95.8,7.1,Good,7,Master,Low,7.0,Yes,3.59,8,1.4,No,1,8.3,Dorm,Yes,High,9,10,5,Reading,9.4,96
+134687,16,Other,Business,4.4,1.0,0.1,No,76.9,9.8,Fair,4,Some College,Low,7.8,No,3.29,3,5.3,No,5,5.6,Dorm,Yes,Low,3,10,5,Visual,8.9,78
+110641,17,Female,Business,2.8,2.0,0.2,Yes,50.3,6.6,Fair,1,Some College,High,10,No,2.79,4,3.0,No,0,5.9,Dorm,Yes,Low,5,4,10,Auditory,6.1,71
+120585,24,Female,Engineering,4.0,3.9,2.7,No,66.1,9.0,Good,6,High School,Low,5.7,No,3.48,6,4.7,No,1,10.8,Library,No,High,5,7,8,Reading,9.0,93
+131439,22,Other,Arts,3.8,3.7,3.1,Yes,57.6,4,Good,2,Some College,High,6.0,No,2.82,7,2.2,No,0,11.9,Co-Learning Group,No,Medium,9,5,10,Kinesthetic,9.6,65
+122782,19,Female,Arts,1.5,1.4,2.4,No,64.9,9.5,Good,7,Master,High,8.4,No,4.0,2,7.7,No,5,6.7,Quiet Room,Yes,Medium,9,3,10,Kinesthetic,7.2,98
+172350,18,Male,Biology,1.6,1.9,3.8,Yes,49.3,7.0,Fair,1,Bachelor,Medium,10,Yes,3.96,2,4.6,No,3,7.9,Quiet Room,Yes,Low,4,8,7,Visual,7.3,100
+109838,16,Female,Biology,7.1,4.2,3.8,Yes,46.1,7.7,Fair,0,Master,High,5.6,No,4.0,8,6.9,No,4,15.2,Library,No,Medium,8,6,9,Visual,4.3,99
+120517,27,Male,Biology,2.0,3.1,2.0,No,60.7,4,Fair,4,Bachelor,High,7.7,Yes,2.87,7,5.4,No,3,8.4,Library,Yes,Low,7,9,6,Reading,8.8,65
+100350,28,Other,Psychology,2.8,3.1,3.7,Yes,47.2,6.2,Fair,6,Bachelor,Medium,10,No,3.01,3,5.7,No,3,10.4,Dorm,Yes,Medium,3,1,10,Visual,4.6,82
+153545,22,Male,Engineering,4.9,4.6,2.6,No,96.7,6.8,Fair,2,Bachelor,Medium,4.5,Yes,4.0,1,1.9,No,0,13.0,Dorm,Yes,Medium,2,8,7,Visual,5.8,100
+159048,16,Other,Engineering,5.8,4.1,3.0,Yes,46.7,6.7,Good,3,Some College,High,4.5,No,3.71,5,4.1,No,2,14.1,Dorm,Yes,High,8,6,9,Reading,5.5,89
+177832,21,Other,Biology,1.9,2.1,1.7,No,79.3,5.7,Good,4,Some College,High,5.3,Yes,2.44,1,6.7,No,1,7.1,Library,Yes,Low,9,2,10,Kinesthetic,7.9,55
+161592,24,Female,Engineering,2.4,0.1,3.4,No,66.2,5.9,Good,0,Some College,Medium,4.3,No,2.78,8,7.8,No,3,6.6,Library,Yes,High,2,2,10,Kinesthetic,1.7,74
+138175,19,Other,Arts,5.3,1.0,1.4,No,81.0,5.9,Fair,7,Bachelor,High,7.4,No,3.16,4,9.2,Yes,5,7.9,Cafe,Yes,Low,5,1,10,Visual,7.7,86
+104278,27,Other,Psychology,6.2,3.3,2.3,Yes,69.4,5.6,Good,6,Master,Medium,5.9,No,2.69,6,6.1,No,2,12.7,Dorm,No,Low,5,2,10,Kinesthetic,9.1,67
+130340,18,Male,Psychology,4.6,4.4,3.4,No,63.2,6.3,Poor,3,PhD,Medium,6.9,No,3.41,6,5.3,No,3,13.3,Library,Yes,High,7,6,9,Reading,1.0,75
+137762,27,Female,Biology,2.3,2.4,1.7,Yes,49.3,8.4,Good,3,High School,High,8.0,No,3.06,3,5.1,No,0,7.4,Cafe,No,Medium,8,10,5,Visual,3.1,76
+137056,21,Other,Business,6.9,4.1,2.7,Yes,53.1,8.4,Poor,1,Master,High,4.1,No,3.94,2,8.9,No,5,14.0,Cafe,No,High,2,5,10,Visual,2.4,97
+159510,26,Female,Arts,5.0,0.4,3.4,No,93.9,8.7,Fair,0,Master,High,9.9,Yes,4.0,5,3.6,No,0,9.3,Cafe,Yes,Low,7,9,6,Reading,8.2,100
+109329,16,Other,Psychology,2.3,3.3,1.4,No,60.8,5.7,Good,5,PhD,High,6.1,No,3.02,4,4.1,No,5,7.2,Cafe,No,Low,4,7,8,Auditory,2.5,75
+130595,16,Other,Computer Science,3.127424300589158,2.9,0.1,Yes,84.6,7.2,Poor,5,Bachelor,Low,5.4,No,4.0,1,2.8,No,4,6.5,Library,Yes,Low,3,8,7,Reading,8.4,99
+134675,20,Male,Engineering,6.2,3.5,4.0,No,48.4,8.6,Good,4,PhD,Low,10,No,4.0,3,1,No,5,15.5,Co-Learning Group,Yes,Low,5,2,10,Auditory,7.7,99
+177304,27,Other,Business,4.4,3.1,4.0,Yes,87.7,5.5,Poor,0,PhD,High,10,Yes,3.6,7,5.8,No,2,12.7,Quiet Room,No,High,6,7,8,Visual,5.0,84
+125928,27,Other,Psychology,5.0,4.2,1.4,No,91.9,8.0,Poor,6,PhD,Low,5.3,No,4.0,2,4.4,No,1,11.4,Library,No,Medium,3,9,6,Kinesthetic,7.5,91
+155723,22,Female,Computer Science,3.0862476586036314,1.6,2.0,Yes,51.4,6.6,Poor,6,Some College,Medium,3.3,Yes,2.53,2,6.0,No,4,7.3,Co-Learning Group,No,Low,8,3,10,Visual,4.8,58
+115043,21,Female,Business,5.3,1.2,3.8,No,99.4,7.4,Fair,1,PhD,Medium,5.3,No,3.41,6,2.6,No,2,11.9,Cafe,No,Medium,8,10,5,Visual,6.7,82
+171376,25,Female,Arts,4.8,1.9,0.5,Yes,87.2,6.5,Good,5,High School,High,3.1,No,3.45,1,4.5,No,4,8.8,Library,No,Low,9,1,10,Reading,8.5,84
+129466,16,Other,Business,6.3,3.4,1.7,Yes,90.9,6.8,Fair,5,PhD,High,8.5,Yes,3.8,3,2.9,No,5,11.9,Quiet Room,No,High,3,2,10,Visual,2.5,92
+119528,20,Female,Arts,1.5,0.7,3.6,Yes,67.8,8.6,Fair,4,Master,Medium,8.1,Yes,4.0,1,5.1,No,1,7.4,Quiet Room,No,High,3,7,8,Reading,1.7,97
+134816,21,Male,Arts,6.7,3.7,2.1,Yes,66.3,6.6,Good,2,High School,Low,3.6,No,3.55,2,5.5,No,3,14.2,Cafe,Yes,High,1,3,10,Visual,7.0,90
+118643,27,Other,Arts,5.4,0.3,3.3,Yes,77.5,5.2,Good,2,Master,High,7.4,No,4.0,1,6.0,No,1,10.4,Quiet Room,No,High,6,6,9,Reading,2.1,91
+109359,28,Female,Business,5.6,4.8,0.6,No,82.1,8.8,Good,6,High School,High,6.5,Yes,3.84,7,2.9,No,0,12.7,Dorm,No,Low,10,10,5,Visual,5.9,92
+107816,27,Female,Arts,6.2,0.4,0.1,No,57.0,6.3,Poor,7,Master,Medium,10,Yes,3.31,7,5.1,No,3,7.1,Co-Learning Group,Yes,Low,6,3,10,Kinesthetic,8.1,78
+121747,26,Other,Business,1.5,2.4,1.4,Yes,82.3,10.4,Good,3,PhD,Medium,7.4,No,3.75,4,2.9,No,5,5.8,Dorm,Yes,Low,1,6,9,Kinesthetic,2.1,93
+140319,26,Male,Psychology,1.6,1.6,0.3,No,79.6,8.2,Good,6,PhD,Low,4.9,Yes,4.0,4,2.2,No,2,3.7,Co-Learning Group,Yes,Low,4,7,8,Kinesthetic,6.3,100
+177993,16,Male,Arts,1.9,1.8,0.1,Yes,99.7,6.7,Good,2,Master,Medium,6.4,No,4.0,7,2.2,No,1,5.3,Cafe,No,Low,8,6,9,Visual,5.2,100
+174607,22,Female,Biology,4.3,2.5,2.9,Yes,98.2,7.4,Good,5,Master,Low,8.1,Yes,2.96,3,9.6,No,4,11.4,Dorm,No,High,8,7,8,Kinesthetic,3.5,73
+137828,21,Other,Business,5.4,4.0,1.4,Yes,49.1,5.5,Good,3,Bachelor,Low,6.9,No,3.64,4,1.7,No,5,11.2,Co-Learning Group,No,Medium,2,10,5,Visual,3.2,94
+157560,28,Male,Psychology,4.6,2.6,0.2,Yes,86.6,6.5,Fair,5,Some College,Medium,7.1,No,4.0,4,6.9,No,1,8.7,Library,Yes,Low,6,8,7,Visual,4.9,98
+116299,21,Other,Computer Science,7.447142579463389,3.0,3.4,Yes,90.9,6.9,Good,0,Some College,High,5.3,Yes,3.72,8,7.3,No,1,15.3,Dorm,No,Medium,4,4,10,Visual,6.4,100
+161433,26,Male,Psychology,2.6,1.9,0.1,Yes,82.3,7.6,Good,5,PhD,Low,5.1,No,3.19,1,6.1,No,4,5.5,Dorm,No,High,1,9,6,Visual,4.4,77
+139857,28,Male,Biology,0,3.3,0.4,No,58.7,5.5,Poor,7,High School,Medium,4.0,Yes,3.8,6,6.0,No,4,3.8,Dorm,Yes,Low,8,1,10,Reading,4.7,95
+152757,16,Female,Computer Science,2.218940168346726,2.3,3.6,Yes,58.8,7.4,Fair,7,Bachelor,Medium,4.7,No,4.0,2,6.2,No,1,9.9,Co-Learning Group,No,Low,4,4,10,Kinesthetic,1.4,100
+135683,22,Other,Biology,1.6,2.0,3.4,Yes,67.4,7.2,Good,6,Some College,Medium,9.1,Yes,2.84,7,2.9,No,4,8.4,Dorm,Yes,High,4,5,10,Kinesthetic,3.2,68
+165597,26,Male,Computer Science,4.696928663017087,1.5,0.7,No,84.7,7.3,Good,7,Some College,High,4.3,Yes,2.81,8,6.1,No,5,8.6,Dorm,Yes,Medium,6,5,10,Reading,9.1,67
+170776,17,Female,Arts,3.5,0.9,4.0,Yes,90.4,5.9,Good,7,Bachelor,High,5.4,Yes,3.83,6,2.1,No,5,8.5,Cafe,No,Low,9,1,10,Reading,6.5,95
+164722,27,Other,Biology,2.6,4.3,2.9,No,71.3,8.4,Good,6,Some College,Medium,6.7,Yes,3.48,7,8.1,Yes,0,11.4,Quiet Room,No,Low,9,3,10,Reading,3.1,94
+157377,17,Female,Psychology,3.1,4.8,1.5,Yes,44.4,6.7,Good,2,High School,Medium,7.1,No,2.41,1,1.2,No,3,10.6,Dorm,No,High,2,1,10,Reading,5.9,64
+110543,17,Other,Arts,3.2,3.0,1.8,Yes,67.8,7.7,Poor,0,PhD,High,6.8,Yes,3.43,6,7.8,No,3,9.3,Cafe,No,High,6,2,10,Reading,6.9,82
+178385,28,Male,Computer Science,4.049993449801478,4.6,1.6,No,65.8,7.4,Poor,4,High School,Low,8.0,No,3.3,3,2.3,No,1,10.5,Cafe,No,High,5,7,8,Visual,2.3,88
+105224,28,Female,Business,5.7,4.5,3.5,Yes,46.3,7.2,Fair,0,Some College,High,4.2,No,3.22,8,3.2,No,1,15.6,Dorm,Yes,High,10,8,7,Kinesthetic,5.1,74
+156626,22,Other,Arts,2.1,4.2,1.8,Yes,55.6,8.6,Good,3,PhD,Low,7.8,No,3.36,7,4.2,No,4,9.7,Dorm,No,High,7,8,7,Kinesthetic,5.5,78
+142247,17,Male,Computer Science,6.440693102789988,2.3,1.9,No,78.4,7.3,Fair,6,PhD,Medium,4.5,No,4.0,5,3.4,No,2,10.7,Library,No,Medium,1,2,10,Kinesthetic,5.7,100
+179129,28,Male,Biology,5.3,4.0,3.9,Yes,87.5,6.5,Poor,1,PhD,Medium,8.6,Yes,3.32,3,6.1,No,5,14.5,Co-Learning Group,Yes,High,3,2,10,Kinesthetic,4.4,89
+132816,20,Female,Arts,6.0,0.0,0.8,Yes,70.0,6.7,Good,7,Some College,High,5.8,No,3.91,5,1.7,No,4,7.0,Library,No,High,2,1,10,Reading,6.8,97
+103390,18,Female,Engineering,2.4,1.4,0.0,Yes,51.5,9.0,Good,4,Bachelor,Medium,7.1,Yes,4.0,4,4.0,No,0,5.1,Dorm,Yes,Low,7,7,8,Kinesthetic,4.8,100
+111970,25,Female,Psychology,4.0,4.3,3.3,No,57.5,6.3,Poor,6,PhD,Medium,1.8,No,4.0,2,3.6,No,5,12.3,Co-Learning Group,Yes,High,2,9,6,Visual,7.3,100
+130005,20,Male,Engineering,4.2,1.0,3.9,No,70.5,4.7,Fair,4,High School,High,6.5,Yes,4.0,4,7.1,No,5,9.6,Quiet Room,Yes,High,4,4,10,Auditory,6.8,100
+175392,26,Female,Computer Science,6.6558952243493135,0.0,2.5,Yes,75.3,5.5,Good,6,Master,High,7.6,No,3.37,3,1.9,No,1,9.2,Quiet Room,Yes,Low,6,2,10,Kinesthetic,8.1,87
+176955,17,Female,Computer Science,7.118397310177125,0.5,2.1,No,41.1,6.0,Good,7,Bachelor,Low,6.2,No,3.54,1,6.1,No,0,11.6,Library,Yes,Medium,10,5,10,Reading,6.0,88
+102719,25,Female,Computer Science,0,2.5,3.8,Yes,81.9,8.5,Good,3,Bachelor,Medium,4.2,Yes,3.96,3,3.8,No,4,6.6,Dorm,Yes,High,2,2,10,Kinesthetic,4.8,100
+135325,17,Other,Psychology,4.2,4.3,3.2,Yes,83.4,7.4,Fair,3,PhD,Low,5.7,Yes,3.6,8,6.7,No,4,12.8,Co-Learning Group,No,Low,5,6,9,Visual,7.9,81
+175529,27,Other,Biology,1.5,3.0,0.9,Yes,75.8,6.9,Fair,2,PhD,High,7.6,No,3.26,2,6.8,No,3,5.9,Dorm,No,Low,6,10,5,Kinesthetic,2.8,80
+105273,16,Male,Psychology,6.6,0.9,2.3,No,43.4,6.9,Good,5,Master,Medium,7.6,No,4.0,5,4.0,No,1,9.8,Quiet Room,No,Low,9,5,10,Auditory,5.9,97
+122962,25,Male,Psychology,3.6,3.0,2.8,No,40.4,8.3,Poor,3,Master,Medium,4.2,No,3.56,7,3.0,No,0,10.5,Library,Yes,Low,4,5,10,Auditory,8.1,89
+161669,27,Other,Engineering,6.8,2.6,1.4,No,77.4,6.3,Good,6,Master,High,5.9,Yes,3.59,7,5.0,No,4,11.8,Co-Learning Group,Yes,Medium,7,8,7,Reading,3.0,94
+168021,16,Other,Psychology,4.2,3.3,0.5,Yes,76.4,10.1,Fair,5,Some College,High,9.6,No,4.0,6,4.7,No,1,9.3,Library,No,Low,7,10,5,Visual,5.4,100
+157963,25,Other,Computer Science,7.97434690477384,1.0,2.5,Yes,55.9,8.0,Good,2,PhD,Low,8.6,No,4.0,8,5.9,No,4,12.2,Cafe,Yes,Medium,4,5,10,Visual,3.5,92
+136458,27,Female,Business,0.3,0.9,3.7,No,46.4,7.0,Good,1,Bachelor,Medium,5.9,No,2.79,3,8.4,No,2,6.2,Co-Learning Group,No,High,2,10,5,Kinesthetic,6.1,71
+123788,26,Female,Computer Science,4.524739730478308,1.5,0.3,Yes,85.4,6.9,Poor,7,Some College,Low,9.9,Yes,3.33,6,6.8,No,3,8.0,Quiet Room,No,High,6,3,10,Auditory,5.8,87
+176720,23,Male,Engineering,0,0.4,0.5,Yes,53.4,11.3,Fair,5,PhD,Low,4.5,Yes,4.0,8,2.1,No,0,1.6,Quiet Room,Yes,High,4,6,9,Reading,9.2,95
+157132,19,Other,Biology,3.2,4.5,3.1,No,50.4,6.5,Good,4,Some College,High,10,Yes,4.0,8,2.7,No,2,12.6,Cafe,Yes,High,7,2,10,Auditory,6.9,90
+164451,18,Female,Biology,3.0,5.0,3.6,No,86.2,7.0,Fair,6,Master,Medium,7.3,Yes,3.62,1,5.4,No,5,13.3,Cafe,No,Medium,7,9,6,Auditory,2.6,95
+111959,22,Female,Arts,1.6,4.4,0.6,No,63.0,6.0,Good,5,High School,Medium,9.0,Yes,3.12,1,5.3,No,2,6.6,Co-Learning Group,No,High,10,4,10,Auditory,2.7,75
+161605,17,Other,Engineering,2.0,1.1,1.6,No,78.1,7.4,Good,5,Master,High,2.7,No,4.0,4,2.8,No,3,4.8,Cafe,Yes,Medium,6,6,9,Kinesthetic,7.3,100
+145607,17,Other,Arts,6.4,1.8,1.3,No,42.3,6.3,Fair,3,PhD,Low,3.5,Yes,3.53,1,8.8,No,5,11.4,Co-Learning Group,No,Medium,10,10,5,Reading,5.2,76
+153523,20,Other,Biology,2.0,3.2,3.7,Yes,68.6,8.8,Fair,1,High School,Low,1.1,Yes,3.88,7,8.3,No,4,9.5,Library,Yes,Medium,10,10,5,Visual,3.9,84
+143687,21,Male,Psychology,2.2,3.3,0.8,Yes,98.2,8.0,Fair,2,High School,Low,6.7,No,3.28,2,4.2,No,3,8.1,Cafe,Yes,Medium,5,8,7,Auditory,3.7,74
+142081,27,Other,Biology,2.6,4.0,3.8,No,78.6,6.2,Fair,1,PhD,High,6.9,No,3.74,7,2.4,No,1,11.8,Library,Yes,Medium,9,3,10,Reading,6.6,100
+113710,28,Male,Engineering,1.3,3.1,0.8,No,95.7,7.3,Fair,1,Some College,Low,5.9,Yes,3.72,3,6.6,No,2,6.2,Dorm,Yes,High,7,1,10,Visual,1.6,83
+121079,24,Other,Biology,3.0,1.7,0.7,Yes,85.5,5.9,Poor,5,High School,High,6.2,No,2.99,1,9.1,No,1,5.8,Library,No,Low,1,4,10,Reading,5.3,72
+143228,23,Female,Psychology,3.4,1.8,3.9,Yes,82.9,6.8,Good,1,Master,Low,9.1,No,4.0,8,4.6,No,1,9.6,Quiet Room,Yes,Medium,4,1,10,Kinesthetic,3.7,100
+153955,25,Female,Business,5.4,3.7,0.5,No,51.5,10.3,Fair,6,Master,High,4.5,Yes,3.65,6,6.4,No,0,11.2,Dorm,No,Medium,8,5,10,Auditory,1.5,94
+164942,18,Female,Biology,6.2,3.7,1.5,Yes,48.5,6.5,Fair,6,Bachelor,High,6.2,Yes,3.74,1,3.9,No,1,13.2,Dorm,Yes,High,1,3,10,Visual,4.1,100
+137777,17,Female,Computer Science,6.799823705157719,4.2,1.0,Yes,44.0,8.0,Good,6,High School,High,5.9,No,4.0,6,3.5,No,0,13.5,Quiet Room,No,High,6,3,10,Reading,2.7,100
+152488,26,Other,Computer Science,3.51650798340449,4.5,3.3,No,67.9,8.9,Good,5,PhD,Low,7.5,No,3.58,5,7.4,No,4,12.6,Dorm,Yes,Low,1,3,10,Kinesthetic,1.1,91
+172102,18,Other,Biology,1.5,1.6,1.4,Yes,51.2,6.9,Good,6,PhD,High,5.8,No,3.84,8,5.8,No,3,5.7,Cafe,Yes,High,9,3,10,Reading,9.6,96
+104809,16,Male,Arts,5.6,3.8,2.3,Yes,42.8,9.8,Good,2,Some College,Medium,2.5,No,4.0,3,4.7,No,4,12.6,Quiet Room,No,Medium,7,2,10,Kinesthetic,9.7,99
+159614,20,Other,Computer Science,2.96076018482853,4.1,1.5,No,53.9,8.2,Poor,5,High School,High,10,No,3.38,8,5.9,No,3,9.7,Library,No,Medium,5,6,9,Auditory,3.9,78
+111542,23,Other,Computer Science,4.553921864750368,2.4,1.2,No,90.7,5.7,Fair,2,Some College,High,7.6,Yes,3.38,1,1,No,3,9.4,Quiet Room,No,Low,7,6,9,Visual,4.6,76
+141224,20,Other,Engineering,3.7,2.4,1.8,No,78.0,8.1,Fair,6,PhD,Low,10,No,3.64,1,4.0,No,3,9.8,Co-Learning Group,Yes,Low,4,9,6,Auditory,1.7,92
+133082,26,Female,Psychology,4.7,4.5,2.7,Yes,65.6,6.5,Good,2,PhD,High,5.4,No,3.98,2,4.7,No,0,13.2,Co-Learning Group,Yes,Medium,2,9,6,Reading,6.9,100
+142372,18,Female,Computer Science,5.880180871753059,3.2,1.0,No,67.4,8.2,Good,0,Some College,Low,7.7,No,3.23,2,2.2,No,0,11.4,Library,Yes,Low,4,6,9,Visual,7.9,83
+115194,26,Male,Computer Science,5.506014263092492,3.3,3.7,Yes,82.9,7.7,Good,4,PhD,High,8.3,Yes,4.0,6,4.9,No,1,13.7,Library,Yes,Medium,6,3,10,Reading,4.3,98
+152976,20,Other,Engineering,3.4,4.8,0.6,Yes,87.3,6.3,Good,1,Master,Medium,4.7,Yes,3.92,7,1.7,No,0,9.1,Cafe,No,High,5,4,10,Kinesthetic,4.2,95
+167449,24,Other,Engineering,2.3,1.2,1.3,No,42.7,9.9,Good,4,Bachelor,High,8.1,No,4.0,8,5.2,No,4,5.6,Library,No,Low,6,3,10,Visual,7.3,100
+100150,16,Male,Biology,5.1,3.1,1.0,No,58.7,7.0,Poor,5,PhD,High,6.1,Yes,4.0,4,3.9,No,3,10.6,Quiet Room,No,High,5,3,10,Reading,1.6,100
+171118,17,Other,Biology,6.1,2.8,0.4,No,78.4,6.2,Good,5,Some College,Medium,6.8,Yes,3.3,2,7.3,No,5,11.3,Dorm,No,Low,2,2,10,Visual,5.2,85
+160552,17,Female,Business,5.2,2.5,2.2,No,85.6,8.7,Fair,7,PhD,High,9.6,Yes,4.0,4,3.0,No,3,9.9,Library,No,Low,4,3,10,Auditory,3.8,88
+154165,16,Other,Arts,6.5,2.5,1.9,No,98.5,9.2,Good,7,Bachelor,Medium,3.0,No,3.95,2,7.9,No,2,12.6,Co-Learning Group,No,High,5,3,10,Kinesthetic,5.5,99
+107104,16,Other,Arts,5.3,0.9,3.0,Yes,78.6,9.1,Good,2,Bachelor,Low,7.800000000000001,Yes,4.0,6,7.3,No,3,9.4,Co-Learning Group,Yes,Low,7,8,7,Visual,4.0,97
+124586,28,Female,Psychology,4.1,0.7,2.9,No,94.1,6.5,Good,1,Bachelor,Medium,7.4,No,4.0,8,4.2,No,0,9.3,Co-Learning Group,Yes,High,3,6,9,Kinesthetic,6.0,100
+167952,28,Female,Biology,5.1,2.6,2.3,No,70.8,6.6,Fair,3,Some College,Medium,9.4,No,3.85,3,1.9,No,2,10.4,Dorm,Yes,Low,8,4,10,Auditory,7.5,99
+147419,23,Other,Business,8.3,3.6,3.1,No,67.4,4.7,Fair,3,High School,Low,6.4,No,4.0,2,7.5,No,0,15.9,Library,No,High,2,4,10,Auditory,1.4,94
+165338,28,Other,Biology,3.7,4.2,0.2,No,91.6,7.5,Fair,0,High School,Low,4.8,No,4.0,7,4.2,No,2,8.5,Quiet Room,Yes,High,5,10,5,Auditory,5.3,100
+157939,21,Female,Business,2.1,2.7,2.7,No,96.8,6.0,Good,2,Some College,High,4.4,Yes,3.62,1,1.7,No,4,9.4,Cafe,Yes,Low,6,7,8,Reading,1.9,89
+106764,24,Male,Computer Science,3.8627869859003425,3.1,0.9,No,94.5,6.1,Good,0,Bachelor,High,7.5,No,3.27,4,4.5,No,4,8.8,Library,Yes,Low,4,4,10,Kinesthetic,6.6,82
+126680,27,Male,Biology,0,3.5,2.0,No,44.3,9.4,Good,4,Bachelor,Medium,7.699999999999999,No,3.13,7,9.6,No,4,7.0,Quiet Room,No,Medium,5,10,5,Reading,5.2,73
+135003,19,Female,Business,5.2,1.3,0.8,Yes,79.6,7.0,Fair,5,Master,Low,6.7,No,4.0,3,6.8,No,0,7.8,Dorm,Yes,High,3,1,10,Auditory,8.6,100
+171987,21,Female,Business,3.7,1.2,2.4,Yes,65.0,9.2,Good,5,PhD,Low,9.9,No,4.0,7,6.7,No,3,8.1,Library,Yes,Medium,6,5,10,Visual,5.4,98
+117172,21,Female,Business,4.6,0.4,1.9,No,89.4,7.1,Fair,4,Some College,Medium,4.9,No,4.0,4,1,No,4,7.5,Cafe,No,High,10,6,9,Visual,6.2,100
+137752,27,Male,Psychology,5.7,0.7,1.0,Yes,81.1,6.8,Good,7,Some College,Medium,7.1,Yes,4.0,1,5.7,No,3,9.1,Library,No,Medium,6,3,10,Reading,5.2,100
+157424,19,Other,Computer Science,4.135281358063328,0.9,2.8,No,80.6,5.6,Good,0,Master,Medium,5.1,Yes,2.87,6,1,No,3,8.9,Cafe,Yes,Low,5,1,10,Auditory,3.7,73
+163532,25,Male,Business,4.1,1.3,3.9,No,76.8,8.1,Fair,0,Bachelor,Low,8.5,Yes,3.7,5,4.9,No,3,10.5,Quiet Room,Yes,Low,2,8,7,Reading,6.9,81
+115915,17,Other,Psychology,7.5,4.3,3.7,Yes,66.5,6.1,Good,1,Bachelor,High,8.5,No,3.69,4,5.4,No,2,15.5,Dorm,Yes,Low,7,5,10,Auditory,2.9,95
+103783,27,Male,Biology,4.1,4.9,1.5,No,69.6,6.4,Fair,2,High School,High,7.4,No,4.0,5,3.6,No,5,11.2,Cafe,No,Low,4,2,10,Visual,7.5,100
+179806,19,Female,Engineering,6.9,0.4,0.4,Yes,98.4,7.5,Fair,1,PhD,Low,7.4,No,4.0,1,3.1,No,2,9.1,Quiet Room,No,Medium,4,6,9,Visual,5.3,96
+131365,22,Other,Business,6.5,3.3,1.6,No,48.8,6.1,Good,5,Some College,High,8.8,Yes,4.0,4,5.9,No,3,13.2,Dorm,Yes,Low,1,7,8,Visual,4.3,100
+120758,20,Male,Engineering,5.0,4.3,0.8,Yes,68.8,4,Good,1,Master,Low,8.0,No,2.58,1,3.4,No,5,10.5,Cafe,Yes,High,3,1,10,Reading,7.6,61
+140730,27,Male,Biology,6.4,2.3,2.6,No,75.8,4,Good,7,Master,High,7.6,No,3.24,8,6.0,No,2,12.6,Co-Learning Group,Yes,High,2,1,10,Auditory,9.7,82
+172199,16,Female,Biology,4.7,0.9,3.7,No,93.7,4,Good,0,Master,High,2.2,Yes,4.0,6,6.1,No,3,10.7,Dorm,Yes,Low,8,10,5,Visual,6.8,100
+101792,22,Other,Computer Science,4.8204009844802,0.2,2.0,No,93.3,5.2,Good,5,Master,Low,5.7,No,3.39,8,6.0,No,5,7.9,Library,Yes,Low,1,6,9,Reading,2.1,85
+172384,27,Other,Psychology,3.6,3.5,3.7,Yes,91.0,9.3,Good,1,PhD,High,4.0,No,3.39,5,8.0,No,2,11.3,Library,Yes,Medium,2,3,10,Visual,4.8,82
+153476,28,Female,Biology,4.2,0.8,3.6,No,92.1,6.4,Poor,7,Some College,High,5.1,Yes,4.0,7,5.4,No,3,9.7,Library,Yes,Medium,5,2,10,Visual,2.6,93
+112217,20,Other,Business,3.8,5.0,0.2,No,80.6,7.5,Good,5,High School,Low,6.9,Yes,4.0,5,6.0,No,2,10.6,Quiet Room,No,Low,8,1,10,Kinesthetic,5.2,93
+114871,17,Male,Engineering,3.9,4.9,4.0,No,69.6,9.9,Fair,7,PhD,Low,8.6,No,3.57,4,5.7,No,2,13.9,Co-Learning Group,Yes,Low,9,5,10,Auditory,1.3,87
+160482,19,Female,Psychology,5.0,3.3,3.3,No,94.4,8.0,Good,6,PhD,High,9.5,No,2.99,1,1,No,0,12.0,Cafe,No,Medium,10,1,10,Reading,5.6,82
+115396,18,Other,Business,1.4,3.4,1.2,Yes,66.3,5.6,Fair,0,Bachelor,Low,5.7,No,2.74,1,5.5,No,5,6.9,Dorm,No,Medium,9,4,10,Reading,2.7,73
+120181,16,Other,Psychology,2.6,4.2,0.8,No,60.7,6.1,Good,7,Bachelor,High,6.3,No,4.0,5,4.1,No,0,8.9,Co-Learning Group,Yes,Medium,2,2,10,Visual,7.4,88
+165323,23,Other,Psychology,2.8,4.6,1.9,No,50.3,9.1,Poor,2,Master,Medium,4.1,Yes,3.48,1,2.9,No,4,10.9,Quiet Room,No,Medium,2,7,8,Reading,2.6,90
+138254,20,Male,Business,7.0,4.9,1.3,No,88.3,5.1,Fair,7,Some College,Low,7.6,Yes,3.96,5,6.4,No,5,14.4,Co-Learning Group,Yes,High,2,3,10,Visual,4.4,100
+166698,21,Male,Engineering,0.9,1.2,3.1,Yes,48.4,6.5,Poor,3,PhD,Medium,6.6,No,3.76,2,1.2,No,0,6.4,Quiet Room,Yes,Low,5,1,10,Reading,6.8,95
+135838,20,Male,Biology,4.5,0.8,2.8,No,99.1,6.2,Fair,2,Some College,Medium,7.9,Yes,3.15,1,7.8,No,1,9.5,Quiet Room,Yes,High,6,8,7,Reading,9.5,83
+154459,16,Other,Computer Science,4.107145996835798,4.0,2.4,Yes,95.4,7.1,Good,1,Bachelor,Medium,4.9,Yes,4.0,7,8.3,No,3,11.5,Co-Learning Group,Yes,Medium,4,5,10,Visual,5.0,100
+163242,24,Other,Computer Science,4.441047988232453,3.8,0.2,No,75.1,6.1,Good,5,High School,Medium,8.0,Yes,3.33,7,5.5,No,2,9.8,Quiet Room,No,High,8,6,9,Kinesthetic,8.7,86
+161894,17,Other,Psychology,7.0,4.5,1.8,Yes,78.0,8.8,Good,6,Bachelor,Medium,10,Yes,4.0,8,1,No,0,13.9,Library,No,Low,9,6,9,Kinesthetic,8.7,87
+131946,17,Other,Biology,3.1,2.1,3.4,Yes,94.5,5.5,Fair,7,Some College,Medium,4.5,Yes,4.0,6,6.6,No,3,10.4,Co-Learning Group,No,High,5,6,9,Visual,2.9,95
+159871,28,Other,Computer Science,6.822551006871645,4.4,1.6,No,42.7,8.3,Fair,3,Master,Low,9.4,No,4.0,8,3.2,No,5,14.6,Quiet Room,No,Medium,5,5,10,Visual,7.3,100
+172255,26,Male,Biology,1.1,1.8,2.1,No,73.5,6.1,Good,4,High School,Low,9.0,No,3.52,3,2.7,No,1,6.4,Cafe,No,Medium,8,2,10,Auditory,3.3,85
+118958,27,Female,Arts,2.8,1.4,1.6,Yes,49.5,8.5,Good,5,Master,High,6.9,Yes,3.31,6,8.5,No,5,7.0,Library,Yes,Low,8,10,5,Visual,7.0,85
+150277,21,Female,Psychology,1.3,2.2,3.2,Yes,76.3,6.7,Good,0,Some College,Low,7.5,No,3.97,1,1.8,No,0,8.2,Co-Learning Group,No,Low,4,7,8,Reading,4.8,99
+124983,21,Female,Arts,3.5,4.4,0.6,Yes,99.1,6.0,Poor,3,Some College,Low,8.3,No,4.0,2,6.2,No,0,10.1,Dorm,Yes,Low,10,10,5,Reading,1.8,98
+178561,26,Male,Computer Science,5.295643493339246,3.2,3.4,No,65.6,8.7,Good,2,Bachelor,Low,10,Yes,3.64,5,6.5,No,3,13.0,Dorm,No,Low,10,6,9,Visual,5.3,93
+166616,22,Female,Computer Science,5.346529429362248,3.4,3.9,Yes,88.8,6.7,Good,3,High School,Low,8.1,Yes,2.69,4,6.1,No,4,13.7,Library,No,Low,5,3,10,Visual,8.5,68
+117892,22,Other,Engineering,6.1,4.9,0.9,Yes,42.3,9.4,Fair,6,PhD,Low,6.7,No,4.0,2,1,No,0,12.7,Library,No,Low,2,8,7,Kinesthetic,1.7,100
+109150,23,Female,Engineering,5.1,3.9,0.9,Yes,93.7,5.4,Poor,4,High School,Low,6.3,No,4.0,3,4.9,No,3,11.3,Quiet Room,Yes,High,8,3,10,Auditory,5.3,92
+136208,26,Other,Engineering,2.9,0.9,1.3,Yes,84.2,7.6,Fair,4,Master,Medium,8.1,No,4.0,5,2.3,No,3,5.2,Cafe,No,Low,7,6,9,Reading,8.8,90
+154387,25,Male,Computer Science,4.607447803241447,1.1,0.7,No,82.4,9.0,Good,0,Some College,High,6.9,Yes,2.75,2,5.6,No,1,7.1,Co-Learning Group,No,Medium,6,5,10,Visual,1.4,63
+144548,28,Female,Business,3.6,3.0,3.4,Yes,62.5,9.3,Poor,2,Some College,Low,8.2,Yes,4.0,6,4.6,No,2,10.5,Cafe,No,Low,2,4,10,Kinesthetic,2.2,95
+166550,23,Female,Business,1.5,1.6,0.1,Yes,47.4,7.5,Fair,1,Bachelor,High,7.300000000000001,No,2.83,7,7.5,No,4,4.2,Dorm,Yes,Medium,2,2,10,Visual,6.2,72
+135018,27,Male,Business,5.5,1.5,0.4,Yes,70.1,9.5,Fair,6,Bachelor,Medium,8.3,No,4.0,4,2.7,No,3,8.5,Co-Learning Group,No,High,2,2,10,Visual,2.5,100
+100336,20,Male,Computer Science,4.809487770291792,3.3,3.8,No,92.7,7.2,Poor,6,Some College,Low,8.3,Yes,3.71,3,4.3,No,5,13.9,Dorm,No,Low,4,4,10,Reading,5.8,96
+137072,23,Female,Biology,3.0,3.7,1.0,No,44.1,5.8,Good,6,Bachelor,High,9.4,Yes,4.0,3,7.3,No,4,8.9,Cafe,No,Low,9,9,6,Visual,7.9,100
+139132,24,Female,Psychology,3.8,2.4,0.2,Yes,51.2,6.4,Good,4,Bachelor,High,7.8,No,2.88,7,5.0,No,1,7.7,Dorm,Yes,Low,3,9,6,Kinesthetic,5.5,65
+176931,20,Male,Arts,5.2,3.9,1.2,No,66.4,4.8,Fair,1,High School,Low,3.5999999999999996,Yes,4.0,1,7.9,No,0,11.3,Library,No,High,5,6,9,Auditory,9.7,94
+176011,18,Male,Engineering,1.5,4.6,3.6,No,77.2,7.4,Good,4,Some College,High,5.3,Yes,3.16,8,4.5,No,5,10.3,Quiet Room,No,Medium,2,2,10,Kinesthetic,2.9,81
+164178,17,Other,Engineering,4.0,5.0,1.8,No,83.6,6.1,Fair,3,Master,Low,9.8,No,4.0,4,1.2,No,0,12.3,Quiet Room,No,Low,1,7,8,Visual,5.5,100
+119476,26,Male,Computer Science,5.173260738901776,2.9,2.3,No,51.5,7.4,Fair,3,Some College,Low,8.7,Yes,4.0,8,5.1,No,5,11.4,Dorm,Yes,High,9,6,9,Auditory,8.9,100
+158529,25,Female,Arts,4.5,3.8,3.2,Yes,66.3,8.0,Good,1,PhD,Low,8.0,Yes,2.99,8,6.9,No,4,12.4,Library,No,Medium,2,7,8,Reading,2.0,80
+170592,28,Other,Arts,2.7,2.2,2.8,No,62.9,7.2,Fair,6,High School,High,6.5,No,3.52,3,3.5,No,5,9.6,Cafe,No,High,8,9,6,Auditory,9.2,93
+163483,23,Male,Computer Science,5.072503579467167,1.4,2.0,No,99.5,10.0,Good,3,Some College,Low,8.6,Yes,4.0,5,3.8,No,1,9.9,Library,No,High,4,5,10,Reading,9.5,98
+145236,23,Other,Engineering,3.9,2.7,3.1,No,55.0,9.0,Good,2,Master,Medium,7.9,No,3.97,5,4.6,No,0,11.5,Dorm,No,Medium,1,5,10,Auditory,3.7,100
+143573,19,Other,Biology,7.3,1.7,1.9,Yes,69.2,7.0,Good,1,Bachelor,High,9.2,Yes,4.0,8,2.5,No,5,12.9,Library,No,Low,5,7,8,Kinesthetic,7.4,91
+172340,23,Female,Psychology,3.5,1.2,3.8,Yes,81.1,6.6,Poor,6,High School,High,9.5,Yes,4.0,1,2.2,No,1,9.3,Dorm,No,Low,1,6,9,Visual,3.2,100
+171228,25,Other,Arts,5.7,4.5,0.9,No,96.1,7.9,Good,3,Some College,Low,10,No,4.0,6,5.7,No,2,11.7,Co-Learning Group,Yes,Medium,7,7,8,Reading,5.4,100
+149441,16,Male,Psychology,5.5,0.4,2.1,No,60.1,9.6,Good,2,Bachelor,High,9.1,No,4.0,6,4.7,No,1,9.3,Co-Learning Group,Yes,Low,6,5,10,Reading,2.3,100
+159682,24,Other,Psychology,3.9,1.0,2.7,Yes,70.7,5.7,Good,6,High School,Low,6.3,Yes,4.0,3,5.0,No,1,7.8,Cafe,Yes,High,2,2,10,Reading,8.4,100
+142176,24,Female,Arts,3.2,0.8,0.1,No,41.5,6.0,Fair,4,High School,High,6.7,No,4.0,1,4.6,No,2,4.5,Co-Learning Group,No,Low,7,6,9,Kinesthetic,3.7,99
+124727,24,Other,Engineering,4.2,4.8,0.6,No,41.8,5.8,Good,4,High School,High,5.7,Yes,3.36,1,4.7,No,4,11.0,Cafe,No,Low,6,2,10,Visual,9.9,87
+131300,27,Female,Engineering,7.6,4.4,3.4,Yes,48.9,7.7,Fair,5,Bachelor,Low,5.5,No,4.0,5,3.1,No,1,16.6,Co-Learning Group,No,High,4,9,6,Visual,5.2,97
+174946,19,Other,Engineering,7.5,0.8,0.4,Yes,88.5,5.7,Fair,1,Bachelor,Medium,6.4,Yes,3.66,8,4.7,No,3,9.2,Co-Learning Group,Yes,Medium,2,10,5,Visual,6.2,90
+150196,27,Male,Engineering,1.2,3.4,1.0,Yes,80.6,5.9,Good,5,PhD,Low,8.0,No,3.16,3,5.5,No,3,7.5,Co-Learning Group,Yes,Medium,2,9,6,Visual,5.9,75
+130613,28,Female,Computer Science,5.142276101606713,3.4,1.9,Yes,95.8,8.6,Poor,2,Master,Low,3.2,Yes,3.88,1,9.4,No,4,11.6,Quiet Room,No,Low,6,10,5,Visual,1.5,99
