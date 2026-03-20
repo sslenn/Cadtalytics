@@ -26,3 +26,13 @@ from .predictor import GradePredictor"""
 from .visualizer import (plot_grade_distribution_embedded, plot_top_students_embedded,
                           plot_class_average_by_subject_embedded, plot_feature_importance_embedded, 
                           plot_student_trend_embedded)
+
+
+
+from .student import Student
+from .student_types import UndergraduateStudent, GraduateStudent
+from .grade_manager import GradeManager
+from .analytics import Analytics
+from .visualizer import Visualizer
+from .file_handler import FileHandler
+from .file_handler_mysql import FileHandlerMySQL
