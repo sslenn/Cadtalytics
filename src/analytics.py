@@ -1,194 +1,307 @@
+# analytics.py
+# This file computes all the statistics and analysis results
+# that the GUI needs to display — averages, distributions,
+# rankings, trends, and so on.
+# It works on a list of Student objects provided by GradeManager.
+
+
 class Analytics:
 
     def __init__(self, students):
+        # students is the list of Student objects from GradeManager
         self.students = students
 
 
-    # ── Class Averages ────────────────────────────────────────────────────────
+    # -------------------------------------------------------------------------
+    # AVERAGES
+    # -------------------------------------------------------------------------
 
-    def class_average_per_subject(self, period="G1"):
+    def class_average_per_subject(self, period="semester"):
+        # This method is called by main.py view_semester_avg() to draw the
+        # "Average Score by Semester" bar chart.
+        # It groups students by their semester number and calculates the
+        # average exam_score for each semester.
+        # Returns a dictionary like: {"1": 85.2, "2": 87.4, "3": 83.1, ...}
+
         totals = {}
         counts = {}
 
         for student in self.students:
-            for subject in student.grades:
-                if period in student.grades[subject]:
-                    score = student.grades[subject][period]
+            # Use the semester number as the key (as a string)
+            key = str(student.semester)
 
-                    if subject not in totals:
-                        totals[subject] = 0
-                        counts[subject] = 0
+            if key not in totals:
+                totals[key] = 0
+                counts[key] = 0
 
-                    totals[subject] = totals[subject] + score
-                    counts[subject] = counts[subject] + 1
+            totals[key] = totals[key] + student.exam_score
+            counts[key] = counts[key] + 1
 
+        # Build the result dict sorted by semester number
         averages = {}
-        for subject in totals:
-            averages[subject] = round(totals[subject] / counts[subject], 2)
+        for key in sorted(totals.keys(), key=int):
+            averages[key] = round(totals[key] / counts[key], 2)
 
         return averages
 
 
-    def overall_class_average(self, period="G3"):
-        all_scores = []
-
-        for student in self.students:
-            for subject in student.grades:
-                if period in student.grades[subject]:
-                    all_scores.append(student.grades[subject][period])
-
-        if len(all_scores) == 0:
+    def overall_class_average(self):
+        # Returns the average exam_score across all students combined
+        if len(self.students) == 0:
             return 0.0
 
-        return round(sum(all_scores) / len(all_scores), 2)
+        total = 0
+        for student in self.students:
+            total = total + student.exam_score
+
+        return round(total / len(self.students), 2)
 
 
     def subject_averages_by_period(self):
-        result = {}
+        # Returns average exam score and average previous GPA (scaled to 100)
+        # as two data points — used by visualizer trend charts
+        if len(self.students) == 0:
+            return {}
 
-        for period in ["G1", "G2", "G3"]:
-            period_averages = self.class_average_per_subject(period)
-            for subject in period_averages:
-                if subject not in result:
-                    result[subject] = []
-                result[subject].append(period_averages[subject])
+        total_exam = 0
+        total_gpa  = 0
 
-        return result
+        for student in self.students:
+            total_exam = total_exam + student.exam_score
+            # Convert GPA from 0-4.0 scale to 0-100 scale for comparison
+            total_gpa  = total_gpa + (student.previous_gpa / 4.0 * 100)
+
+        avg_exam = round(total_exam / len(self.students), 2)
+        avg_gpa  = round(total_gpa  / len(self.students), 2)
+
+        return {
+            "exam_score":   [avg_exam],
+            "previous_gpa": [avg_gpa],
+        }
 
 
-    # ── Grade Distribution ────────────────────────────────────────────────────
+    # -------------------------------------------------------------------------
+    # GRADE DISTRIBUTION
+    # -------------------------------------------------------------------------
 
-    def grade_distribution(self, period="G3"):
+    def grade_distribution(self):
+        # Called by main.py view_distribution() to draw the pie and bar charts.
+        # Counts how many students fall into each letter grade band
+        # based on their exam_score (0 to 100).
+        # A = 90 and above
+        # B = 80 to 89
+        # C = 70 to 79
+        # D = 60 to 69
+        # F = below 60
+
         distribution = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
 
         for student in self.students:
-            for subject in student.grades:
-                if period in student.grades[subject]:
-                    score = student.grades[subject][period]
+            score = student.exam_score
 
-                    if score >= 90:
-                        distribution["A"] = distribution["A"] + 1
-                    elif score >= 80:
-                        distribution["B"] = distribution["B"] + 1
-                    elif score >= 70:
-                        distribution["C"] = distribution["C"] + 1
-                    elif score >= 60:
-                        distribution["D"] = distribution["D"] + 1
-                    else:
-                        distribution["F"] = distribution["F"] + 1
+            if score >= 90:
+                distribution["A"] = distribution["A"] + 1
+            elif score >= 80:
+                distribution["B"] = distribution["B"] + 1
+            elif score >= 70:
+                distribution["C"] = distribution["C"] + 1
+            elif score >= 60:
+                distribution["D"] = distribution["D"] + 1
+            else:
+                distribution["F"] = distribution["F"] + 1
 
         return distribution
 
 
-    def grade_distribution_by_subject(self, subject, period="G3"):
+    def grade_distribution_by_subject(self, major):
+        # Same as grade_distribution but filtered to only one major.
+        # The new dataset does not have subjects like math/science,
+        # so we use major as the grouping instead.
+
         distribution = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
 
         for student in self.students:
-            if subject in student.grades:
-                if period in student.grades[subject]:
-                    score = student.grades[subject][period]
+            if student.major.lower() != major.lower():
+                continue
 
-                    if score >= 90:
-                        distribution["A"] = distribution["A"] + 1
-                    elif score >= 80:
-                        distribution["B"] = distribution["B"] + 1
-                    elif score >= 70:
-                        distribution["C"] = distribution["C"] + 1
-                    elif score >= 60:
-                        distribution["D"] = distribution["D"] + 1
-                    else:
-                        distribution["F"] = distribution["F"] + 1
+            score = student.exam_score
+
+            if score >= 90:
+                distribution["A"] = distribution["A"] + 1
+            elif score >= 80:
+                distribution["B"] = distribution["B"] + 1
+            elif score >= 70:
+                distribution["C"] = distribution["C"] + 1
+            elif score >= 60:
+                distribution["D"] = distribution["D"] + 1
+            else:
+                distribution["F"] = distribution["F"] + 1
 
         return distribution
 
 
-    # ── Student Trend ─────────────────────────────────────────────────────────
+    # -------------------------------------------------------------------------
+    # STUDENT TREND
+    # -------------------------------------------------------------------------
 
     def student_trend(self, student):
-        trend = {}
+        # Called by visualizer.plot_student_trend() to draw a single
+        # student's behavioral profile as a horizontal bar chart.
+        # Returns a dictionary where each key is a label and each value
+        # is a number — all on roughly the same 0-10 scale so they
+        # look good side by side in a chart.
 
-        for period in ["G1", "G2", "G3"]:
-            scores = []
-            for subject in student.grades:
-                if period in student.grades[subject]:
-                    scores.append(student.grades[subject][period])
-
-            if len(scores) > 0:
-                trend[period] = round(sum(scores) / len(scores), 2)
-            else:
-                trend[period] = 0.0
-
-        return trend
+        return {
+            "Study hrs/day"  : student.study_hours_per_day,
+            "Sleep hrs"      : student.sleep_hours,
+            "Motivation"     : student.motivation_level,
+            "Mental health"  : student.mental_health_rating,
+            "Time management": student.time_management_score,
+            "Stress level"   : student.stress_level,
+            "Exam anxiety"   : student.exam_anxiety_score,
+        }
 
 
     def student_trend_values(self, student):
-        # Returns [G1_avg, G2_avg, G3_avg] as a plain list
-        # This format is what the visualizer needs for the trend line chart
+        # Returns just the values from student_trend as a plain list.
+        # Some visualizer functions need a list instead of a dict.
         trend = self.student_trend(student)
-        return [trend["G1"], trend["G2"], trend["G3"]]
+        return list(trend.values())
 
 
     def trend_direction(self, student):
-        trend = self.student_trend(student)
-        g1_average = trend["G1"]
-        g3_average = trend["G3"]
+        # Compares the student's previous GPA (converted to 100 scale)
+        # against their exam score to figure out if they are improving,
+        # declining, or staying stable.
 
-        if g3_average > g1_average + 2:
+        gpa_on_100_scale = student.previous_gpa / 4.0 * 100
+        exam             = student.exam_score
+
+        if exam > gpa_on_100_scale + 2:
             return "Improving"
-        elif g3_average < g1_average - 2:
+        elif exam < gpa_on_100_scale - 2:
             return "Declining"
         else:
             return "Stable"
 
 
-    # ── Subject Difficulty Ranking ────────────────────────────────────────────
+    # -------------------------------------------------------------------------
+    # MAJOR RANKING
+    # -------------------------------------------------------------------------
 
     def subject_difficulty_ranking(self):
-        subject_scores = {}
+        # Called by main.py view_major_ranking() to draw the major ranking chart.
+        # Groups students by major and calculates the average exam score
+        # for each major. Returns them sorted from lowest to highest average
+        # (lowest average = hardest major).
+        # Returns a dict like: {"Biology": 82.1, "Engineering": 85.4, ...}
 
-        for period in ["G1", "G2", "G3"]:
-            period_averages = self.class_average_per_subject(period)
-            for subject in period_averages:
-                if subject not in subject_scores:
-                    subject_scores[subject] = []
-                subject_scores[subject].append(period_averages[subject])
+        totals = {}
+        counts = {}
 
-        overall_averages = {}
-        for subject in subject_scores:
-            scores = subject_scores[subject]
-            overall_averages[subject] = round(sum(scores) / len(scores), 2)
+        for student in self.students:
+            major = student.major
 
-        sorted_subjects = dict(sorted(overall_averages.items(), key=lambda item: item[1]))
-        return sorted_subjects
+            if major not in totals:
+                totals[major] = 0
+                counts[major] = 0
+
+            totals[major] = totals[major] + student.exam_score
+            counts[major] = counts[major] + 1
+
+        averages = {}
+        for major in totals:
+            averages[major] = round(totals[major] / counts[major], 2)
+
+        # Sort from lowest average to highest average
+        sorted_averages = dict(sorted(averages.items(), key=lambda item: item[1]))
+        return sorted_averages
 
 
-    # ── Class Statistics ──────────────────────────────────────────────────────
+    # -------------------------------------------------------------------------
+    # CLASS STATISTICS
+    # -------------------------------------------------------------------------
 
     def class_gpa_stats(self):
+        # Returns a summary of exam score statistics across all students.
+        # Used for the stat cards at the top of various views.
+
         if len(self.students) == 0:
             return {"average": 0, "highest": 0, "lowest": 0, "total": 0}
 
-        all_gpas = []
+        all_scores = []
         for student in self.students:
-            all_gpas.append(student.get_gpa())
+            all_scores.append(student.exam_score)
 
         stats = {
-            "average": round(sum(all_gpas) / len(all_gpas), 2),
-            "highest": round(max(all_gpas), 2),
-            "lowest": round(min(all_gpas), 2),
-            "total": len(all_gpas)
+            "average": round(sum(all_scores) / len(all_scores), 2),
+            "highest": round(max(all_scores), 2),
+            "lowest":  round(min(all_scores), 2),
+            "total":   len(all_scores),
         }
 
         return stats
 
 
     def passing_rate(self, passing_threshold=60):
+        # Returns the percentage of students who scored above the threshold
+
         if len(self.students) == 0:
             return 0.0
 
         passing_count = 0
         for student in self.students:
-            if student.get_gpa() >= passing_threshold:
+            if student.exam_score >= passing_threshold:
                 passing_count = passing_count + 1
 
         return round((passing_count / len(self.students)) * 100, 2)
+
+
+    def dropout_risk_count(self):
+        # Returns how many students are flagged as dropout risk
+
+        count = 0
+        for student in self.students:
+            if student.dropout_risk == "Yes":
+                count = count + 1
+        return count
+
+
+    # -------------------------------------------------------------------------
+    # BEHAVIORAL AVERAGES
+    # -------------------------------------------------------------------------
+
+    def avg_study_hours(self):
+        if len(self.students) == 0:
+            return 0.0
+        total = 0
+        for student in self.students:
+            total = total + student.study_hours_per_day
+        return round(total / len(self.students), 2)
+
+
+    def avg_sleep_hours(self):
+        if len(self.students) == 0:
+            return 0.0
+        total = 0
+        for student in self.students:
+            total = total + student.sleep_hours
+        return round(total / len(self.students), 2)
+
+
+    def avg_stress_level(self):
+        if len(self.students) == 0:
+            return 0.0
+        total = 0
+        for student in self.students:
+            total = total + student.stress_level
+        return round(total / len(self.students), 2)
+
+
+    def avg_mental_health(self):
+        if len(self.students) == 0:
+            return 0.0
+        total = 0
+        for student in self.students:
+            total = total + student.mental_health_rating
+        return round(total / len(self.students), 2)
