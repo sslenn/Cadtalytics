@@ -3,3 +3,4 @@ mysql-connector-python
 scikit-learn
 matplotlib
 numpy
+pandas
