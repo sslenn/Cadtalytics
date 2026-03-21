@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Data and Reports (The files that caused the locks)
+data/
+proj2_out/
+*.csv
+*.xlsx
+
+# OS specific files
+desktop.ini
+.DS_Store
+
+# Environments
+venv/
+.env
