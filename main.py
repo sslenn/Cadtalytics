@@ -202,23 +202,44 @@ class App(ctk.CTk):
 
     # ── Data Loading ──────────────────────────────────────────────────────────
     def _load_data(self):
+        # Ask user which data source to use before loading
+        choice = messagebox.askquestion(
+            "Select Data Source",
+            "Load from MySQL database?\n\nYes  →  MySQL (student_1000)\nNo   →  CSV file"
+        )
+
         def task():
             try:
-                fh      = FileHandler("data/students_habits.csv")
+                if choice == "yes":
+                    self._set_status("Connecting to MySQL...", ORANGE)
+                    fh = FileHandlerMySQL(
+                        host="127.0.0.1",
+                        port=8889,
+                        user="root",
+                        password="root",
+                        database="students_1000"
+                    )
+                    fh.connect()
+                else:
+                    fh = FileHandler("data/students_habits.csv")
+
                 records = fh.load_csv()
                 self.manager = GradeManager()
                 self.manager.load_from_records(records)
                 self.students  = self.manager.get_all_students()
                 self.analytics = Analytics(self.students)
-                self._set_status(f"[OK] {len(self.students)} students loaded", GREEN)
+
+                source = "MySQL" if choice == "yes" else "CSV"
+                self._set_status(f" {len(self.students)} students\n Source: {source}", GREEN)
                 self.after(0, self.view_all_students)
 
                 self.predictor = GradePredictor()
                 self.predictor.train(self.students)
                 self._set_status(
-                    f"[OK] {len(self.students)} students\nRF R²: {self.predictor.r2}", GREEN)
+                    f" {len(self.students)} students\n RF R²: {self.predictor.r2}", GREEN)
+
             except Exception as e:
-                self._set_status(f"[ERROR] {e}", RED)
+                self._set_status(f"❌ {e}", RED)
                 messagebox.showerror("Load Error", str(e))
 
         threading.Thread(target=task, daemon=True).start()
