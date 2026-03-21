@@ -70,7 +70,7 @@ class App(ctk.CTk):
 
         logo = ctk.CTkFrame(self.sidebar, fg_color="transparent")
         logo.pack(fill="x", padx=16, pady=(20, 8))
-        ctk.CTkLabel(logo, text="📊", font=("Segoe UI Emoji", 28)).pack(anchor="w")
+        ctk.CTkLabel(logo, text="", font=("Segoe UI Emoji", 28)).pack(anchor="w")
         ctk.CTkLabel(logo, text="Student\nAnalytics",
                      font=("Trebuchet MS", 16, "bold"),
                      text_color=TEXT_MAIN).pack(anchor="w")
@@ -83,21 +83,21 @@ class App(ctk.CTk):
         self._nav_buttons = []
         sections = [
             ("ANALYTICS", [
-                ("👥  All Students",       self.view_all_students),
-                ("🏆  Top 5 Students",     self.view_top_students),
-                ("⚠️  At-Risk Students",   self.view_at_risk),
-                ("🚨  Dropout Risk",       self.view_dropout),
-                ("📊  Score Distribution", self.view_distribution),
-                ("📚  Semester Averages",  self.view_semester_avg),
-                ("🏅  Major Ranking",      self.view_major_ranking),
-                ("📄  Export Report",      self.view_export),
+                ("All Students",       self.view_all_students),
+                ("Top 5 Students",     self.view_top_students),
+                ("At-Risk Students",   self.view_at_risk),
+                ("Dropout Risk",       self.view_dropout),
+                ("Score Distribution", self.view_distribution),
+                ("Semester Averages",  self.view_semester_avg),
+                ("Major Ranking",      self.view_major_ranking),
+                ("Export Report",      self.view_export),
             ]),
             ("PREDICTION  (RF)", [
-                ("🔮  Manual Predict",      self.view_predict_manual),
-                ("🎓  Predict by ID",       self.view_predict_student),
-                ("📈  Actual vs Predicted", self.view_actual_vs_pred),
-                ("🌲  Feature Importance",  self.view_feature_importance),
-                ("🧠  Model Summary",       self.view_model_summary),
+                ("Manual Predict",      self.view_predict_manual),
+                ("Predict by ID",       self.view_predict_student),
+                ("Actual vs Predicted", self.view_actual_vs_pred),
+                ("Feature Importance",  self.view_feature_importance),
+                ("Model Summary",       self.view_model_summary),
             ]),
         ]
 
@@ -119,7 +119,7 @@ class App(ctk.CTk):
         ctk.CTkFrame(self.sidebar, height=1, fg_color=BG_CARD2).pack(
             fill="x", padx=12, pady=10, side="bottom")
         self.status_label = ctk.CTkLabel(
-            self.sidebar, text="Loading…",
+            self.sidebar, text="Loading...",
             font=FONT_SMALL, text_color=TEXT_DIM,
             wraplength=200, justify="left")
         self.status_label.pack(side="bottom", padx=16, pady=8, anchor="w")
@@ -210,15 +210,15 @@ class App(ctk.CTk):
                 self.manager.load_from_records(records)
                 self.students  = self.manager.get_all_students()
                 self.analytics = Analytics(self.students)
-                self._set_status(f"✅ {len(self.students)} students loaded", GREEN)
+                self._set_status(f"[OK] {len(self.students)} students loaded", GREEN)
                 self.after(0, self.view_all_students)
 
                 self.predictor = GradePredictor()
                 self.predictor.train(self.students)
                 self._set_status(
-                    f"✅ {len(self.students)} students\n🌲 RF R²: {self.predictor.r2}", GREEN)
+                    f"[OK] {len(self.students)} students\nRF R²: {self.predictor.r2}", GREEN)
             except Exception as e:
-                self._set_status(f"❌ {e}", RED)
+                self._set_status(f"[ERROR] {e}", RED)
                 messagebox.showerror("Load Error", str(e))
 
         threading.Thread(target=task, daemon=True).start()
@@ -287,10 +287,10 @@ class App(ctk.CTk):
     def view_at_risk(self):
         self._clear_content()
         at_risk = self.manager.get_at_risk_students()
-        self._page_header("⚠️ At-Risk Students",
+        self._page_header("At-Risk Students",
                           f"{len(at_risk)} students with exam score < 60")
         if not at_risk:
-            ctk.CTkLabel(self.content, text="✅  No at-risk students found.",
+            ctk.CTkLabel(self.content, text="[OK] No at-risk students found.",
                          font=FONT_HEAD, text_color=GREEN).pack(pady=40)
             return
         cols = ["ID","Major","Type","Sem","Score","Study Hrs",
@@ -307,11 +307,11 @@ class App(ctk.CTk):
     def view_dropout(self):
         self._clear_content()
         dropout = [s for s in self.students if s.dropout_risk == "Yes"]
-        self._page_header("🚨 Dropout Risk Students",
+        self._page_header("Dropout Risk Students",
                           f"{len(dropout)} students flagged  "
                           f"({round(len(dropout)/len(self.students)*100,1)}% of total)")
         if not dropout:
-            ctk.CTkLabel(self.content, text="✅  No dropout-risk students found.",
+            ctk.CTkLabel(self.content, text="[OK] No dropout-risk students found.",
                          font=FONT_HEAD, text_color=GREEN).pack(pady=40)
             return
         cols = ["ID","Major","Sem","Score","Stress","Attend%","Study Hrs","Sleep","Mental Health"]
@@ -325,7 +325,7 @@ class App(ctk.CTk):
 
     def view_distribution(self):
         self._clear_content()
-        self._page_header("📊 Exam Score Distribution",
+        self._page_header("Exam Score Distribution",
                           "Grade band breakdown across all students")
         dist   = self.analytics.grade_distribution()
         labels = list(dist.keys())
@@ -364,7 +364,7 @@ class App(ctk.CTk):
 
     def view_semester_avg(self):
         self._clear_content()
-        self._page_header("📚 Average Score by Semester",
+        self._page_header("Average Score by Semester",
                           "Blue = Undergraduate (1–4)   |   Purple = Graduate (5–8)")
         avgs   = self.analytics.class_average_per_subject("semester")
         labels = list(avgs.keys())
@@ -394,7 +394,7 @@ class App(ctk.CTk):
 
     def view_major_ranking(self):
         self._clear_content()
-        self._page_header("🏅 Major Ranking",
+        self._page_header("Major Ranking",
                           "Average exam score per major — sorted lowest to highest")
         ranking = self.analytics.subject_difficulty_ranking()
         labels  = list(ranking.keys())
@@ -420,7 +420,7 @@ class App(ctk.CTk):
 
     def view_export(self):
         self._clear_content()
-        self._page_header("📄 Export Student Report",
+        self._page_header("Export Student Report",
                           "Enter a student ID to view and export their full profile")
         card = ctk.CTkFrame(self.content, fg_color=BG_CARD, corner_radius=12)
         card.pack(fill="x", padx=22, pady=8)
@@ -460,14 +460,14 @@ class App(ctk.CTk):
     def _pred_not_ready(self):
         if not self.predictor or not self.predictor.is_trained:
             ctk.CTkLabel(self.content,
-                         text="⏳  Model still training — please wait a moment…",
+                         text="Model still training — please wait a moment...",
                          font=FONT_HEAD, text_color=ORANGE).pack(pady=40)
             return True
         return False
 
     def view_predict_manual(self):
         self._clear_content()
-        self._page_header("🔮 Manual Prediction",
+        self._page_header("Manual Prediction",
                           "Enter a behavioral profile to predict exam score")
         if self._pred_not_ready(): return
 
@@ -499,7 +499,7 @@ class App(ctk.CTk):
                 entries[key] = w
 
         # Left column
-        ctk.CTkLabel(left, text="📚 Study & Academic", font=FONT_HEAD,
+        ctk.CTkLabel(left, text="Study & Academic", font=FONT_HEAD,
                      text_color=ACCENT).grid(row=0,columnspan=2,padx=16,pady=(14,4),sticky="w")
         field(left,"Study Hours/Day (0–12)",    "study_hours_per_day",     5.0, 1)
         field(left,"Attendance % (40–100)",      "attendance_percentage",   80.0, 2)
@@ -509,7 +509,7 @@ class App(ctk.CTk):
               ["Library","Dorm","Quiet Room","Cafe","Co-Learning Group"])
         field(left,"Access to Tutoring",         "access_to_tutoring",       "No", 6, ["Yes","No"])
 
-        ctk.CTkLabel(left, text="💪 Health", font=FONT_HEAD,
+        ctk.CTkLabel(left, text="Health", font=FONT_HEAD,
                      text_color=ACCENT).grid(row=7,columnspan=2,padx=16,pady=(14,4),sticky="w")
         field(left,"Sleep Hours (4–12)",         "sleep_hours",             7.0, 8)
         field(left,"Exercise Days/Week (0–7)",   "exercise_frequency",      3.0, 9)
@@ -520,13 +520,13 @@ class App(ctk.CTk):
               ["Poor","Fair","Good"])
 
         # Right column
-        ctk.CTkLabel(right, text="📱 Screen & Leisure", font=FONT_HEAD,
+        ctk.CTkLabel(right, text="Screen & Leisure", font=FONT_HEAD,
                      text_color=ACCENT2).grid(row=0,columnspan=2,padx=16,pady=(14,4),sticky="w")
         field(right,"Social Media Hrs/Day (0–5)", "social_media_hours",    2.0, 1)
         field(right,"Netflix Hrs/Day (0–4)",       "netflix_hours",         1.0, 2)
         field(right,"Total Screen Time Hrs/Day",   "screen_time",           5.0, 3)
 
-        ctk.CTkLabel(right, text="👨‍👩‍👧 Socio-economic", font=FONT_HEAD,
+        ctk.CTkLabel(right, text="Socio-economic", font=FONT_HEAD,
                      text_color=ACCENT2).grid(row=4,columnspan=2,padx=16,pady=(14,4),sticky="w")
         field(right,"Parental Support (1–10)",    "parental_support_level", 5,   5)
         field(right,"Parent Education",           "parental_education_level","Bachelor",6,
@@ -537,7 +537,7 @@ class App(ctk.CTk):
               ["Low","Medium","High"])
         field(right,"Part-time Job",              "part_time_job",          "No",9,["Yes","No"])
 
-        ctk.CTkLabel(right, text="🎯 Engagement", font=FONT_HEAD,
+        ctk.CTkLabel(right, text="Engagement", font=FONT_HEAD,
                      text_color=ACCENT2).grid(row=10,columnspan=2,padx=16,pady=(14,4),sticky="w")
         field(right,"Motivation (1–10)",          "motivation_level",       6.0, 11)
         field(right,"Extracurricular",            "extracurricular_participation","No",12,["Yes","No"])
@@ -575,14 +575,14 @@ class App(ctk.CTk):
             except Exception as e:
                 messagebox.showerror("Input Error", str(e))
 
-        ctk.CTkButton(scroll, text="🔮  Predict Exam Score",
+        ctk.CTkButton(scroll, text="Predict Exam Score",
                       fg_color=ACCENT, hover_color=ACCENT2,
                       font=("Trebuchet MS", 14, "bold"), height=42,
                       command=predict).pack(pady=12)
 
     def view_predict_student(self):
         self._clear_content()
-        self._page_header("🎓 Predict by Student ID",
+        self._page_header("Predict by Student ID",
                           "Auto-reads behavioral profile and predicts exam score")
         if self._pred_not_ready(): return
 
@@ -658,9 +658,9 @@ class App(ctk.CTk):
 
     def view_actual_vs_pred(self):
         self._clear_content()
-        r2  = self.predictor.r2  if self.predictor else "…"
-        mae = self.predictor.mae if self.predictor else "…"
-        self._page_header("📈 Actual vs Predicted",
+        r2  = self.predictor.r2  if self.predictor else "..."
+        mae = self.predictor.mae if self.predictor else "..."
+        self._page_header("Actual vs Predicted",
                           f"R² = {r2}   |   MAE = ±{mae} pts")
         if self._pred_not_ready(): return
 
@@ -706,7 +706,7 @@ class App(ctk.CTk):
 
     def view_feature_importance(self):
         self._clear_content()
-        self._page_header("🌲 Feature Importance",
+        self._page_header("Feature Importance",
                           "Which behavioral habit predicts exam score the most?")
         if self._pred_not_ready(): return
 
@@ -736,14 +736,14 @@ class App(ctk.CTk):
         tbl = ctk.CTkFrame(self.content, fg_color=BG_CARD, corner_radius=12)
         tbl.pack(fill="x", padx=22, pady=6)
         rows = [(i, lbl, f"{val:.2%}",
-                 "★★★" if val>0.05 else "★★" if val>0.01 else "★")
+                ("***" if val>0.05 else "**" if val>0.01 else "*"))
                 for i, (lbl, val) in enumerate(pairs, 1)]
         self._table(tbl, ["Rank","Feature","Importance","Impact"],
                     rows, [50,200,100,70])
 
     def view_model_summary(self):
         self._clear_content()
-        self._page_header("🧠 Model Summary",
+        self._page_header("Model Summary",
                           "Random Forest Regressor — Behavioral Prediction")
         if self._pred_not_ready(): return
 
