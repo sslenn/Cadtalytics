@@ -125,7 +125,7 @@ https://github.com/sslenn/Cadtalytics
 ## Project Structure
 
 ```
-proj2_out/
+Cadtalytics/
 │
 ├── main.py                     # GUI entry point
 ├── requirement.txt             # Python dependencies
