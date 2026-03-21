@@ -116,9 +116,6 @@ Compatible with **Windows**, **macOS**, and **Linux**.
 ---
 
 ## 4. GitHub Link
-
-> *(Optional — add your repository link here once the project is hosted)*
-
 ```
 https://github.com/sslenn/Cadtalytics
 ```
