@@ -110,7 +110,7 @@ class GradeManager:
         return len(self.student_list)
 
 
-    def get_top_students(self, number_of_students=5):
+    def get_top_students(self, number_of_students=10):
         # Sort all students by exam score from highest to lowest,
         # then return only the top N students.
         # The Student class has __lt__ defined so sorted() works on it.
