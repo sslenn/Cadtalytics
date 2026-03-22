@@ -84,7 +84,7 @@ class App(ctk.CTk):
         sections = [
             ("ANALYTICS", [
                 ("All Students",       self.view_all_students),
-                ("Top 5 Students",     self.view_top_students),
+                ("Top 10 Students",     self.view_top_students),
                 ("At-Risk Students",   self.view_at_risk),
                 ("Dropout Risk",       self.view_dropout),
                 ("Score Distribution", self.view_distribution),
