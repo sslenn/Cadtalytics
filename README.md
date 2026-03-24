@@ -29,7 +29,7 @@ The system loads data from a real-world dataset of **1,000 students** (sampled f
 ```bash
 # If using Git
 git clone https://github.com/sslenn/Cadtalytics
-cd student-habits-analytics/proj2_out
+cd Cadtalytics
 
 # If using the ZIP file
 # Extract the ZIP, then navigate into the proj2_out/ folder
@@ -38,7 +38,7 @@ cd student-habits-analytics/proj2_out
 ### Step 2 — Install dependencies
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### Step 3 — Run the application
@@ -60,7 +60,7 @@ The app will:
 If you have MySQL running, first import the database:
 
 ```bash
-mysql -u root -p < student_habits_1000.sql
+mysql -u root -p < students_1000.sql
 ```
 
 Then when the app starts, select **option 2** (Load from MySQL database). Update the connection settings in `main.py` if needed:
@@ -71,7 +71,7 @@ FileHandlerMySQL(
     port=8889,
     user="root",
     password="root",
-    database="student_analytics"
+    database=students_1000"
 )
 ```
 
